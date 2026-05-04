@@ -1,0 +1,407 @@
+image_id,crop_type,disease_label,image_path,resolution,file_size_kb,confidence_score,annotated,is_annotated
+2,Rice,Leaf Blight,images/rice/leaf_blight/0002.jpg,256x256,252.2,0.835,True,True
+3,Wheat,Root Rot,images/wheat/root_rot/0003.jpg,512x512,277.8,0.978,False,False
+4,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0004.jpg,512x512,265.2,0.968,False,False
+5,Wheat,Leaf Blight,images/wheat/leaf_blight/0005.jpg,512x512,212.7,0.769,True,True
+6,Corn,Rust,images/corn/rust/0006.jpg,256x256,126.3,0.846,False,False
+8,Corn,Healthy,images/corn/healthy/0008.jpg,224x224,454.0,0.778,False,False
+9,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0009.jpg,512x512,125.2,0.831,True,True
+10,Corn,Rust,images/corn/rust/0010.jpg,224x224,428.8,0.825,True,True
+11,Wheat,Healthy,images/wheat/healthy/0011.jpg,224x224,368.0,0.755,False,False
+12,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0012.jpg,256x256,378.0,0.782,False,False
+13,Corn,Powdery Mildew,images/corn/powdery_mildew/0013.jpg,512x512,268.6,0.87,True,True
+14,Potato,Leaf Blight,images/potato/leaf_blight/0014.jpg,512x512,364.5,0.866,False,False
+15,Potato,Rust,images/potato/rust/0015.jpg,512x512,175.0,0.989,True,True
+17,Corn,Healthy,images/corn/healthy/0017.jpg,256x256,318.7,0.932,True,True
+20,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0020.jpg,512x512,179.7,0.971,True,True
+21,Corn,Healthy,images/corn/healthy/0021.jpg,224x224,364.9,0.753,False,False
+22,Tomato,Leaf Blight,images/tomato/leaf_blight/0022.jpg,224x224,459.3,0.937,False,False
+23,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0023.jpg,224x224,422.0,0.969,True,True
+24,Corn,Root Rot,images/corn/root_rot/0024.jpg,512x512,257.5,0.846,False,False
+25,Wheat,Rust,images/wheat/rust/0025.jpg,512x512,286.9,0.964,True,True
+26,Rice,Root Rot,images/rice/root_rot/0026.jpg,512x512,339.3,0.888,True,True
+27,Corn,Rust,images/corn/rust/0027.jpg,256x256,80.3,0.851,False,False
+28,Wheat,Leaf Blight,images/wheat/leaf_blight/0028.jpg,512x512,375.5,0.867,False,False
+29,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0029.jpg,256x256,386.4,0.867,False,False
+30,Tomato,Healthy,images/tomato/healthy/0030.jpg,512x512,196.1,0.824,False,False
+31,Potato,Powdery Mildew,images/potato/powdery_mildew/0031.jpg,512x512,398.8,0.812,True,True
+32,Wheat,Rust,images/wheat/rust/0032.jpg,256x256,119.4,0.815,True,True
+34,Tomato,Root Rot,images/tomato/root_rot/0034.jpg,224x224,53.3,0.821,False,False
+35,Corn,Root Rot,images/corn/root_rot/0035.jpg,512x512,278.0,0.976,False,False
+36,Tomato,Rust,images/tomato/rust/0036.jpg,256x256,195.1,0.918,False,False
+37,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0037.jpg,224x224,496.0,0.75,False,False
+38,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0038.jpg,224x224,53.1,0.812,False,False
+39,Corn,Rust,images/corn/rust/0039.jpg,256x256,413.8,0.948,False,False
+40,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0040.jpg,224x224,236.6,0.802,False,False
+41,Wheat,Leaf Blight,images/wheat/leaf_blight/0041.jpg,224x224,451.3,0.95,False,False
+42,Wheat,Rust,images/wheat/rust/0042.jpg,512x512,325.2,0.971,True,True
+43,Rice,Leaf Blight,images/rice/leaf_blight/0043.jpg,224x224,288.2,0.965,False,False
+44,Wheat,Rust,images/wheat/rust/0044.jpg,224x224,426.4,0.938,True,True
+45,Wheat,Root Rot,images/wheat/root_rot/0045.jpg,224x224,481.2,0.818,True,True
+46,Potato,Powdery Mildew,images/potato/powdery_mildew/0046.jpg,256x256,119.2,0.762,False,False
+47,Wheat,Leaf Blight,images/wheat/leaf_blight/0047.jpg,224x224,408.8,0.797,True,True
+50,Wheat,Rust,images/wheat/rust/0050.jpg,256x256,318.4,0.952,False,False
+51,Rice,Powdery Mildew,images/rice/powdery_mildew/0051.jpg,256x256,495.5,0.861,True,True
+52,Rice,Powdery Mildew,images/rice/powdery_mildew/0052.jpg,256x256,324.2,0.853,False,False
+53,Corn,Healthy,images/corn/healthy/0053.jpg,256x256,142.1,0.919,False,False
+56,Potato,Rust,images/potato/rust/0056.jpg,224x224,113.2,0.985,True,True
+57,Rice,Rust,images/rice/rust/0057.jpg,256x256,171.6,0.889,True,True
+58,Rice,Healthy,images/rice/healthy/0058.jpg,256x256,460.1,0.874,True,True
+59,Corn,Rust,images/corn/rust/0059.jpg,256x256,324.7,0.953,False,False
+61,Tomato,Root Rot,images/tomato/root_rot/0061.jpg,256x256,289.7,0.833,False,False
+62,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0062.jpg,224x224,281.1,0.823,False,False
+63,Potato,Leaf Blight,images/potato/leaf_blight/0063.jpg,224x224,51.7,0.851,True,True
+64,Potato,Powdery Mildew,images/potato/powdery_mildew/0064.jpg,512x512,284.0,0.815,False,False
+65,Wheat,Rust,images/wheat/rust/0065.jpg,256x256,121.6,0.888,True,True
+66,Rice,Root Rot,images/rice/root_rot/0066.jpg,224x224,381.6,0.805,False,False
+67,Potato,Powdery Mildew,images/potato/powdery_mildew/0067.jpg,224x224,256.7,0.943,False,False
+68,Potato,Leaf Blight,images/potato/leaf_blight/0068.jpg,224x224,432.2,0.829,True,True
+69,Tomato,Root Rot,images/tomato/root_rot/0069.jpg,224x224,429.5,0.762,True,True
+70,Corn,Healthy,images/corn/healthy/0070.jpg,512x512,465.5,0.931,True,True
+71,Tomato,Rust,images/tomato/rust/0071.jpg,512x512,117.3,0.926,False,False
+72,Corn,Powdery Mildew,images/corn/powdery_mildew/0072.jpg,512x512,190.6,0.881,True,True
+73,Tomato,Leaf Blight,images/tomato/leaf_blight/0073.jpg,224x224,110.1,0.91,True,True
+74,Tomato,Healthy,images/tomato/healthy/0074.jpg,256x256,331.1,0.974,True,True
+75,Rice,Leaf Blight,images/rice/leaf_blight/0075.jpg,224x224,262.2,0.94,True,True
+76,Wheat,Root Rot,images/wheat/root_rot/0076.jpg,256x256,420.8,0.953,False,False
+77,Wheat,Rust,images/wheat/rust/0077.jpg,256x256,414.5,0.985,False,False
+78,Corn,Healthy,images/corn/healthy/0078.jpg,512x512,406.0,0.822,False,False
+79,Corn,Leaf Blight,images/corn/leaf_blight/0079.jpg,512x512,286.2,0.987,True,True
+80,Tomato,Leaf Blight,images/tomato/leaf_blight/0080.jpg,256x256,281.4,0.802,True,True
+81,Corn,Root Rot,images/corn/root_rot/0081.jpg,512x512,76.1,0.868,False,False
+83,Potato,Powdery Mildew,images/potato/powdery_mildew/0083.jpg,512x512,280.3,0.819,True,True
+86,Corn,Healthy,images/corn/healthy/0086.jpg,512x512,445.3,0.859,True,True
+87,Potato,Rust,images/potato/rust/0087.jpg,512x512,339.6,0.946,True,True
+88,Potato,Leaf Blight,images/potato/leaf_blight/0088.jpg,224x224,342.0,0.842,False,False
+91,Rice,Powdery Mildew,images/rice/powdery_mildew/0091.jpg,512x512,280.1,0.97,False,False
+92,Corn,Rust,images/corn/rust/0092.jpg,256x256,464.6,0.77,False,False
+93,Wheat,Root Rot,images/wheat/root_rot/0093.jpg,256x256,197.6,0.848,False,False
+94,Potato,Leaf Blight,images/potato/leaf_blight/0094.jpg,224x224,202.2,0.9,True,True
+95,Tomato,Root Rot,images/tomato/root_rot/0095.jpg,224x224,382.9,0.922,True,True
+98,Potato,Rust,images/potato/rust/0098.jpg,512x512,444.7,0.765,False,False
+99,Corn,Powdery Mildew,images/corn/powdery_mildew/0099.jpg,224x224,190.0,0.985,True,True
+100,Wheat,Healthy,images/wheat/healthy/0100.jpg,256x256,78.8,0.957,True,True
+101,Wheat,Leaf Blight,images/wheat/leaf_blight/0101.jpg,224x224,490.0,0.93,True,True
+103,Potato,Rust,images/potato/rust/0103.jpg,224x224,384.6,0.869,False,False
+104,Tomato,Rust,images/tomato/rust/0104.jpg,256x256,292.0,0.953,True,True
+105,Rice,Powdery Mildew,images/rice/powdery_mildew/0105.jpg,512x512,170.2,0.824,False,False
+106,Corn,Root Rot,images/corn/root_rot/0106.jpg,256x256,308.5,0.785,True,True
+108,Rice,Rust,images/rice/rust/0108.jpg,256x256,265.9,0.92,True,True
+109,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0109.jpg,512x512,475.2,0.806,True,True
+111,Potato,Leaf Blight,images/potato/leaf_blight/0111.jpg,512x512,67.0,0.864,True,True
+112,Corn,Rust,images/corn/rust/0112.jpg,256x256,464.8,0.892,True,True
+113,Rice,Leaf Blight,images/rice/leaf_blight/0113.jpg,224x224,185.0,0.809,False,False
+114,Wheat,Rust,images/wheat/rust/0114.jpg,256x256,332.1,0.774,True,True
+115,Potato,Root Rot,images/potato/root_rot/0115.jpg,256x256,60.8,0.835,True,True
+116,Corn,Powdery Mildew,images/corn/powdery_mildew/0116.jpg,256x256,431.0,0.906,False,False
+117,Rice,Healthy,images/rice/healthy/0117.jpg,256x256,384.4,0.866,False,False
+118,Wheat,Root Rot,images/wheat/root_rot/0118.jpg,256x256,383.3,0.968,True,True
+120,Rice,Healthy,images/rice/healthy/0120.jpg,512x512,349.0,0.817,True,True
+121,Corn,Healthy,images/corn/healthy/0121.jpg,224x224,404.5,0.787,False,False
+122,Tomato,Root Rot,images/tomato/root_rot/0122.jpg,512x512,450.2,0.905,False,False
+123,Potato,Leaf Blight,images/potato/leaf_blight/0123.jpg,512x512,269.1,0.83,True,True
+124,Rice,Rust,images/rice/rust/0124.jpg,512x512,436.7,0.855,False,False
+125,Rice,Leaf Blight,images/rice/leaf_blight/0125.jpg,224x224,415.4,0.823,False,False
+126,Wheat,Rust,images/wheat/rust/0126.jpg,512x512,340.6,0.811,True,True
+127,Wheat,Rust,images/wheat/rust/0127.jpg,224x224,237.0,0.831,True,True
+128,Potato,Root Rot,images/potato/root_rot/0128.jpg,256x256,236.2,0.976,True,True
+129,Rice,Powdery Mildew,images/rice/powdery_mildew/0129.jpg,512x512,227.4,0.77,True,True
+130,Wheat,Leaf Blight,images/wheat/leaf_blight/0130.jpg,224x224,110.1,0.903,True,True
+132,Tomato,Root Rot,images/tomato/root_rot/0132.jpg,512x512,149.3,0.822,False,False
+133,Potato,Healthy,images/potato/healthy/0133.jpg,224x224,263.5,0.831,True,True
+134,Corn,Leaf Blight,images/corn/leaf_blight/0134.jpg,512x512,187.0,0.936,True,True
+135,Corn,Powdery Mildew,images/corn/powdery_mildew/0135.jpg,224x224,327.6,0.761,False,False
+136,Wheat,Root Rot,images/wheat/root_rot/0136.jpg,256x256,433.2,0.963,False,False
+139,Tomato,Rust,images/tomato/rust/0139.jpg,512x512,200.7,0.869,True,True
+140,Rice,Root Rot,images/rice/root_rot/0140.jpg,512x512,247.4,0.947,False,False
+141,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0141.jpg,512x512,70.2,0.763,False,False
+142,Wheat,Leaf Blight,images/wheat/leaf_blight/0142.jpg,512x512,410.7,0.8,True,True
+143,Corn,Powdery Mildew,images/corn/powdery_mildew/0143.jpg,512x512,165.1,0.859,False,False
+144,Rice,Leaf Blight,images/rice/leaf_blight/0144.jpg,512x512,459.8,0.766,True,True
+148,Potato,Root Rot,images/potato/root_rot/0148.jpg,512x512,282.7,0.871,False,False
+150,Potato,Powdery Mildew,images/potato/powdery_mildew/0150.jpg,256x256,159.7,0.844,False,False
+151,Tomato,Healthy,images/tomato/healthy/0151.jpg,512x512,137.4,0.903,False,False
+152,Potato,Healthy,images/potato/healthy/0152.jpg,224x224,95.0,0.902,False,False
+154,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0154.jpg,224x224,244.9,0.855,True,True
+156,Wheat,Healthy,images/wheat/healthy/0156.jpg,512x512,352.1,0.883,False,False
+157,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0157.jpg,224x224,198.8,0.832,True,True
+159,Potato,Leaf Blight,images/potato/leaf_blight/0159.jpg,224x224,466.0,0.909,False,False
+161,Wheat,Leaf Blight,images/wheat/leaf_blight/0161.jpg,224x224,74.4,0.978,False,False
+162,Corn,Powdery Mildew,images/corn/powdery_mildew/0162.jpg,512x512,58.5,0.795,True,True
+163,Rice,Powdery Mildew,images/rice/powdery_mildew/0163.jpg,512x512,93.0,0.784,True,True
+166,Tomato,Root Rot,images/tomato/root_rot/0166.jpg,224x224,142.6,0.915,True,True
+168,Rice,Rust,images/rice/rust/0168.jpg,224x224,132.9,0.751,False,False
+169,Tomato,Leaf Blight,images/tomato/leaf_blight/0169.jpg,512x512,62.4,0.979,True,True
+170,Wheat,Healthy,images/wheat/healthy/0170.jpg,224x224,165.2,0.789,True,True
+171,Potato,Healthy,images/potato/healthy/0171.jpg,224x224,152.5,0.751,True,True
+174,Rice,Rust,images/rice/rust/0174.jpg,256x256,184.3,0.933,False,False
+175,Tomato,Healthy,images/tomato/healthy/0175.jpg,224x224,168.7,0.848,False,False
+176,Rice,Powdery Mildew,images/rice/powdery_mildew/0176.jpg,224x224,385.4,0.912,False,False
+177,Rice,Root Rot,images/rice/root_rot/0177.jpg,256x256,336.5,0.837,True,True
+178,Corn,Rust,images/corn/rust/0178.jpg,512x512,336.6,0.805,False,False
+180,Tomato,Root Rot,images/tomato/root_rot/0180.jpg,256x256,416.3,0.863,True,True
+181,Corn,Root Rot,images/corn/root_rot/0181.jpg,256x256,482.2,0.807,True,True
+182,Potato,Healthy,images/potato/healthy/0182.jpg,512x512,462.3,0.821,True,True
+183,Corn,Root Rot,images/corn/root_rot/0183.jpg,256x256,148.6,0.817,False,False
+184,Rice,Powdery Mildew,images/rice/powdery_mildew/0184.jpg,256x256,399.9,0.975,False,False
+185,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0185.jpg,512x512,155.0,0.76,False,False
+186,Rice,Rust,images/rice/rust/0186.jpg,512x512,449.7,0.917,True,True
+187,Corn,Leaf Blight,images/corn/leaf_blight/0187.jpg,512x512,389.7,0.813,True,True
+189,Tomato,Leaf Blight,images/tomato/leaf_blight/0189.jpg,512x512,331.4,0.97,False,False
+190,Corn,Leaf Blight,images/corn/leaf_blight/0190.jpg,512x512,179.0,0.859,False,False
+192,Corn,Rust,images/corn/rust/0192.jpg,256x256,315.6,0.769,True,True
+193,Tomato,Healthy,images/tomato/healthy/0193.jpg,256x256,437.2,0.895,True,True
+194,Wheat,Root Rot,images/wheat/root_rot/0194.jpg,512x512,345.1,0.901,True,True
+195,Wheat,Leaf Blight,images/wheat/leaf_blight/0195.jpg,224x224,273.7,0.76,True,True
+196,Tomato,Healthy,images/tomato/healthy/0196.jpg,256x256,361.0,0.925,True,True
+197,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0197.jpg,512x512,326.1,0.936,True,True
+198,Potato,Leaf Blight,images/potato/leaf_blight/0198.jpg,256x256,379.4,0.866,True,True
+199,Rice,Healthy,images/rice/healthy/0199.jpg,256x256,229.2,0.757,False,False
+200,Tomato,Root Rot,images/tomato/root_rot/0200.jpg,224x224,195.5,0.781,True,True
+201,Potato,Leaf Blight,images/potato/leaf_blight/0201.jpg,256x256,429.1,0.786,False,False
+203,Wheat,Leaf Blight,images/wheat/leaf_blight/0203.jpg,256x256,419.3,0.776,True,True
+204,Wheat,Leaf Blight,images/wheat/leaf_blight/0204.jpg,512x512,236.1,0.964,False,False
+205,Potato,Root Rot,images/potato/root_rot/0205.jpg,224x224,329.2,0.831,True,True
+206,Tomato,Rust,images/tomato/rust/0206.jpg,224x224,148.3,0.764,True,True
+207,Wheat,Healthy,images/wheat/healthy/0207.jpg,256x256,98.3,0.801,True,True
+208,Wheat,Root Rot,images/wheat/root_rot/0208.jpg,512x512,161.1,0.874,True,True
+209,Wheat,Leaf Blight,images/wheat/leaf_blight/0209.jpg,224x224,154.2,0.982,True,True
+210,Tomato,Root Rot,images/tomato/root_rot/0210.jpg,256x256,345.6,0.759,False,False
+211,Potato,Healthy,images/potato/healthy/0211.jpg,256x256,70.5,0.863,False,False
+212,Wheat,Healthy,images/wheat/healthy/0212.jpg,224x224,439.2,0.843,True,True
+214,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0214.jpg,512x512,344.5,0.871,True,True
+215,Wheat,Healthy,images/wheat/healthy/0215.jpg,256x256,345.3,0.968,True,True
+216,Rice,Rust,images/rice/rust/0216.jpg,512x512,423.9,0.821,False,False
+217,Wheat,Root Rot,images/wheat/root_rot/0217.jpg,512x512,499.7,0.917,True,True
+219,Corn,Rust,images/corn/rust/0219.jpg,512x512,470.5,0.788,False,False
+221,Tomato,Rust,images/tomato/rust/0221.jpg,512x512,93.3,0.943,True,True
+222,Rice,Rust,images/rice/rust/0222.jpg,256x256,76.4,0.794,False,False
+223,Wheat,Healthy,images/wheat/healthy/0223.jpg,256x256,102.2,0.954,True,True
+224,Potato,Powdery Mildew,images/potato/powdery_mildew/0224.jpg,224x224,498.4,0.788,False,False
+225,Wheat,Leaf Blight,images/wheat/leaf_blight/0225.jpg,512x512,300.0,0.89,False,False
+226,Wheat,Healthy,images/wheat/healthy/0226.jpg,224x224,428.2,0.833,False,False
+228,Tomato,Root Rot,images/tomato/root_rot/0228.jpg,512x512,215.8,0.81,False,False
+229,Rice,Rust,images/rice/rust/0229.jpg,224x224,157.5,0.929,True,True
+231,Wheat,Rust,images/wheat/rust/0231.jpg,256x256,126.2,0.886,True,True
+232,Corn,Powdery Mildew,images/corn/powdery_mildew/0232.jpg,224x224,84.3,0.769,False,False
+233,Rice,Powdery Mildew,images/rice/powdery_mildew/0233.jpg,224x224,234.9,0.892,True,True
+234,Tomato,Healthy,images/tomato/healthy/0234.jpg,256x256,296.5,0.936,False,False
+235,Rice,Powdery Mildew,images/rice/powdery_mildew/0235.jpg,224x224,390.9,0.844,False,False
+236,Wheat,Healthy,images/wheat/healthy/0236.jpg,224x224,334.8,0.782,True,True
+237,Tomato,Rust,images/tomato/rust/0237.jpg,512x512,318.7,0.878,False,False
+238,Tomato,Root Rot,images/tomato/root_rot/0238.jpg,512x512,177.0,0.865,True,True
+239,Wheat,Healthy,images/wheat/healthy/0239.jpg,256x256,97.7,0.987,False,False
+240,Tomato,Root Rot,images/tomato/root_rot/0240.jpg,256x256,472.6,0.966,True,True
+242,Tomato,Healthy,images/tomato/healthy/0242.jpg,256x256,120.2,0.817,False,False
+243,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0243.jpg,224x224,166.5,0.953,False,False
+244,Wheat,Healthy,images/wheat/healthy/0244.jpg,224x224,182.3,0.99,False,False
+245,Wheat,Leaf Blight,images/wheat/leaf_blight/0245.jpg,224x224,494.1,0.81,False,False
+246,Rice,Powdery Mildew,images/rice/powdery_mildew/0246.jpg,224x224,404.4,0.848,True,True
+247,Wheat,Healthy,images/wheat/healthy/0247.jpg,512x512,491.2,0.819,True,True
+251,Potato,Leaf Blight,images/potato/leaf_blight/0251.jpg,256x256,55.9,0.781,False,False
+252,Rice,Rust,images/rice/rust/0252.jpg,224x224,211.1,0.876,False,False
+253,Wheat,Healthy,images/wheat/healthy/0253.jpg,256x256,91.5,0.911,False,False
+254,Tomato,Rust,images/tomato/rust/0254.jpg,224x224,152.7,0.958,True,True
+255,Wheat,Leaf Blight,images/wheat/leaf_blight/0255.jpg,256x256,350.2,0.94,False,False
+257,Wheat,Root Rot,images/wheat/root_rot/0257.jpg,256x256,102.9,0.903,False,False
+258,Tomato,Rust,images/tomato/rust/0258.jpg,224x224,319.5,0.835,True,True
+260,Wheat,Rust,images/wheat/rust/0260.jpg,256x256,459.5,0.907,False,False
+261,Rice,Powdery Mildew,images/rice/powdery_mildew/0261.jpg,224x224,326.0,0.953,True,True
+262,Potato,Healthy,images/potato/healthy/0262.jpg,512x512,168.2,0.836,False,False
+264,Rice,Healthy,images/rice/healthy/0264.jpg,512x512,279.5,0.861,True,True
+265,Wheat,Root Rot,images/wheat/root_rot/0265.jpg,224x224,390.2,0.844,True,True
+267,Wheat,Leaf Blight,images/wheat/leaf_blight/0267.jpg,512x512,329.3,0.962,False,False
+268,Corn,Leaf Blight,images/corn/leaf_blight/0268.jpg,512x512,231.1,0.867,False,False
+269,Corn,Rust,images/corn/rust/0269.jpg,256x256,481.0,0.965,False,False
+271,Rice,Rust,images/rice/rust/0271.jpg,512x512,50.3,0.822,False,False
+272,Potato,Healthy,images/potato/healthy/0272.jpg,512x512,184.1,0.959,False,False
+273,Wheat,Root Rot,images/wheat/root_rot/0273.jpg,224x224,377.5,0.813,False,False
+274,Tomato,Leaf Blight,images/tomato/leaf_blight/0274.jpg,224x224,253.6,0.779,False,False
+275,Wheat,Healthy,images/wheat/healthy/0275.jpg,256x256,193.3,0.829,True,True
+276,Rice,Root Rot,images/rice/root_rot/0276.jpg,512x512,302.1,0.787,True,True
+277,Rice,Powdery Mildew,images/rice/powdery_mildew/0277.jpg,224x224,335.8,0.848,True,True
+278,Tomato,Root Rot,images/tomato/root_rot/0278.jpg,512x512,326.2,0.886,False,False
+279,Corn,Powdery Mildew,images/corn/powdery_mildew/0279.jpg,256x256,256.9,0.943,True,True
+280,Corn,Healthy,images/corn/healthy/0280.jpg,512x512,176.9,0.753,True,True
+282,Corn,Healthy,images/corn/healthy/0282.jpg,256x256,369.2,0.789,False,False
+283,Corn,Leaf Blight,images/corn/leaf_blight/0283.jpg,256x256,320.2,0.795,False,False
+284,Corn,Root Rot,images/corn/root_rot/0284.jpg,256x256,430.6,0.87,True,True
+285,Tomato,Leaf Blight,images/tomato/leaf_blight/0285.jpg,256x256,303.4,0.81,True,True
+286,Corn,Leaf Blight,images/corn/leaf_blight/0286.jpg,256x256,253.5,0.769,True,True
+287,Rice,Leaf Blight,images/rice/leaf_blight/0287.jpg,512x512,407.7,0.896,False,False
+288,Corn,Leaf Blight,images/corn/leaf_blight/0288.jpg,224x224,431.7,0.793,True,True
+290,Potato,Root Rot,images/potato/root_rot/0290.jpg,256x256,132.7,0.956,True,True
+291,Tomato,Leaf Blight,images/tomato/leaf_blight/0291.jpg,224x224,268.4,0.976,True,True
+292,Rice,Healthy,images/rice/healthy/0292.jpg,256x256,89.2,0.835,True,True
+293,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0293.jpg,512x512,158.3,0.751,False,False
+294,Tomato,Rust,images/tomato/rust/0294.jpg,224x224,263.7,0.987,True,True
+295,Tomato,Leaf Blight,images/tomato/leaf_blight/0295.jpg,224x224,418.7,0.918,True,True
+298,Wheat,Rust,images/wheat/rust/0298.jpg,224x224,339.3,0.761,True,True
+300,Wheat,Leaf Blight,images/wheat/leaf_blight/0300.jpg,512x512,311.8,0.799,True,True
+301,Tomato,Leaf Blight,images/tomato/leaf_blight/0301.jpg,224x224,428.8,0.809,False,False
+302,Tomato,Healthy,images/tomato/healthy/0302.jpg,512x512,383.0,0.803,False,False
+303,Wheat,Root Rot,images/wheat/root_rot/0303.jpg,512x512,498.9,0.935,True,True
+304,Rice,Healthy,images/rice/healthy/0304.jpg,256x256,407.3,0.8,True,True
+305,Rice,Leaf Blight,images/rice/leaf_blight/0305.jpg,224x224,483.1,0.889,False,False
+306,Tomato,Rust,images/tomato/rust/0306.jpg,224x224,178.2,0.809,False,False
+307,Corn,Leaf Blight,images/corn/leaf_blight/0307.jpg,256x256,55.8,0.915,False,False
+308,Corn,Leaf Blight,images/corn/leaf_blight/0308.jpg,512x512,326.4,0.965,True,True
+309,Tomato,Root Rot,images/tomato/root_rot/0309.jpg,256x256,486.1,0.906,False,False
+310,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0310.jpg,224x224,346.5,0.888,False,False
+312,Corn,Root Rot,images/corn/root_rot/0312.jpg,512x512,74.7,0.892,True,True
+314,Potato,Root Rot,images/potato/root_rot/0314.jpg,224x224,223.9,0.94,False,False
+315,Rice,Powdery Mildew,images/rice/powdery_mildew/0315.jpg,224x224,111.0,0.758,False,False
+317,Tomato,Rust,images/tomato/rust/0317.jpg,512x512,178.0,0.849,False,False
+318,Rice,Root Rot,images/rice/root_rot/0318.jpg,224x224,87.4,0.945,False,False
+319,Rice,Healthy,images/rice/healthy/0319.jpg,224x224,63.0,0.916,False,False
+320,Corn,Leaf Blight,images/corn/leaf_blight/0320.jpg,512x512,388.6,0.864,True,True
+321,Rice,Healthy,images/rice/healthy/0321.jpg,224x224,114.4,0.827,False,False
+322,Tomato,Rust,images/tomato/rust/0322.jpg,224x224,107.1,0.839,False,False
+323,Wheat,Root Rot,images/wheat/root_rot/0323.jpg,512x512,299.2,0.932,False,False
+324,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0324.jpg,512x512,82.2,0.986,True,True
+325,Potato,Leaf Blight,images/potato/leaf_blight/0325.jpg,224x224,92.4,0.926,True,True
+326,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0326.jpg,224x224,365.1,0.814,True,True
+327,Tomato,Root Rot,images/tomato/root_rot/0327.jpg,224x224,442.2,0.807,True,True
+328,Tomato,Leaf Blight,images/tomato/leaf_blight/0328.jpg,256x256,192.2,0.8,True,True
+329,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0329.jpg,512x512,226.5,0.97,False,False
+330,Potato,Root Rot,images/potato/root_rot/0330.jpg,256x256,167.1,0.828,False,False
+331,Potato,Root Rot,images/potato/root_rot/0331.jpg,224x224,124.1,0.936,False,False
+332,Corn,Healthy,images/corn/healthy/0332.jpg,224x224,188.1,0.881,False,False
+333,Wheat,Root Rot,images/wheat/root_rot/0333.jpg,512x512,108.3,0.865,False,False
+335,Tomato,Leaf Blight,images/tomato/leaf_blight/0335.jpg,256x256,444.1,0.906,True,True
+337,Potato,Leaf Blight,images/potato/leaf_blight/0337.jpg,256x256,358.2,0.778,True,True
+338,Wheat,Leaf Blight,images/wheat/leaf_blight/0338.jpg,512x512,99.6,0.827,False,False
+339,Wheat,Leaf Blight,images/wheat/leaf_blight/0339.jpg,224x224,404.3,0.785,False,False
+340,Tomato,Rust,images/tomato/rust/0340.jpg,512x512,470.7,0.903,True,True
+341,Corn,Powdery Mildew,images/corn/powdery_mildew/0341.jpg,256x256,375.4,0.834,True,True
+342,Corn,Healthy,images/corn/healthy/0342.jpg,512x512,181.1,0.89,False,False
+343,Wheat,Leaf Blight,images/wheat/leaf_blight/0343.jpg,224x224,342.4,0.854,True,True
+344,Corn,Root Rot,images/corn/root_rot/0344.jpg,512x512,356.3,0.975,True,True
+345,Rice,Leaf Blight,images/rice/leaf_blight/0345.jpg,256x256,340.3,0.955,True,True
+346,Potato,Powdery Mildew,images/potato/powdery_mildew/0346.jpg,256x256,78.8,0.968,False,False
+347,Tomato,Root Rot,images/tomato/root_rot/0347.jpg,224x224,227.9,0.818,True,True
+349,Rice,Healthy,images/rice/healthy/0349.jpg,224x224,451.1,0.909,False,False
+350,Potato,Powdery Mildew,images/potato/powdery_mildew/0350.jpg,224x224,224.5,0.773,True,True
+351,Rice,Leaf Blight,images/rice/leaf_blight/0351.jpg,256x256,432.1,0.896,False,False
+352,Wheat,Rust,images/wheat/rust/0352.jpg,224x224,472.3,0.9,False,False
+354,Corn,Rust,images/corn/rust/0354.jpg,256x256,450.8,0.954,True,True
+355,Wheat,Rust,images/wheat/rust/0355.jpg,256x256,462.8,0.781,True,True
+356,Wheat,Leaf Blight,images/wheat/leaf_blight/0356.jpg,224x224,167.7,0.807,True,True
+357,Potato,Leaf Blight,images/potato/leaf_blight/0357.jpg,256x256,72.5,0.889,True,True
+359,Potato,Healthy,images/potato/healthy/0359.jpg,512x512,445.0,0.763,True,True
+360,Corn,Powdery Mildew,images/corn/powdery_mildew/0360.jpg,512x512,80.7,0.782,False,False
+361,Rice,Healthy,images/rice/healthy/0361.jpg,256x256,232.6,0.959,False,False
+362,Wheat,Leaf Blight,images/wheat/leaf_blight/0362.jpg,256x256,135.9,0.884,True,True
+363,Corn,Rust,images/corn/rust/0363.jpg,512x512,147.8,0.79,False,False
+364,Corn,Rust,images/corn/rust/0364.jpg,224x224,138.7,0.881,True,True
+365,Wheat,Root Rot,images/wheat/root_rot/0365.jpg,512x512,469.1,0.811,False,False
+367,Rice,Root Rot,images/rice/root_rot/0367.jpg,512x512,96.2,0.96,True,True
+368,Tomato,Healthy,images/tomato/healthy/0368.jpg,256x256,92.0,0.806,False,False
+369,Tomato,Rust,images/tomato/rust/0369.jpg,256x256,100.8,0.865,False,False
+370,Tomato,Root Rot,images/tomato/root_rot/0370.jpg,256x256,310.6,0.907,True,True
+371,Rice,Leaf Blight,images/rice/leaf_blight/0371.jpg,256x256,79.6,0.952,False,False
+372,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0372.jpg,512x512,143.3,0.755,False,False
+373,Potato,Healthy,images/potato/healthy/0373.jpg,512x512,206.5,0.795,True,True
+374,Potato,Powdery Mildew,images/potato/powdery_mildew/0374.jpg,224x224,214.1,0.769,True,True
+376,Rice,Healthy,images/rice/healthy/0376.jpg,256x256,457.4,0.903,False,False
+377,Potato,Healthy,images/potato/healthy/0377.jpg,224x224,356.6,0.856,False,False
+378,Tomato,Root Rot,images/tomato/root_rot/0378.jpg,512x512,268.2,0.952,True,True
+379,Rice,Healthy,images/rice/healthy/0379.jpg,224x224,404.9,0.799,True,True
+380,Tomato,Leaf Blight,images/tomato/leaf_blight/0380.jpg,256x256,389.3,0.825,True,True
+381,Corn,Powdery Mildew,images/corn/powdery_mildew/0381.jpg,224x224,337.1,0.935,True,True
+382,Rice,Powdery Mildew,images/rice/powdery_mildew/0382.jpg,224x224,443.7,0.807,False,False
+383,Tomato,Healthy,images/tomato/healthy/0383.jpg,224x224,52.0,0.858,True,True
+385,Tomato,Leaf Blight,images/tomato/leaf_blight/0385.jpg,512x512,439.3,0.945,False,False
+386,Tomato,Root Rot,images/tomato/root_rot/0386.jpg,256x256,463.9,0.976,True,True
+388,Potato,Root Rot,images/potato/root_rot/0388.jpg,224x224,50.5,0.875,True,True
+389,Tomato,Healthy,images/tomato/healthy/0389.jpg,224x224,82.9,0.94,False,False
+390,Rice,Leaf Blight,images/rice/leaf_blight/0390.jpg,256x256,353.8,0.842,True,True
+391,Corn,Root Rot,images/corn/root_rot/0391.jpg,512x512,348.0,0.986,True,True
+392,Potato,Root Rot,images/potato/root_rot/0392.jpg,224x224,355.0,0.869,False,False
+393,Wheat,Root Rot,images/wheat/root_rot/0393.jpg,256x256,369.4,0.826,False,False
+394,Tomato,Root Rot,images/tomato/root_rot/0394.jpg,256x256,183.2,0.876,False,False
+395,Potato,Leaf Blight,images/potato/leaf_blight/0395.jpg,224x224,179.4,0.777,True,True
+396,Potato,Powdery Mildew,images/potato/powdery_mildew/0396.jpg,224x224,122.7,0.939,False,False
+397,Rice,Root Rot,images/rice/root_rot/0397.jpg,512x512,370.7,0.757,False,False
+398,Potato,Leaf Blight,images/potato/leaf_blight/0398.jpg,512x512,132.0,0.943,True,True
+399,Corn,Leaf Blight,images/corn/leaf_blight/0399.jpg,512x512,366.5,0.833,False,False
+402,Wheat,Healthy,images/wheat/healthy/0402.jpg,224x224,81.2,0.906,True,True
+404,Potato,Rust,images/potato/rust/0404.jpg,512x512,144.0,0.776,False,False
+405,Corn,Rust,images/corn/rust/0405.jpg,256x256,438.6,0.966,True,True
+406,Rice,Powdery Mildew,images/rice/powdery_mildew/0406.jpg,256x256,278.4,0.907,False,False
+407,Tomato,Healthy,images/tomato/healthy/0407.jpg,512x512,134.1,0.782,False,False
+408,Tomato,Rust,images/tomato/rust/0408.jpg,224x224,418.2,0.811,False,False
+409,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0409.jpg,512x512,424.3,0.936,True,True
+410,Rice,Healthy,images/rice/healthy/0410.jpg,256x256,361.7,0.937,False,False
+412,Potato,Powdery Mildew,images/potato/powdery_mildew/0412.jpg,256x256,436.2,0.872,True,True
+413,Tomato,Leaf Blight,images/tomato/leaf_blight/0413.jpg,256x256,51.2,0.935,True,True
+415,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0415.jpg,224x224,315.2,0.862,False,False
+417,Wheat,Leaf Blight,images/wheat/leaf_blight/0417.jpg,224x224,194.1,0.822,True,True
+418,Tomato,Rust,images/tomato/rust/0418.jpg,512x512,393.2,0.96,True,True
+419,Wheat,Healthy,images/wheat/healthy/0419.jpg,224x224,375.1,0.871,True,True
+420,Wheat,Rust,images/wheat/rust/0420.jpg,256x256,284.5,0.911,False,False
+421,Potato,Healthy,images/potato/healthy/0421.jpg,224x224,287.0,0.985,True,True
+422,Corn,Powdery Mildew,images/corn/powdery_mildew/0422.jpg,224x224,200.8,0.955,True,True
+424,Rice,Root Rot,images/rice/root_rot/0424.jpg,256x256,241.1,0.77,False,False
+426,Rice,Leaf Blight,images/rice/leaf_blight/0426.jpg,512x512,335.8,0.851,False,False
+427,Potato,Powdery Mildew,images/potato/powdery_mildew/0427.jpg,256x256,452.4,0.985,False,False
+428,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0428.jpg,512x512,149.1,0.988,True,True
+429,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0429.jpg,512x512,296.8,0.762,True,True
+430,Wheat,Rust,images/wheat/rust/0430.jpg,256x256,273.7,0.759,False,False
+432,Corn,Leaf Blight,images/corn/leaf_blight/0432.jpg,512x512,240.0,0.768,False,False
+433,Corn,Healthy,images/corn/healthy/0433.jpg,512x512,96.7,0.936,False,False
+434,Tomato,Healthy,images/tomato/healthy/0434.jpg,512x512,272.9,0.815,True,True
+435,Potato,Rust,images/potato/rust/0435.jpg,224x224,234.1,0.768,False,False
+436,Wheat,Healthy,images/wheat/healthy/0436.jpg,512x512,344.6,0.955,True,True
+437,Tomato,Root Rot,images/tomato/root_rot/0437.jpg,224x224,316.5,0.753,False,False
+438,Tomato,Root Rot,images/tomato/root_rot/0438.jpg,512x512,423.9,0.849,True,True
+439,Tomato,Root Rot,images/tomato/root_rot/0439.jpg,224x224,477.3,0.987,False,False
+440,Rice,Leaf Blight,images/rice/leaf_blight/0440.jpg,512x512,462.5,0.875,True,True
+441,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0441.jpg,512x512,312.7,0.934,True,True
+442,Rice,Powdery Mildew,images/rice/powdery_mildew/0442.jpg,256x256,330.1,0.839,True,True
+443,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0443.jpg,512x512,426.2,0.81,True,True
+444,Potato,Leaf Blight,images/potato/leaf_blight/0444.jpg,512x512,216.2,0.915,True,True
+445,Corn,Healthy,images/corn/healthy/0445.jpg,224x224,463.3,0.973,False,False
+446,Wheat,Root Rot,images/wheat/root_rot/0446.jpg,224x224,451.4,0.926,False,False
+450,Wheat,Healthy,images/wheat/healthy/0450.jpg,512x512,321.6,0.776,True,True
+451,Potato,Root Rot,images/potato/root_rot/0451.jpg,512x512,425.9,0.842,False,False
+455,Rice,Rust,images/rice/rust/0455.jpg,224x224,230.7,0.887,False,False
+456,Rice,Leaf Blight,images/rice/leaf_blight/0456.jpg,224x224,152.2,0.755,True,True
+457,Wheat,Rust,images/wheat/rust/0457.jpg,224x224,223.0,0.957,True,True
+458,Tomato,Leaf Blight,images/tomato/leaf_blight/0458.jpg,224x224,473.2,0.936,True,True
+459,Tomato,Root Rot,images/tomato/root_rot/0459.jpg,224x224,166.8,0.933,False,False
+460,Corn,Leaf Blight,images/corn/leaf_blight/0460.jpg,256x256,475.3,0.913,False,False
+461,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0461.jpg,256x256,447.9,0.9,False,False
+462,Corn,Root Rot,images/corn/root_rot/0462.jpg,512x512,482.5,0.807,False,False
+463,Tomato,Powdery Mildew,images/tomato/powdery_mildew/0463.jpg,224x224,374.2,0.857,False,False
+464,Rice,Powdery Mildew,images/rice/powdery_mildew/0464.jpg,512x512,186.8,0.973,True,True
+465,Corn,Powdery Mildew,images/corn/powdery_mildew/0465.jpg,512x512,79.5,0.81,False,False
+466,Potato,Rust,images/potato/rust/0466.jpg,512x512,420.2,0.803,True,True
+467,Corn,Rust,images/corn/rust/0467.jpg,224x224,403.9,0.863,True,True
+468,Corn,Rust,images/corn/rust/0468.jpg,256x256,333.5,0.948,False,False
+469,Rice,Root Rot,images/rice/root_rot/0469.jpg,256x256,423.4,0.85,True,True
+470,Rice,Healthy,images/rice/healthy/0470.jpg,512x512,415.1,0.837,False,False
+472,Potato,Rust,images/potato/rust/0472.jpg,224x224,345.6,0.888,False,False
+473,Rice,Root Rot,images/rice/root_rot/0473.jpg,512x512,360.7,0.951,True,True
+474,Corn,Healthy,images/corn/healthy/0474.jpg,512x512,405.7,0.793,True,True
+475,Corn,Healthy,images/corn/healthy/0475.jpg,512x512,128.7,0.778,False,False
+476,Rice,Healthy,images/rice/healthy/0476.jpg,224x224,256.0,0.781,True,True
+477,Potato,Healthy,images/potato/healthy/0477.jpg,512x512,260.3,0.766,False,False
+478,Rice,Rust,images/rice/rust/0478.jpg,256x256,171.3,0.929,False,False
+481,Wheat,Powdery Mildew,images/wheat/powdery_mildew/0481.jpg,256x256,60.4,0.754,True,True
+483,Potato,Powdery Mildew,images/potato/powdery_mildew/0483.jpg,512x512,359.0,0.899,True,True
+484,Tomato,Rust,images/tomato/rust/0484.jpg,256x256,134.6,0.931,True,True
+485,Wheat,Leaf Blight,images/wheat/leaf_blight/0485.jpg,224x224,345.6,0.867,False,False
+486,Rice,Root Rot,images/rice/root_rot/0486.jpg,256x256,133.1,0.834,False,False
+487,Rice,Rust,images/rice/rust/0487.jpg,256x256,428.2,0.81,True,True
+488,Corn,Healthy,images/corn/healthy/0488.jpg,512x512,73.0,0.805,True,True
+489,Potato,Leaf Blight,images/potato/leaf_blight/0489.jpg,512x512,371.7,0.802,False,False
+490,Corn,Healthy,images/corn/healthy/0490.jpg,256x256,334.4,0.825,True,True
+492,Corn,Powdery Mildew,images/corn/powdery_mildew/0492.jpg,256x256,190.7,0.898,False,False
+493,Wheat,Root Rot,images/wheat/root_rot/0493.jpg,224x224,263.3,0.858,True,True
+494,Tomato,Root Rot,images/tomato/root_rot/0494.jpg,224x224,161.4,0.773,True,True
+495,Rice,Healthy,images/rice/healthy/0495.jpg,512x512,192.9,0.838,False,False
+496,Rice,Root Rot,images/rice/root_rot/0496.jpg,256x256,447.3,0.75,False,False
+497,Wheat,Rust,images/wheat/rust/0497.jpg,256x256,286.6,0.848,False,False
+498,Tomato,Leaf Blight,images/tomato/leaf_blight/0498.jpg,224x224,315.1,0.971,False,False
+499,Potato,Leaf Blight,images/potato/leaf_blight/0499.jpg,224x224,321.6,0.825,True,True

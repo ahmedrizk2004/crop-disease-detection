@@ -1,0 +1,1001 @@
+crop_id,crop_type,soil_type,season,temperature_c,humidity_pct,rainfall_mm,nitrogen_ppm,phosphorus_ppm,potassium_ppm,disease_label,disease_severity,yield_kg_per_hectare,quality_score,is_diseased,npk_total,yield_category
+1,Wheat,Sandy,Summer,14.2,36.7,222.2,86.4,49.3,56.4,Healthy,0.0,3753.6,5.47,0,192.1,Medium
+2,Rice,Silty,Summer,23.5,48.1,260.8,116.2,17.0,134.5,Rust,0.64,3409.5,5.16,1,267.7,Medium
+3,Rice,Loamy,Autumn,28.1,82.5,218.9,85.1,78.0,125.7,Powdery Mildew,0.19,4008.2,7.32,1,288.8,Medium
+4,Potato,Clay,Summer,33.2,94.0,256.6,131.3,33.5,140.7,Powdery Mildew,0.62,15963.0,7.46,1,305.5,High
+5,Rice,Clay,Summer,26.0,45.9,138.7,47.8,74.4,187.6,Powdery Mildew,0.42,3935.1,5.33,1,309.8,Medium
+6,Corn,Clay,Autumn,22.0,34.3,273.9,89.4,58.8,92.5,Healthy,0.0,5052.9,7.5,0,240.7,Medium
+7,Tomato,Loamy,Winter,36.9,56.0,65.8,149.7,43.2,68.2,Leaf Blight,0.34,23949.8,4.7,1,261.09999999999997,Very High
+8,Wheat,Silty,Spring,21.5,68.7,140.4,45.2,46.5,238.5,Leaf Blight,0.66,2801.7,6.74,1,330.2,Low
+9,Wheat,Loamy,Spring,18.8,40.3,1.0,111.1,59.0,244.4,Rust,0.78,2602.0,6.75,1,414.5,Low
+10,Potato,Loamy,Summer,14.6,79.6,161.8,119.0,44.8,50.1,Healthy,0.0,22223.1,6.62,0,213.9,Very High
+11,Wheat,Loamy,Summer,11.7,87.1,284.1,22.0,41.4,63.8,Healthy,0.0,3950.6,8.8,0,127.19999999999999,Medium
+12,Rice,Sandy,Autumn,25.8,69.4,289.3,140.0,61.6,188.0,Leaf Blight,0.69,3694.7,6.79,1,389.6,Medium
+13,Tomato,Clay,Summer,16.7,52.0,176.5,42.2,21.5,64.2,Powdery Mildew,0.49,24247.2,6.96,1,127.9,Very High
+14,Rice,Loamy,Spring,25.4,48.1,145.6,85.5,59.3,226.5,Healthy,0.0,5047.3,7.88,0,371.3,Medium
+15,Rice,Clay,Winter,20.6,56.7,259.2,17.6,54.0,179.2,Root Rot,0.83,2726.8,3.98,1,250.79999999999998,Low
+16,Corn,Sandy,Winter,14.2,41.9,138.8,132.4,10.7,211.6,Healthy,0.0,5085.3,9.28,0,354.7,Medium
+17,Wheat,Clay,Spring,37.8,85.2,49.9,78.0,21.0,130.2,Healthy,0.0,3659.8,5.29,0,229.2,Medium
+18,Tomato,Loamy,Winter,18.6,75.3,219.2,119.7,54.6,147.3,Healthy,0.0,34367.8,5.95,0,321.6,Very High
+19,Rice,Clay,Autumn,11.7,68.0,150.9,129.4,16.8,242.2,Healthy,0.0,4606.9,5.4,0,388.4,Medium
+20,Rice,Sandy,Winter,13.6,87.9,73.9,93.2,51.5,133.8,Healthy,0.0,4628.3,7.92,0,278.5,Medium
+21,Potato,Loamy,Summer,18.0,38.5,193.7,74.0,74.7,237.1,Powdery Mildew,0.94,11372.7,3.62,1,385.79999999999995,High
+22,Potato,Sandy,Autumn,14.0,52.7,20.6,44.2,26.4,137.6,Rust,1.0,10463.7,5.4,1,208.2,High
+23,Corn,Clay,Autumn,38.0,36.7,263.4,47.0,71.7,198.5,Rust,0.99,3628.1,4.06,1,317.2,Medium
+24,Corn,Loamy,Winter,17.5,89.0,15.2,98.8,67.2,58.8,Rust,0.29,4632.8,6.09,1,224.8,Medium
+25,Rice,Silty,Spring,13.4,91.4,207.3,30.9,7.7,123.8,Powdery Mildew,0.25,3979.3,7.18,1,162.4,Medium
+26,Tomato,Clay,Autumn,16.3,46.2,30.8,119.2,71.3,131.3,Leaf Blight,0.14,27170.1,7.76,1,321.8,Very High
+27,Rice,Sandy,Winter,10.7,77.9,99.7,140.3,65.2,222.8,Leaf Blight,0.88,3332.6,6.66,1,428.3,Medium
+28,Corn,Clay,Winter,16.7,83.1,138.1,52.7,64.7,95.5,Leaf Blight,0.81,3280.9,3.87,1,212.9,Medium
+29,Rice,Loamy,Autumn,29.2,56.0,294.3,85.1,75.4,73.1,Root Rot,0.4,4193.2,8.67,1,233.6,Medium
+30,Rice,Clay,Winter,20.4,81.1,130.9,147.8,13.7,229.9,Rust,0.97,2560.2,4.22,1,391.4,Low
+31,Wheat,Sandy,Autumn,22.9,91.7,276.2,97.2,54.8,74.9,Root Rot,0.1,3789.0,9.22,1,226.9,Medium
+32,Potato,Loamy,Summer,15.8,73.2,113.7,114.7,18.1,163.8,Powdery Mildew,0.7,13649.1,5.55,1,296.6,High
+33,Wheat,Loamy,Winter,23.3,73.9,153.4,121.1,77.0,197.2,Powdery Mildew,0.36,2933.0,7.4,1,395.29999999999995,Low
+34,Corn,Clay,Summer,30.2,44.6,59.7,13.4,23.4,145.0,Rust,0.7,4101.7,7.31,1,181.8,Medium
+35,Wheat,Sandy,Winter,24.8,45.9,196.8,10.8,61.3,204.0,Root Rot,0.47,2952.6,4.75,1,276.1,Low
+36,Tomato,Silty,Spring,26.7,89.6,36.4,28.7,39.8,156.2,Leaf Blight,0.26,30573.0,7.19,1,224.7,Very High
+37,Corn,Silty,Winter,36.9,78.3,142.4,46.3,23.5,177.5,Root Rot,0.65,4337.7,7.11,1,247.3,Medium
+38,Potato,Clay,Autumn,17.0,51.8,267.9,21.3,16.3,126.6,Root Rot,0.66,13724.6,4.62,1,164.2,High
+39,Rice,Loamy,Winter,22.5,43.4,126.0,136.7,48.8,189.1,Healthy,0.0,4385.1,9.28,0,374.6,Medium
+40,Potato,Loamy,Winter,35.6,92.0,125.7,114.7,46.0,170.7,Root Rot,0.53,17853.3,5.13,1,331.4,High
+41,Rice,Loamy,Winter,31.7,84.6,275.9,147.3,45.1,231.4,Powdery Mildew,0.49,3106.8,6.79,1,423.8,Medium
+42,Wheat,Sandy,Winter,15.5,46.9,98.2,73.7,30.3,225.9,Healthy,0.0,3649.9,6.39,0,329.9,Medium
+43,Tomato,Clay,Autumn,16.7,34.5,287.2,15.6,7.3,99.5,Powdery Mildew,0.85,19623.6,6.85,1,122.4,High
+44,Potato,Clay,Summer,24.0,46.7,110.7,94.8,77.3,193.7,Leaf Blight,0.31,17381.0,8.06,1,365.79999999999995,High
+45,Rice,Loamy,Winter,21.9,76.5,22.8,106.7,52.0,70.4,Powdery Mildew,0.2,3550.9,8.33,1,229.1,Medium
+46,Potato,Clay,Autumn,26.0,73.0,20.7,100.7,5.9,134.0,Healthy,0.0,21777.4,7.45,0,240.60000000000002,Very High
+47,Tomato,Sandy,Winter,15.3,63.9,195.1,96.2,74.0,204.9,Powdery Mildew,0.67,24125.5,5.85,1,375.1,Very High
+48,Potato,Clay,Autumn,36.4,45.9,139.4,95.4,33.4,55.7,Powdery Mildew,0.39,15591.2,8.17,1,184.5,High
+49,Rice,Loamy,Autumn,36.4,75.6,82.9,11.4,76.1,67.1,Root Rot,0.29,4333.4,7.85,1,154.6,Medium
+50,Tomato,Silty,Winter,33.8,36.0,66.5,106.9,28.0,166.3,Rust,0.78,21820.3,5.64,1,301.20000000000005,Very High
+51,Potato,Loamy,Autumn,31.1,47.6,75.4,26.9,19.4,73.9,Powdery Mildew,0.48,17352.3,6.57,1,120.2,High
+52,Rice,Loamy,Spring,35.0,49.3,108.3,52.3,58.1,75.3,Leaf Blight,0.29,3959.1,4.77,1,185.7,Medium
+53,Wheat,Silty,Spring,36.2,67.3,140.8,71.7,18.8,60.3,Rust,0.36,3395.1,8.66,1,150.8,Medium
+54,Tomato,Silty,Winter,12.2,70.9,16.1,30.9,47.2,110.8,Healthy,0.0,32899.0,9.97,0,188.89999999999998,Very High
+55,Wheat,Sandy,Winter,23.5,58.8,258.0,148.6,27.9,174.2,Rust,0.79,2470.4,6.14,1,350.7,Low
+56,Wheat,Clay,Summer,17.2,65.9,47.0,67.2,56.7,144.0,Leaf Blight,0.66,2394.1,4.14,1,267.9,Low
+57,Corn,Sandy,Autumn,33.6,70.6,198.4,140.7,36.9,158.9,Powdery Mildew,0.73,3840.3,6.43,1,336.5,Medium
+58,Corn,Loamy,Autumn,23.2,60.5,91.2,66.4,25.4,158.0,Leaf Blight,0.16,4632.1,6.84,1,249.8,Medium
+59,Potato,Loamy,Autumn,10.8,44.9,202.3,130.5,49.0,54.1,Healthy,0.0,22336.5,8.82,0,233.6,Very High
+60,Corn,Silty,Winter,37.5,41.8,175.6,98.9,41.9,68.2,Rust,0.14,5591.2,6.46,1,209.0,Medium
+61,Corn,Loamy,Winter,30.8,48.7,283.6,123.9,46.3,141.0,Powdery Mildew,0.7,4385.0,5.19,1,311.2,Medium
+62,Corn,Silty,Spring,29.7,65.3,124.0,36.3,32.1,201.3,Healthy,0.0,6275.8,8.13,0,269.70000000000005,Medium
+63,Wheat,Loamy,Winter,36.4,61.5,8.7,98.2,64.9,192.0,Leaf Blight,0.34,2689.3,5.89,1,355.1,Low
+64,Wheat,Clay,Winter,38.4,72.1,46.2,140.6,26.9,191.1,Rust,0.47,2607.3,6.08,1,358.6,Low
+65,Tomato,Silty,Summer,37.7,63.0,263.8,131.0,25.7,208.0,Root Rot,0.32,26562.3,6.4,1,364.7,Very High
+66,Potato,Loamy,Winter,36.0,59.0,145.3,56.5,62.2,125.4,Powdery Mildew,0.84,12414.8,7.23,1,244.10000000000002,High
+67,Rice,Silty,Spring,19.5,60.7,274.0,63.4,79.1,208.5,Leaf Blight,0.61,3130.1,6.75,1,351.0,Medium
+68,Rice,Loamy,Spring,36.2,58.6,157.8,74.0,59.2,132.0,Root Rot,0.97,2445.2,5.87,1,265.2,Low
+69,Rice,Loamy,Autumn,28.7,55.8,24.1,56.0,55.6,156.7,Healthy,0.0,4458.8,9.77,0,268.29999999999995,Medium
+70,Tomato,Loamy,Summer,32.4,58.2,29.5,98.7,70.4,138.7,Rust,0.13,24757.8,8.14,1,307.8,Very High
+71,Wheat,Clay,Autumn,20.8,58.0,73.3,67.7,56.1,86.0,Healthy,0.0,3315.6,5.88,0,209.8,Medium
+72,Potato,Sandy,Summer,23.8,46.5,76.6,11.3,65.3,230.2,Root Rot,0.66,13575.5,6.73,1,306.79999999999995,High
+73,Rice,Loamy,Autumn,29.2,57.6,75.0,128.3,19.9,126.9,Healthy,0.0,4421.3,7.42,0,275.1,Medium
+74,Rice,Loamy,Spring,39.3,72.8,82.3,89.2,56.4,198.9,Root Rot,0.61,3478.4,4.29,1,344.5,Medium
+75,Potato,Sandy,Autumn,16.6,42.4,75.2,115.8,62.6,186.2,Root Rot,0.85,14795.6,4.23,1,364.6,High
+76,Wheat,Silty,Spring,27.4,77.6,27.0,51.3,61.1,85.1,Healthy,0.0,3299.4,5.66,0,197.5,Medium
+77,Potato,Sandy,Autumn,37.4,91.4,290.2,51.3,70.3,210.8,Powdery Mildew,0.58,17265.3,6.06,1,332.4,High
+78,Wheat,Silty,Autumn,12.7,55.6,79.3,27.3,32.6,199.8,Leaf Blight,0.78,2209.8,4.83,1,259.70000000000005,Low
+79,Tomato,Clay,Autumn,37.5,44.4,19.0,125.3,73.2,110.4,Powdery Mildew,0.2,25396.0,6.62,1,308.9,Very High
+80,Rice,Loamy,Winter,13.5,45.3,161.3,64.4,32.8,239.9,Healthy,0.0,5102.5,8.48,0,337.1,Medium
+81,Potato,Silty,Spring,35.0,70.0,281.7,49.2,56.8,93.5,Root Rot,0.63,15977.0,5.86,1,199.5,High
+82,Rice,Loamy,Spring,21.9,42.3,36.6,128.7,39.1,182.6,Powdery Mildew,0.19,4389.6,7.74,1,350.4,Medium
+83,Potato,Loamy,Summer,39.7,81.2,61.6,126.2,46.6,167.3,Healthy,0.0,17303.5,9.07,0,340.1,High
+84,Rice,Clay,Autumn,35.8,39.4,39.0,45.1,18.1,182.2,Powdery Mildew,0.8,3325.0,3.9,1,245.39999999999998,Medium
+85,Wheat,Loamy,Spring,15.2,33.4,222.5,83.7,60.9,145.2,Powdery Mildew,0.81,2180.0,6.73,1,289.79999999999995,Low
+86,Potato,Clay,Autumn,23.7,92.7,18.2,77.1,35.1,187.2,Rust,0.2,18421.2,7.0,1,299.4,High
+87,Tomato,Loamy,Summer,12.0,47.9,189.9,86.8,29.4,248.9,Healthy,0.0,33593.4,7.65,0,365.1,Very High
+88,Tomato,Clay,Summer,22.9,87.7,124.1,125.8,34.9,195.9,Rust,0.64,19636.1,5.3,1,356.6,High
+89,Corn,Silty,Spring,12.7,35.5,129.6,114.2,32.9,76.0,Powdery Mildew,0.44,4059.7,4.6,1,223.1,Medium
+90,Potato,Loamy,Winter,36.0,76.9,290.5,94.1,31.4,165.6,Rust,0.4,14896.0,5.34,1,291.1,High
+91,Tomato,Loamy,Spring,32.9,67.3,242.2,128.3,78.1,213.7,Leaf Blight,0.86,18795.1,5.99,1,420.1,High
+92,Potato,Loamy,Spring,15.4,75.7,92.7,57.6,5.5,224.0,Healthy,0.0,20654.0,7.83,0,287.1,Very High
+93,Tomato,Clay,Spring,32.4,44.0,125.9,57.7,32.8,194.3,Healthy,0.0,26776.9,8.88,0,284.8,Very High
+94,Potato,Sandy,Spring,30.2,47.7,198.6,78.0,38.2,104.6,Rust,0.18,16068.9,8.3,1,220.8,High
+95,Wheat,Silty,Autumn,11.4,55.7,179.8,11.1,27.6,92.2,Powdery Mildew,0.49,2631.0,4.85,1,130.9,Low
+96,Corn,Silty,Summer,13.9,64.6,69.0,88.2,55.1,120.8,Powdery Mildew,0.4,3937.7,6.15,1,264.1,Medium
+97,Wheat,Loamy,Winter,27.2,76.1,125.3,26.1,6.6,115.0,Root Rot,0.12,3753.0,8.68,1,147.7,Medium
+98,Potato,Clay,Winter,35.3,45.8,176.7,83.4,34.7,112.1,Root Rot,0.85,14862.3,4.99,1,230.2,High
+99,Corn,Sandy,Autumn,20.5,92.3,193.6,30.7,12.7,101.2,Leaf Blight,0.17,5330.9,5.57,1,144.6,Medium
+100,Rice,Silty,Winter,32.6,79.4,134.7,139.4,47.3,177.1,Healthy,0.0,4064.1,8.12,0,363.79999999999995,Medium
+101,Corn,Loamy,Autumn,27.7,52.9,22.3,74.6,7.8,123.7,Leaf Blight,0.5,4359.0,5.47,1,206.1,Medium
+102,Wheat,Clay,Winter,37.3,67.2,56.5,94.7,42.6,241.5,Rust,0.63,2527.3,5.88,1,378.8,Low
+103,Corn,Sandy,Spring,17.4,58.5,131.8,83.2,16.9,124.6,Healthy,0.0,5507.5,6.41,0,224.7,Medium
+104,Tomato,Loamy,Spring,19.9,66.3,116.0,45.3,68.9,242.9,Powdery Mildew,0.71,18595.4,6.31,1,357.1,High
+105,Rice,Loamy,Autumn,39.0,75.4,117.6,93.3,75.4,111.9,Powdery Mildew,0.17,4399.9,6.53,1,280.6,Medium
+106,Corn,Clay,Winter,25.3,31.2,92.7,143.2,30.6,203.2,Leaf Blight,0.7,4350.8,4.71,1,377.0,Medium
+107,Rice,Clay,Spring,29.9,87.0,185.4,93.6,16.6,86.2,Leaf Blight,0.17,4627.4,8.03,1,196.39999999999998,Medium
+108,Potato,Loamy,Summer,39.1,69.7,225.7,119.7,22.6,97.8,Leaf Blight,0.75,12083.5,7.62,1,240.10000000000002,High
+109,Tomato,Silty,Winter,33.1,80.6,150.9,68.6,17.2,89.9,Leaf Blight,0.43,28172.0,6.99,1,175.7,Very High
+110,Corn,Loamy,Spring,31.3,63.5,37.4,21.7,17.0,139.9,Healthy,0.0,5732.9,7.57,0,178.60000000000002,Medium
+111,Tomato,Sandy,Winter,36.5,90.5,124.5,65.5,33.0,127.2,Healthy,0.0,34017.7,5.41,0,225.7,Very High
+112,Rice,Clay,Autumn,33.7,38.9,86.1,126.2,57.2,77.8,Healthy,0.0,4255.2,8.53,0,261.2,Medium
+113,Tomato,Loamy,Summer,35.0,65.7,218.2,83.9,13.3,107.6,Rust,0.1,25164.5,6.31,1,204.8,Very High
+114,Wheat,Silty,Spring,13.3,88.8,179.0,12.3,43.7,98.4,Leaf Blight,0.48,3077.3,4.89,1,154.4,Medium
+115,Tomato,Sandy,Winter,15.6,73.4,157.0,60.5,76.5,158.8,Healthy,0.0,31033.3,8.93,0,295.8,Very High
+116,Potato,Clay,Winter,39.4,46.5,4.9,120.4,30.9,196.6,Rust,0.12,21172.5,7.85,1,347.9,Very High
+117,Potato,Loamy,Summer,34.9,74.5,294.2,77.0,18.7,77.0,Powdery Mildew,0.22,17431.8,8.01,1,172.7,High
+118,Tomato,Clay,Summer,36.6,50.5,93.0,65.8,66.2,144.7,Healthy,0.0,28141.0,5.18,0,276.7,Very High
+119,Rice,Loamy,Autumn,13.7,53.9,266.8,114.1,72.1,127.3,Powdery Mildew,0.42,4059.4,8.63,1,313.5,Medium
+120,Tomato,Loamy,Spring,31.8,35.1,180.7,125.1,45.9,114.2,Root Rot,0.43,27055.4,4.7,1,285.2,Very High
+121,Corn,Sandy,Winter,20.5,32.8,261.0,59.4,79.9,104.9,Powdery Mildew,0.5,4687.3,8.42,1,244.20000000000002,Medium
+122,Wheat,Silty,Autumn,25.4,78.7,48.0,14.4,68.7,185.6,Healthy,0.0,3679.7,7.19,0,268.7,Medium
+123,Rice,Loamy,Autumn,21.5,66.9,181.5,105.1,76.2,124.4,Healthy,0.0,4143.6,8.82,0,305.70000000000005,Medium
+124,Potato,Loamy,Summer,38.8,31.7,55.8,82.5,73.5,73.6,Leaf Blight,0.58,14890.1,7.33,1,229.6,High
+125,Tomato,Silty,Summer,13.7,85.4,135.6,135.8,38.4,67.6,Leaf Blight,1.0,16842.1,5.89,1,241.8,High
+126,Corn,Loamy,Autumn,35.5,76.3,278.2,99.3,64.5,151.8,Powdery Mildew,0.74,3930.1,4.36,1,315.6,Medium
+127,Rice,Loamy,Autumn,24.0,93.9,38.9,133.8,9.9,129.6,Leaf Blight,0.31,3934.9,7.79,1,273.3,Medium
+128,Tomato,Clay,Summer,39.2,71.8,135.0,105.2,30.8,225.6,Rust,0.47,23698.1,7.65,1,361.6,Very High
+129,Potato,Clay,Spring,25.5,49.8,48.6,140.9,21.9,239.5,Leaf Blight,0.79,12157.6,5.79,1,402.3,High
+130,Corn,Loamy,Summer,28.8,69.9,28.0,99.7,49.4,166.1,Healthy,0.0,5088.5,5.86,0,315.2,Medium
+131,Potato,Clay,Spring,12.4,91.7,231.3,47.1,20.8,164.4,Rust,0.4,18936.6,7.12,1,232.3,High
+132,Wheat,Loamy,Winter,17.3,82.5,121.8,73.5,56.6,81.6,Root Rot,0.9,2270.6,5.17,1,211.7,Low
+133,Tomato,Loamy,Autumn,39.3,38.5,111.2,88.6,28.9,143.3,Leaf Blight,0.41,22399.0,5.56,1,260.8,Very High
+134,Rice,Silty,Winter,17.4,86.2,47.9,55.8,48.3,112.5,Leaf Blight,0.19,3896.3,8.31,1,216.6,Medium
+135,Tomato,Silty,Spring,12.7,55.6,137.2,43.7,48.8,59.7,Rust,0.52,26462.1,5.41,1,152.2,Very High
+136,Potato,Clay,Winter,14.0,47.2,109.7,66.5,8.4,60.2,Root Rot,0.36,14594.0,6.97,1,135.10000000000002,High
+137,Corn,Silty,Autumn,34.8,70.5,183.3,28.0,12.3,124.6,Rust,0.36,4547.5,8.86,1,164.89999999999998,Medium
+138,Potato,Silty,Spring,11.4,38.9,99.9,76.3,39.3,171.3,Powdery Mildew,0.78,12517.7,5.8,1,286.9,High
+139,Corn,Loamy,Autumn,25.2,63.1,147.0,88.8,40.6,53.3,Rust,0.39,4492.9,5.88,1,182.7,Medium
+140,Wheat,Clay,Winter,18.0,72.6,291.6,91.0,22.1,60.3,Root Rot,0.63,2851.1,6.0,1,173.39999999999998,Low
+141,Potato,Sandy,Spring,27.2,75.5,57.2,71.7,36.4,132.6,Rust,0.8,13111.2,4.57,1,240.7,High
+142,Potato,Clay,Summer,25.6,66.5,299.4,77.0,33.3,241.3,Rust,0.93,13964.8,5.26,1,351.6,High
+143,Potato,Loamy,Winter,15.8,46.0,167.4,41.5,78.0,109.5,Powdery Mildew,0.59,16086.2,5.3,1,229.0,High
+144,Rice,Loamy,Autumn,13.7,74.0,113.9,147.2,66.4,240.9,Root Rot,0.39,3625.7,7.97,1,454.5,Medium
+145,Corn,Clay,Autumn,37.7,72.6,224.2,40.0,67.1,104.2,Healthy,0.0,5149.6,7.81,0,211.3,Medium
+146,Corn,Sandy,Summer,11.5,88.8,67.7,42.6,12.5,116.1,Leaf Blight,0.2,5425.7,6.92,1,171.2,Medium
+147,Rice,Sandy,Winter,29.6,87.2,142.7,101.1,61.7,107.4,Healthy,0.0,5127.1,6.43,0,270.20000000000005,Medium
+148,Wheat,Sandy,Spring,37.4,41.4,264.7,34.6,74.0,249.4,Healthy,0.0,3659.9,6.98,0,358.0,Medium
+149,Tomato,Loamy,Spring,10.3,66.9,32.2,147.6,26.3,247.8,Leaf Blight,0.94,21315.3,5.54,1,421.70000000000005,Very High
+150,Tomato,Sandy,Spring,19.9,77.5,194.5,110.6,6.1,117.4,Leaf Blight,0.87,19372.3,4.79,1,234.1,High
+151,Rice,Silty,Winter,25.5,35.6,200.8,35.9,15.5,114.7,Leaf Blight,0.65,3468.6,5.02,1,166.1,Medium
+152,Corn,Loamy,Autumn,27.5,67.2,78.5,60.3,22.7,183.6,Root Rot,0.31,5184.8,6.65,1,266.6,Medium
+153,Rice,Loamy,Spring,29.2,91.1,110.3,40.9,76.8,145.6,Root Rot,0.72,3610.7,5.7,1,263.29999999999995,Medium
+154,Potato,Silty,Summer,32.9,74.2,178.7,120.2,44.4,155.6,Powdery Mildew,0.47,16479.9,5.85,1,320.2,High
+155,Potato,Sandy,Summer,14.9,85.5,132.6,105.2,58.8,147.8,Healthy,0.0,17370.5,9.49,0,311.8,High
+156,Tomato,Silty,Winter,26.9,66.3,201.8,53.1,6.6,100.9,Healthy,0.0,29580.9,5.02,0,160.60000000000002,Very High
+157,Rice,Clay,Spring,38.0,34.5,280.1,14.4,35.7,203.8,Rust,0.17,4098.0,8.38,1,253.9,Medium
+158,Tomato,Silty,Winter,12.4,92.7,262.4,28.6,69.5,73.7,Powdery Mildew,0.99,17481.2,7.0,1,171.8,High
+159,Tomato,Clay,Spring,39.4,60.1,215.7,69.4,33.4,95.9,Rust,0.21,31426.6,6.84,1,198.70000000000002,Very High
+160,Rice,Clay,Spring,34.3,57.3,229.8,133.7,6.2,91.2,Powdery Mildew,0.27,4465.8,5.06,1,231.09999999999997,Medium
+161,Wheat,Clay,Summer,32.2,56.1,70.3,40.4,69.8,61.3,Root Rot,0.64,2762.8,6.08,1,171.5,Low
+162,Corn,Loamy,Autumn,17.1,87.0,295.7,83.0,36.0,105.0,Leaf Blight,0.83,3929.2,5.85,1,224.0,Medium
+163,Potato,Silty,Spring,39.2,91.2,201.4,120.0,28.9,133.3,Leaf Blight,0.66,14398.5,4.61,1,282.20000000000005,High
+164,Tomato,Sandy,Autumn,35.7,39.4,138.9,18.1,36.0,133.3,Leaf Blight,0.78,20476.0,5.86,1,187.4,Very High
+165,Tomato,Clay,Winter,35.4,36.0,217.4,36.7,25.1,184.7,Leaf Blight,0.33,24714.0,7.22,1,246.5,Very High
+166,Wheat,Sandy,Winter,16.3,89.0,91.0,137.3,20.9,88.0,Leaf Blight,0.82,2413.8,6.57,1,246.20000000000002,Low
+167,Tomato,Silty,Summer,26.6,80.4,114.2,84.7,31.9,102.3,Leaf Blight,0.73,22538.4,5.91,1,218.89999999999998,Very High
+168,Tomato,Silty,Autumn,37.4,54.1,124.2,88.8,21.6,79.2,Root Rot,0.19,31722.6,5.94,1,189.60000000000002,Very High
+169,Potato,Sandy,Autumn,16.9,67.0,73.7,87.1,75.8,117.5,Rust,0.75,13139.8,6.83,1,280.4,High
+170,Tomato,Loamy,Summer,14.2,65.5,55.2,134.5,79.3,241.4,Root Rot,0.51,25547.6,6.45,1,455.20000000000005,Very High
+171,Wheat,Silty,Summer,35.3,45.0,212.2,11.3,42.9,124.6,Healthy,0.0,3777.6,8.09,0,178.8,Medium
+172,Potato,Silty,Spring,10.5,76.9,160.7,50.1,42.7,189.6,Root Rot,0.69,12376.3,5.67,1,282.4,High
+173,Rice,Sandy,Summer,15.8,64.2,244.6,47.4,34.8,124.6,Healthy,0.0,5064.4,7.03,0,206.79999999999998,Medium
+174,Potato,Clay,Spring,12.8,54.7,165.8,17.9,5.7,84.3,Leaf Blight,0.99,11086.5,5.27,1,107.89999999999999,High
+175,Tomato,Clay,Spring,16.9,88.6,207.7,89.3,25.3,234.8,Powdery Mildew,0.61,25115.6,6.88,1,349.4,Very High
+176,Corn,Loamy,Spring,38.8,68.2,225.7,109.8,34.9,65.4,Rust,0.61,3575.3,4.75,1,210.1,Medium
+177,Rice,Loamy,Winter,32.7,39.1,296.5,111.4,42.6,244.9,Rust,0.85,2871.2,3.93,1,398.9,Low
+178,Tomato,Silty,Autumn,10.9,47.8,297.8,78.7,31.7,238.2,Leaf Blight,0.85,18853.1,5.33,1,348.6,High
+179,Potato,Sandy,Spring,12.5,40.0,213.5,98.7,60.5,113.3,Root Rot,0.18,19220.5,5.23,1,272.5,High
+180,Wheat,Clay,Summer,12.6,58.0,167.1,81.7,12.7,67.9,Powdery Mildew,0.5,3019.5,6.61,1,162.3,Medium
+181,Potato,Clay,Autumn,22.4,80.6,217.5,88.3,79.5,98.5,Rust,0.81,14995.2,5.76,1,266.3,High
+182,Tomato,Silty,Summer,11.9,58.3,126.3,77.8,10.8,100.3,Leaf Blight,0.22,25727.7,5.82,1,188.89999999999998,Very High
+183,Tomato,Sandy,Autumn,10.2,55.7,252.5,63.2,69.7,138.0,Rust,0.66,21800.9,5.74,1,270.9,Very High
+184,Potato,Sandy,Winter,19.4,92.7,290.6,50.8,57.1,148.2,Leaf Blight,0.37,17567.6,7.0,1,256.1,High
+185,Rice,Silty,Autumn,13.4,66.7,177.7,86.4,56.1,160.0,Powdery Mildew,0.44,4060.1,8.48,1,302.5,Medium
+186,Tomato,Clay,Winter,30.2,39.0,90.8,45.4,16.6,134.6,Leaf Blight,0.49,22610.1,5.87,1,196.6,Very High
+187,Tomato,Silty,Spring,33.7,53.4,268.7,85.2,52.9,67.0,Rust,0.53,22936.5,7.44,1,205.1,Very High
+188,Corn,Silty,Autumn,39.0,58.0,3.2,46.2,43.3,153.8,Leaf Blight,0.68,3456.6,6.29,1,243.3,Medium
+189,Potato,Sandy,Autumn,39.9,61.4,88.6,138.9,11.4,216.3,Leaf Blight,0.5,15477.4,7.35,1,366.6,High
+190,Corn,Silty,Autumn,24.3,58.5,209.0,54.6,27.5,212.0,Powdery Mildew,0.41,4990.1,4.89,1,294.1,Medium
+191,Corn,Sandy,Summer,25.5,65.9,99.3,69.7,39.7,209.6,Healthy,0.0,5792.3,8.15,0,319.0,Medium
+192,Rice,Sandy,Winter,27.8,55.3,211.4,38.8,61.4,211.7,Root Rot,0.46,3933.5,4.58,1,311.9,Medium
+193,Wheat,Silty,Spring,17.9,86.1,158.3,99.5,49.8,172.3,Rust,0.27,2959.0,7.29,1,321.6,Low
+194,Corn,Loamy,Spring,30.2,50.4,71.6,26.4,33.0,78.3,Powdery Mildew,0.86,3735.0,5.15,1,137.7,Medium
+195,Potato,Silty,Summer,26.6,61.8,42.1,54.0,38.8,60.7,Leaf Blight,0.62,14692.8,5.53,1,153.5,High
+196,Wheat,Silty,Winter,30.5,57.0,252.0,78.4,11.2,56.2,Root Rot,0.22,3493.9,8.22,1,145.8,Medium
+197,Corn,Loamy,Summer,33.4,66.8,231.8,79.3,43.3,164.5,Healthy,0.0,5128.5,6.34,0,287.1,Medium
+198,Potato,Silty,Summer,39.7,36.7,249.0,115.2,27.3,249.9,Powdery Mildew,0.59,16457.1,5.97,1,392.4,High
+199,Corn,Clay,Summer,16.3,77.9,206.7,130.5,50.8,135.6,Healthy,0.0,5399.5,8.08,0,316.9,Medium
+200,Rice,Loamy,Summer,19.7,75.8,86.8,47.4,69.4,247.1,Leaf Blight,0.82,3087.6,6.33,1,363.9,Medium
+201,Wheat,Clay,Autumn,36.0,38.2,259.8,45.0,58.4,215.7,Leaf Blight,0.97,2325.6,6.24,1,319.1,Low
+202,Tomato,Silty,Winter,23.6,71.2,264.0,23.0,43.7,105.6,Root Rot,0.23,28322.0,9.01,1,172.3,Very High
+203,Corn,Clay,Spring,31.9,59.8,199.2,60.2,9.7,156.9,Root Rot,0.96,3212.5,4.34,1,226.8,Medium
+204,Tomato,Loamy,Autumn,26.4,38.5,255.7,120.4,72.1,202.5,Leaf Blight,0.55,22156.5,4.37,1,395.0,Very High
+205,Tomato,Sandy,Winter,23.7,94.5,128.3,149.4,73.2,226.4,Healthy,0.0,26618.1,6.51,0,449.0,Very High
+206,Corn,Loamy,Spring,21.2,88.7,49.7,65.5,27.9,189.9,Healthy,0.0,5755.1,6.17,0,283.3,Medium
+207,Wheat,Silty,Spring,14.0,44.7,204.0,11.3,57.2,213.4,Healthy,0.0,2976.1,9.94,0,281.9,Low
+208,Tomato,Clay,Spring,13.1,53.9,89.8,63.6,66.0,224.9,Leaf Blight,0.53,21717.7,6.9,1,354.5,Very High
+209,Rice,Clay,Summer,23.2,77.0,188.4,31.2,35.9,187.3,Healthy,0.0,4541.2,9.3,0,254.4,Medium
+210,Wheat,Clay,Winter,20.5,57.9,237.3,44.7,53.3,99.6,Healthy,0.0,3122.0,8.0,0,197.6,Medium
+211,Potato,Loamy,Summer,25.5,63.1,224.4,51.4,9.1,229.6,Powdery Mildew,0.8,14377.1,7.43,1,290.1,High
+212,Tomato,Clay,Spring,39.6,90.7,39.6,130.5,47.6,123.1,Root Rot,0.2,27596.5,7.91,1,301.2,Very High
+213,Tomato,Clay,Spring,17.9,32.6,18.1,120.5,43.0,175.7,Healthy,0.0,25650.2,7.51,0,339.2,Very High
+214,Tomato,Sandy,Autumn,12.5,35.1,276.3,146.4,16.7,115.4,Root Rot,0.73,18579.2,6.2,1,278.5,High
+215,Wheat,Sandy,Spring,17.3,90.1,34.8,95.7,9.1,183.2,Powdery Mildew,0.73,2649.0,6.47,1,288.0,Low
+216,Rice,Sandy,Spring,14.9,91.9,156.9,119.6,59.1,83.4,Healthy,0.0,3842.1,5.63,0,262.1,Medium
+217,Corn,Clay,Autumn,34.2,47.7,19.2,109.7,48.2,65.4,Healthy,0.0,5947.9,7.28,0,223.3,Medium
+218,Corn,Sandy,Autumn,14.7,80.3,268.3,104.4,13.7,198.2,Healthy,0.0,5499.4,5.01,0,316.3,Medium
+219,Wheat,Sandy,Summer,37.9,85.7,165.9,138.0,60.5,133.9,Leaf Blight,0.14,3169.2,6.33,1,332.4,Medium
+220,Tomato,Loamy,Spring,25.1,88.6,53.8,122.6,78.6,240.8,Powdery Mildew,0.34,22637.6,4.8,1,442.0,Very High
+221,Tomato,Clay,Winter,10.2,43.0,169.1,52.5,51.7,142.8,Powdery Mildew,0.8,19241.5,6.05,1,247.0,High
+222,Tomato,Sandy,Summer,10.2,56.7,69.9,58.5,68.0,225.4,Leaf Blight,0.76,21171.6,7.53,1,351.9,Very High
+223,Wheat,Clay,Summer,25.9,45.5,147.6,18.4,79.8,192.3,Root Rot,0.86,2452.5,4.06,1,290.5,Low
+224,Rice,Silty,Spring,27.4,62.9,191.2,65.2,49.4,62.5,Rust,0.47,4087.6,7.14,1,177.1,Medium
+225,Rice,Silty,Autumn,19.5,47.7,22.4,38.4,63.5,166.9,Leaf Blight,0.36,4257.5,5.15,1,268.8,Medium
+226,Rice,Loamy,Summer,23.6,60.1,255.7,22.7,65.6,110.8,Root Rot,0.52,3464.0,7.19,1,199.1,Medium
+227,Potato,Loamy,Summer,12.7,46.1,106.7,81.9,55.8,102.0,Healthy,0.0,18290.1,9.95,0,239.7,High
+228,Wheat,Sandy,Spring,23.9,82.3,41.9,11.7,67.3,246.5,Root Rot,0.87,2320.3,4.18,1,325.5,Low
+229,Tomato,Clay,Autumn,37.5,34.9,299.1,37.7,53.4,211.9,Powdery Mildew,0.72,24164.0,4.28,1,303.0,Very High
+230,Corn,Silty,Spring,15.0,67.3,246.5,65.3,7.2,186.6,Healthy,0.0,4745.4,5.86,0,259.1,Medium
+231,Rice,Sandy,Spring,28.4,70.1,194.2,79.8,71.2,145.8,Leaf Blight,0.35,3807.3,4.87,1,296.8,Medium
+232,Tomato,Sandy,Spring,39.7,80.8,107.7,86.2,41.4,232.5,Leaf Blight,0.48,25277.4,6.43,1,360.1,Very High
+233,Tomato,Sandy,Spring,36.9,80.6,17.6,148.8,44.7,203.4,Powdery Mildew,0.26,25419.4,9.22,1,396.9,Very High
+234,Rice,Sandy,Autumn,26.0,81.4,221.1,117.0,76.1,165.1,Healthy,0.0,4159.6,9.91,0,358.2,Medium
+235,Tomato,Sandy,Summer,17.1,50.7,221.4,60.2,49.4,190.7,Powdery Mildew,0.94,21480.5,4.85,1,300.29999999999995,Very High
+236,Potato,Silty,Autumn,15.3,32.5,16.9,94.2,6.5,145.6,Rust,0.23,20602.7,6.2,1,246.3,Very High
+237,Potato,Sandy,Autumn,11.8,39.6,211.4,29.8,13.3,155.3,Leaf Blight,0.83,12721.8,5.13,1,198.4,High
+238,Wheat,Clay,Autumn,19.1,38.9,47.3,142.8,64.4,242.1,Powdery Mildew,0.73,2598.5,6.44,1,449.3,Low
+239,Rice,Loamy,Summer,30.0,82.9,113.5,112.8,27.1,85.5,Rust,0.72,3616.2,3.93,1,225.4,Medium
+240,Potato,Clay,Summer,28.1,89.9,290.3,40.9,47.4,237.3,Root Rot,0.87,14099.5,4.21,1,325.6,High
+241,Wheat,Clay,Autumn,23.4,47.2,74.9,19.5,24.2,71.6,Leaf Blight,0.41,2767.6,4.39,1,115.3,Low
+242,Tomato,Silty,Winter,36.5,52.8,112.6,126.0,64.2,165.6,Root Rot,0.76,23818.5,6.79,1,355.79999999999995,Very High
+243,Rice,Clay,Autumn,10.6,47.0,31.4,57.9,71.6,82.2,Leaf Blight,0.51,3903.5,4.55,1,211.7,Medium
+244,Wheat,Silty,Spring,22.9,72.5,182.2,70.8,9.0,116.2,Powdery Mildew,0.63,2707.3,8.01,1,196.0,Low
+245,Tomato,Loamy,Autumn,18.9,36.2,117.9,87.0,41.8,60.9,Rust,0.75,22448.8,3.89,1,189.70000000000002,Very High
+246,Wheat,Silty,Summer,12.9,43.5,191.5,146.8,40.5,73.1,Powdery Mildew,0.84,2411.2,6.68,1,260.4,Low
+247,Tomato,Silty,Summer,21.1,54.8,56.0,16.2,38.0,102.7,Root Rot,0.91,17734.9,6.68,1,156.9,High
+248,Potato,Clay,Spring,30.0,82.5,124.2,115.9,22.1,62.2,Healthy,0.0,17906.8,6.94,0,200.2,High
+249,Potato,Silty,Summer,24.3,35.1,270.8,110.0,42.7,230.1,Root Rot,0.97,12926.9,6.38,1,382.79999999999995,High
+250,Potato,Sandy,Summer,39.2,82.5,37.9,69.3,79.1,137.1,Leaf Blight,0.21,19733.5,9.36,1,285.5,High
+251,Rice,Clay,Spring,21.6,55.8,97.8,48.7,39.4,224.7,Rust,0.33,4387.4,8.05,1,312.79999999999995,Medium
+252,Potato,Silty,Summer,14.4,68.2,227.5,141.6,74.4,162.5,Rust,0.57,15067.6,4.56,1,378.5,High
+253,Corn,Loamy,Winter,29.6,67.2,141.9,34.1,35.2,173.6,Rust,0.89,3943.5,6.16,1,242.9,Medium
+254,Tomato,Loamy,Summer,11.5,60.9,80.6,62.1,30.3,208.7,Healthy,0.0,29062.1,6.55,0,301.1,Very High
+255,Tomato,Sandy,Summer,19.0,78.3,232.2,54.9,59.7,171.0,Healthy,0.0,34252.5,5.45,0,285.6,Very High
+256,Tomato,Silty,Autumn,34.6,63.5,47.7,53.6,43.0,77.1,Leaf Blight,0.92,18432.0,6.7,1,173.7,High
+257,Potato,Sandy,Spring,17.5,59.7,275.4,108.6,25.5,214.7,Healthy,0.0,18042.4,7.53,0,348.79999999999995,High
+258,Wheat,Silty,Winter,15.3,86.6,176.1,59.0,17.3,228.9,Healthy,0.0,3229.0,8.74,0,305.2,Medium
+259,Wheat,Sandy,Summer,29.4,74.1,80.7,67.3,6.5,206.1,Powdery Mildew,0.12,2881.8,8.52,1,279.9,Low
+260,Wheat,Clay,Summer,17.6,82.3,91.6,145.4,53.2,134.8,Root Rot,0.92,2309.8,4.98,1,333.40000000000003,Low
+261,Corn,Silty,Spring,10.2,95.0,289.9,127.5,47.1,168.8,Root Rot,0.33,4726.3,5.78,1,343.4,Medium
+262,Wheat,Loamy,Autumn,17.8,76.2,267.7,51.8,16.2,203.1,Root Rot,0.16,3756.0,9.04,1,271.1,Medium
+263,Potato,Clay,Winter,39.9,46.9,125.6,64.4,7.6,191.6,Root Rot,0.69,15265.2,6.23,1,263.6,High
+264,Rice,Silty,Autumn,25.2,85.0,252.2,132.7,18.6,69.5,Powdery Mildew,0.75,2887.6,4.37,1,220.79999999999998,Low
+265,Corn,Loamy,Spring,16.7,44.5,261.4,68.9,71.5,124.3,Rust,0.79,3404.3,6.05,1,264.7,Medium
+266,Tomato,Clay,Winter,36.7,62.5,260.2,63.4,27.4,60.8,Healthy,0.0,29734.8,9.27,0,151.6,Very High
+267,Rice,Silty,Summer,19.5,76.5,233.7,78.3,52.3,85.4,Leaf Blight,0.41,4311.8,7.17,1,216.0,Medium
+268,Wheat,Sandy,Summer,24.7,79.6,26.4,96.0,52.5,130.7,Root Rot,0.35,3245.9,8.79,1,279.2,Medium
+269,Tomato,Sandy,Autumn,38.5,88.0,227.1,84.3,6.3,50.8,Healthy,0.0,25839.5,8.67,0,141.39999999999998,Very High
+270,Rice,Loamy,Summer,12.0,33.0,284.5,73.8,44.0,154.8,Powdery Mildew,0.38,3361.2,6.35,1,272.6,Medium
+271,Rice,Sandy,Summer,38.4,89.7,121.0,42.0,59.5,76.2,Powdery Mildew,1.0,2692.0,6.07,1,177.7,Low
+272,Potato,Clay,Winter,36.3,46.6,160.4,16.8,79.6,182.4,Rust,0.25,17279.6,7.65,1,278.8,High
+273,Wheat,Silty,Winter,21.4,65.6,142.3,31.4,57.1,176.1,Healthy,0.0,3699.2,6.51,0,264.6,Medium
+274,Wheat,Sandy,Winter,34.9,36.8,215.6,26.5,13.6,71.3,Rust,0.34,3119.8,5.38,1,111.4,Medium
+275,Rice,Loamy,Winter,18.9,32.6,148.9,39.1,75.0,116.1,Powdery Mildew,0.85,3391.5,3.74,1,230.2,Medium
+276,Wheat,Silty,Summer,38.5,80.7,22.5,111.3,72.9,178.9,Healthy,0.0,3852.0,7.28,0,363.1,Medium
+277,Corn,Sandy,Spring,35.6,53.4,203.0,69.6,13.7,220.2,Powdery Mildew,0.52,3833.0,7.98,1,303.5,Medium
+278,Wheat,Loamy,Winter,38.7,47.4,219.9,62.2,30.7,72.8,Leaf Blight,0.7,2270.9,5.53,1,165.7,Low
+279,Tomato,Silty,Winter,29.5,81.8,33.9,107.5,9.4,238.5,Powdery Mildew,0.85,20928.0,4.32,1,355.4,Very High
+280,Tomato,Silty,Summer,28.3,80.6,183.4,130.8,71.0,195.5,Rust,0.53,24128.9,7.95,1,397.3,Very High
+281,Tomato,Clay,Spring,17.8,50.4,211.4,104.9,62.6,165.3,Root Rot,0.2,26865.4,7.36,1,332.8,Very High
+282,Corn,Clay,Winter,29.9,46.2,103.7,104.7,33.9,217.8,Rust,0.57,4501.5,6.46,1,356.4,Medium
+283,Potato,Sandy,Winter,35.6,86.5,22.5,78.8,23.1,244.0,Healthy,0.0,17069.9,5.25,0,345.9,High
+284,Rice,Sandy,Spring,23.8,82.1,134.4,129.9,38.5,73.7,Rust,0.68,3180.9,5.96,1,242.10000000000002,Medium
+285,Wheat,Clay,Spring,34.8,81.5,289.0,99.3,71.8,162.5,Healthy,0.0,3398.6,8.27,0,333.6,Medium
+286,Tomato,Sandy,Winter,20.0,79.9,180.0,110.3,32.2,140.5,Powdery Mildew,0.43,21518.5,4.78,1,283.0,Very High
+287,Rice,Loamy,Autumn,31.1,33.0,49.2,29.7,58.8,194.3,Healthy,0.0,4285.8,5.53,0,282.8,Medium
+288,Potato,Silty,Summer,23.7,80.8,215.0,25.1,36.1,235.3,Leaf Blight,0.27,20142.5,8.44,1,296.5,Very High
+289,Potato,Silty,Winter,29.8,92.2,40.4,79.8,44.8,59.7,Healthy,0.0,21632.9,9.68,0,184.3,Very High
+290,Potato,Sandy,Summer,31.9,38.3,116.2,94.1,71.2,150.8,Root Rot,0.93,13619.1,4.99,1,316.1,High
+291,Potato,Loamy,Winter,34.1,39.0,180.8,134.1,43.4,218.6,Leaf Blight,0.35,19592.1,6.93,1,396.1,High
+292,Corn,Loamy,Autumn,37.6,38.6,213.1,146.5,18.3,158.5,Rust,0.67,3664.7,6.54,1,323.3,Medium
+293,Wheat,Silty,Autumn,36.3,57.5,3.8,24.9,33.6,60.6,Powdery Mildew,0.61,2711.7,4.32,1,119.1,Low
+294,Corn,Sandy,Spring,30.7,49.2,226.1,14.5,66.1,70.5,Leaf Blight,0.99,3504.8,6.57,1,151.1,Medium
+295,Potato,Sandy,Autumn,30.8,33.1,114.5,68.3,64.1,187.0,Leaf Blight,0.77,14094.4,7.56,1,319.4,High
+296,Wheat,Sandy,Winter,34.9,89.2,211.4,100.7,61.6,159.3,Healthy,0.0,3755.9,8.02,0,321.6,Medium
+297,Rice,Clay,Summer,38.9,77.8,35.8,15.7,25.9,102.8,Powdery Mildew,0.5,4122.1,4.93,1,144.39999999999998,Medium
+298,Corn,Sandy,Spring,14.6,51.0,15.3,140.5,51.2,182.4,Healthy,0.0,5220.4,7.45,0,374.1,Medium
+299,Potato,Loamy,Summer,38.7,63.8,235.9,32.3,45.7,130.7,Rust,0.42,18057.9,5.9,1,208.7,High
+300,Rice,Silty,Spring,13.4,52.5,72.1,99.9,73.9,98.8,Powdery Mildew,0.4,3545.9,4.58,1,272.6,Medium
+301,Corn,Silty,Autumn,26.2,48.4,273.4,125.1,33.1,210.6,Root Rot,0.92,3940.0,5.23,1,368.79999999999995,Medium
+302,Wheat,Clay,Spring,15.0,92.2,161.4,11.0,9.9,184.1,Powdery Mildew,0.91,2020.7,6.45,1,205.0,Low
+303,Tomato,Silty,Spring,32.4,40.0,137.8,56.4,11.6,60.9,Healthy,0.0,27350.2,8.97,0,128.9,Very High
+304,Potato,Sandy,Autumn,22.2,59.3,121.3,54.3,34.2,73.7,Healthy,0.0,20449.8,5.03,0,162.2,Very High
+305,Potato,Clay,Spring,20.7,62.7,87.0,106.0,50.5,106.3,Healthy,0.0,21535.8,9.63,0,262.8,Very High
+306,Tomato,Sandy,Summer,14.1,55.4,239.2,86.4,77.0,78.8,Root Rot,0.84,17116.2,6.27,1,242.2,High
+307,Corn,Sandy,Spring,11.3,67.2,118.2,86.7,11.4,92.0,Healthy,0.0,5588.3,8.71,0,190.10000000000002,Medium
+308,Corn,Sandy,Summer,15.5,70.1,75.8,26.0,55.3,163.5,Leaf Blight,0.47,4661.5,4.53,1,244.8,Medium
+309,Potato,Clay,Autumn,12.9,77.2,146.2,56.3,14.6,181.1,Root Rot,0.68,12695.5,4.38,1,252.0,High
+310,Potato,Loamy,Winter,23.5,70.1,91.7,91.8,47.4,122.9,Healthy,0.0,22400.7,6.58,0,262.1,Very High
+311,Tomato,Sandy,Winter,18.3,53.4,203.9,56.4,41.0,139.1,Leaf Blight,0.1,26607.0,8.61,1,236.5,Very High
+312,Tomato,Clay,Autumn,35.8,39.1,161.6,46.9,71.5,65.3,Rust,0.2,28805.2,5.05,1,183.7,Very High
+313,Wheat,Silty,Summer,37.2,65.9,163.0,149.8,40.4,205.0,Rust,0.67,2802.3,5.46,1,395.20000000000005,Low
+314,Rice,Silty,Spring,21.9,62.6,198.8,128.7,65.5,172.8,Rust,0.76,2935.6,4.5,1,367.0,Low
+315,Potato,Sandy,Winter,38.2,32.6,228.4,42.4,24.8,96.8,Leaf Blight,0.5,14459.9,7.09,1,164.0,High
+316,Potato,Clay,Spring,39.4,51.1,211.1,83.0,67.2,217.0,Powdery Mildew,0.45,18456.1,5.46,1,367.2,High
+317,Potato,Loamy,Spring,25.5,54.5,272.2,82.3,31.5,223.5,Rust,0.26,18746.2,6.85,1,337.3,High
+318,Tomato,Silty,Summer,16.9,63.4,84.2,31.0,16.8,170.4,Rust,0.11,31967.0,8.78,1,218.2,Very High
+319,Rice,Silty,Winter,24.4,68.4,194.2,67.5,23.3,75.6,Root Rot,0.83,3204.6,5.98,1,166.39999999999998,Medium
+320,Rice,Clay,Summer,17.7,41.7,287.5,93.9,47.3,53.7,Rust,0.14,4340.1,8.24,1,194.89999999999998,Medium
+321,Corn,Silty,Winter,15.1,84.0,180.3,121.2,66.5,86.4,Healthy,0.0,5032.4,8.3,0,274.1,Medium
+322,Corn,Silty,Spring,16.9,55.1,32.6,38.3,69.5,150.9,Leaf Blight,0.75,3668.3,5.5,1,258.7,Medium
+323,Rice,Clay,Spring,12.8,72.9,270.6,85.5,5.1,237.5,Rust,0.19,4127.9,7.91,1,328.1,Medium
+324,Tomato,Silty,Summer,38.2,61.3,230.6,59.1,65.3,231.6,Rust,0.48,26965.7,7.86,1,356.0,Very High
+325,Potato,Loamy,Winter,33.0,89.2,25.1,93.8,45.8,101.6,Healthy,0.0,19552.9,5.03,0,241.2,High
+326,Wheat,Silty,Summer,30.6,50.5,108.7,31.7,53.9,100.7,Rust,0.57,2718.0,7.69,1,186.3,Low
+327,Tomato,Silty,Summer,22.4,80.9,144.7,61.8,46.6,100.8,Rust,0.43,23167.5,5.69,1,209.2,Very High
+328,Corn,Clay,Summer,23.4,75.5,48.5,40.0,35.0,117.7,Root Rot,0.76,4235.7,5.99,1,192.7,Medium
+329,Wheat,Clay,Summer,24.2,69.0,26.4,46.8,32.8,171.8,Leaf Blight,0.45,2987.0,7.46,1,251.4,Low
+330,Tomato,Clay,Summer,29.2,58.5,60.5,102.0,65.3,107.2,Rust,0.69,20328.6,4.1,1,274.5,Very High
+331,Potato,Sandy,Spring,20.8,72.6,292.7,22.2,25.7,129.9,Rust,0.56,14270.7,6.95,1,177.8,High
+332,Tomato,Clay,Spring,26.5,77.2,167.7,91.6,31.1,213.1,Rust,0.28,22766.8,5.62,1,335.79999999999995,Very High
+333,Rice,Loamy,Summer,22.2,36.9,21.7,51.2,76.0,210.6,Root Rot,0.94,2871.1,7.02,1,337.8,Low
+334,Potato,Silty,Winter,33.1,79.2,288.4,74.2,39.6,167.4,Rust,0.33,17061.9,4.63,1,281.20000000000005,High
+335,Wheat,Sandy,Summer,34.0,56.8,105.9,85.0,57.6,102.7,Powdery Mildew,0.16,3407.4,6.13,1,245.3,Medium
+336,Tomato,Silty,Autumn,20.6,88.1,80.7,142.6,56.2,232.0,Powdery Mildew,0.17,31578.6,7.11,1,430.8,Very High
+337,Rice,Sandy,Summer,16.1,46.2,185.6,31.8,13.0,234.0,Leaf Blight,0.76,3482.2,6.47,1,278.8,Medium
+338,Tomato,Clay,Winter,21.1,50.5,269.4,133.3,48.1,104.9,Rust,0.11,31752.4,5.72,1,286.3,Very High
+339,Potato,Sandy,Spring,25.8,57.5,281.9,14.6,31.0,222.1,Powdery Mildew,0.46,17544.8,7.65,1,267.7,High
+340,Tomato,Silty,Autumn,30.7,30.8,63.2,91.3,29.4,172.6,Healthy,0.0,31784.2,6.3,0,293.29999999999995,Very High
+341,Potato,Loamy,Autumn,15.5,57.6,125.7,115.3,32.4,130.1,Powdery Mildew,0.31,17369.4,6.58,1,277.79999999999995,High
+342,Potato,Clay,Autumn,34.1,66.1,256.9,37.4,65.0,197.7,Leaf Blight,0.98,12838.6,5.2,1,300.1,High
+343,Wheat,Loamy,Winter,19.0,66.5,170.4,65.8,56.8,62.0,Leaf Blight,0.48,2517.9,7.76,1,184.6,Low
+344,Tomato,Loamy,Autumn,20.8,66.4,279.6,46.1,6.5,74.2,Healthy,0.0,29548.7,9.34,0,126.80000000000001,Very High
+345,Potato,Sandy,Autumn,20.7,73.8,146.2,113.1,71.7,126.2,Leaf Blight,0.62,15716.2,5.24,1,311.0,High
+346,Rice,Silty,Winter,35.5,34.6,48.6,42.0,28.8,108.3,Leaf Blight,0.68,3697.2,5.04,1,179.1,Medium
+347,Tomato,Loamy,Winter,22.4,42.0,6.9,111.9,54.7,238.1,Powdery Mildew,0.9,20818.4,6.21,1,404.70000000000005,Very High
+348,Wheat,Clay,Winter,26.5,31.7,119.1,117.1,11.2,102.5,Leaf Blight,0.25,2774.8,5.34,1,230.79999999999998,Low
+349,Tomato,Silty,Summer,13.9,84.5,8.6,102.9,69.5,115.0,Powdery Mildew,0.31,28153.2,6.69,1,287.4,Very High
+350,Potato,Sandy,Winter,28.9,71.3,169.2,83.3,53.0,111.9,Powdery Mildew,0.59,13607.4,5.54,1,248.20000000000002,High
+351,Potato,Loamy,Winter,17.8,49.7,0.0,124.2,68.6,118.8,Leaf Blight,0.82,13205.6,5.54,1,311.6,High
+352,Wheat,Clay,Winter,33.9,68.8,239.0,86.7,19.1,226.4,Root Rot,0.95,2155.1,5.14,1,332.20000000000005,Low
+353,Rice,Silty,Summer,17.9,57.4,71.9,117.0,73.2,211.5,Leaf Blight,0.74,3306.7,6.55,1,401.7,Medium
+354,Corn,Clay,Summer,14.1,37.2,136.6,73.4,57.5,148.4,Rust,0.83,3578.0,4.96,1,279.3,Medium
+355,Rice,Clay,Summer,39.2,48.3,37.5,71.4,5.6,68.0,Healthy,0.0,5134.1,5.07,0,145.0,Medium
+356,Rice,Silty,Autumn,23.9,81.4,99.1,128.1,76.4,61.2,Powdery Mildew,0.48,3947.7,7.6,1,265.7,Medium
+357,Wheat,Loamy,Winter,34.8,37.9,230.4,44.9,62.8,138.6,Rust,0.52,2516.0,7.33,1,246.29999999999998,Low
+358,Wheat,Sandy,Winter,21.7,92.5,280.9,32.2,59.6,198.9,Leaf Blight,0.51,3012.5,6.56,1,290.70000000000005,Medium
+359,Wheat,Loamy,Spring,35.9,44.2,33.9,98.6,29.3,83.5,Powdery Mildew,0.53,2591.5,5.37,1,211.39999999999998,Low
+360,Wheat,Clay,Winter,30.7,40.1,231.2,44.8,42.5,187.2,Root Rot,0.81,2017.4,5.07,1,274.5,Low
+361,Wheat,Sandy,Spring,13.8,45.1,294.5,120.4,61.8,211.1,Healthy,0.0,3348.3,7.19,0,393.29999999999995,Medium
+362,Rice,Loamy,Summer,17.5,32.6,212.0,88.3,45.7,148.0,Healthy,0.0,4755.5,7.83,0,282.0,Medium
+363,Potato,Sandy,Spring,25.9,59.2,245.8,85.8,39.1,205.2,Powdery Mildew,0.39,16720.0,6.65,1,330.1,High
+364,Rice,Loamy,Summer,19.6,34.1,290.1,124.7,19.2,186.6,Healthy,0.0,4661.6,8.83,0,330.5,Medium
+365,Rice,Loamy,Spring,12.9,72.8,13.1,141.3,18.4,56.3,Rust,0.35,3765.3,4.95,1,216.0,Medium
+366,Rice,Silty,Winter,25.8,75.6,76.8,61.3,50.4,64.2,Healthy,0.0,3868.0,9.65,0,175.89999999999998,Medium
+367,Rice,Silty,Spring,20.8,78.3,267.1,125.1,64.6,61.7,Root Rot,0.94,3087.7,5.8,1,251.39999999999998,Medium
+368,Potato,Loamy,Spring,38.3,92.4,29.1,111.5,44.9,87.9,Healthy,0.0,21405.8,7.63,0,244.3,Very High
+369,Rice,Silty,Spring,33.0,67.5,202.3,108.4,37.0,70.8,Rust,0.66,2993.0,7.19,1,216.2,Low
+370,Potato,Silty,Autumn,37.1,65.8,299.1,128.3,35.9,176.6,Root Rot,0.55,16337.2,7.62,1,340.8,High
+371,Corn,Silty,Autumn,20.8,59.4,287.9,10.0,7.6,106.9,Rust,0.32,4861.6,4.59,1,124.5,Medium
+372,Rice,Sandy,Autumn,10.7,83.4,206.9,48.6,46.5,161.3,Powdery Mildew,0.11,4927.2,9.31,1,256.4,Medium
+373,Rice,Loamy,Summer,14.2,53.9,174.6,42.6,65.8,68.4,Healthy,0.0,3875.9,7.0,0,176.8,Medium
+374,Rice,Silty,Summer,24.6,88.4,210.9,124.7,12.2,178.5,Healthy,0.0,4801.8,5.19,0,315.4,Medium
+375,Potato,Loamy,Autumn,36.4,58.2,279.1,26.9,62.8,199.5,Root Rot,0.17,16156.7,8.78,1,289.2,High
+376,Wheat,Loamy,Summer,19.8,75.4,46.0,104.3,79.8,244.2,Root Rot,0.15,3314.1,8.37,1,428.29999999999995,Medium
+377,Potato,Silty,Summer,14.0,35.4,171.4,16.9,34.9,67.0,Rust,0.18,18181.0,7.1,1,118.8,High
+378,Rice,Silty,Summer,26.8,94.8,157.3,43.9,25.0,136.0,Leaf Blight,0.53,3224.8,7.08,1,204.9,Medium
+379,Potato,Silty,Winter,21.0,42.4,103.4,101.8,62.7,83.9,Healthy,0.0,17675.2,6.75,0,248.4,High
+380,Tomato,Sandy,Summer,30.6,40.1,218.5,22.0,60.5,98.6,Rust,0.23,23520.7,7.55,1,181.1,Very High
+381,Rice,Clay,Autumn,23.5,31.5,62.7,85.3,20.3,154.7,Powdery Mildew,0.11,4552.1,6.09,1,260.29999999999995,Medium
+382,Tomato,Clay,Winter,27.5,73.1,13.0,33.8,26.3,207.8,Rust,0.76,18633.4,6.25,1,267.9,High
+383,Wheat,Silty,Autumn,29.9,89.3,108.1,25.1,26.9,226.7,Root Rot,0.69,2160.2,5.5,1,278.7,Low
+384,Tomato,Loamy,Winter,36.0,64.6,55.9,80.1,39.3,235.3,Rust,0.98,16049.0,3.61,1,354.7,High
+385,Rice,Sandy,Spring,20.4,52.9,187.6,43.1,78.4,150.3,Rust,0.37,3822.4,8.05,1,271.8,Medium
+386,Corn,Clay,Autumn,16.8,52.2,117.9,29.2,59.7,154.1,Root Rot,0.9,3852.5,6.12,1,243.0,Medium
+387,Rice,Loamy,Autumn,23.5,38.6,195.7,91.3,56.3,90.5,Root Rot,0.32,3515.2,5.14,1,238.1,Medium
+388,Potato,Sandy,Summer,19.5,66.2,284.6,26.6,28.8,225.9,Leaf Blight,0.49,18053.0,7.37,1,281.3,High
+389,Corn,Loamy,Summer,33.4,36.9,55.4,116.7,50.9,103.4,Root Rot,0.97,3167.4,5.56,1,271.0,Medium
+390,Rice,Loamy,Spring,30.6,61.0,150.7,94.7,58.4,124.8,Rust,0.31,4163.6,8.4,1,277.9,Medium
+391,Tomato,Clay,Winter,32.9,31.0,81.0,67.8,60.7,247.6,Root Rot,0.22,24842.3,8.21,1,376.1,Very High
+392,Wheat,Silty,Autumn,36.0,87.7,128.3,118.7,50.6,214.9,Leaf Blight,0.93,2518.2,6.2,1,384.20000000000005,Low
+393,Tomato,Clay,Spring,23.5,83.8,12.7,149.4,43.9,129.1,Rust,0.95,19001.4,6.2,1,322.4,High
+394,Potato,Clay,Summer,18.7,55.9,91.4,125.9,39.6,134.5,Root Rot,0.56,16128.3,6.71,1,300.0,High
+395,Wheat,Silty,Spring,31.7,37.4,233.6,141.3,57.2,77.1,Rust,0.91,2201.7,5.14,1,275.6,Low
+396,Tomato,Sandy,Winter,12.7,51.1,194.6,109.6,17.3,196.7,Healthy,0.0,27109.9,5.46,0,323.59999999999997,Very High
+397,Tomato,Sandy,Winter,26.5,32.9,51.3,56.9,70.3,222.5,Powdery Mildew,0.18,29571.2,5.5,1,349.7,Very High
+398,Rice,Loamy,Autumn,31.9,92.5,86.6,35.3,72.4,242.1,Leaf Blight,0.79,2663.7,3.83,1,349.8,Low
+399,Corn,Silty,Spring,28.2,62.1,65.1,102.3,39.0,138.4,Healthy,0.0,5431.8,8.01,0,279.70000000000005,Medium
+400,Wheat,Sandy,Spring,15.5,33.6,104.7,30.4,7.4,165.6,Leaf Blight,0.89,2104.0,5.88,1,203.39999999999998,Low
+401,Corn,Silty,Summer,14.8,48.5,198.3,108.0,47.9,162.4,Healthy,0.0,4755.9,9.83,0,318.3,Medium
+402,Potato,Loamy,Autumn,21.1,54.6,20.3,69.8,46.3,108.6,Powdery Mildew,0.94,10956.7,4.07,1,224.7,High
+403,Corn,Sandy,Spring,13.3,77.4,188.7,148.2,41.3,187.7,Powdery Mildew,0.57,4277.4,8.02,1,377.2,Medium
+404,Corn,Loamy,Summer,28.4,62.3,218.8,79.7,65.6,226.7,Root Rot,0.65,3845.9,4.96,1,372.0,Medium
+405,Corn,Clay,Summer,34.0,94.9,124.2,56.7,47.0,177.5,Leaf Blight,0.1,4526.0,4.9,1,281.2,Medium
+406,Rice,Loamy,Autumn,33.0,37.4,100.0,65.4,47.7,242.0,Powdery Mildew,0.33,3399.6,8.25,1,355.1,Medium
+407,Rice,Silty,Winter,33.9,72.0,144.4,97.8,71.9,157.4,Powdery Mildew,0.85,3346.3,4.97,1,327.1,Medium
+408,Tomato,Loamy,Autumn,26.7,31.2,173.2,56.4,73.7,209.2,Healthy,0.0,33016.0,5.33,0,339.29999999999995,Very High
+409,Rice,Silty,Summer,27.1,55.3,178.6,131.0,61.4,191.1,Powdery Mildew,0.86,2809.6,4.88,1,383.5,Low
+410,Wheat,Sandy,Autumn,23.6,91.8,64.8,52.3,13.4,207.0,Powdery Mildew,0.47,2839.5,7.64,1,272.7,Low
+411,Wheat,Sandy,Summer,20.2,61.4,262.2,53.5,29.6,203.9,Root Rot,0.56,2959.6,4.57,1,287.0,Low
+412,Potato,Silty,Spring,10.1,90.6,206.1,93.2,11.5,143.4,Leaf Blight,0.28,15290.8,4.79,1,248.10000000000002,High
+413,Potato,Sandy,Autumn,16.0,48.6,159.7,118.2,55.3,104.5,Powdery Mildew,0.12,20516.5,5.58,1,278.0,Very High
+414,Wheat,Clay,Summer,26.3,65.7,81.3,142.1,65.3,164.8,Healthy,0.0,3981.2,5.86,0,372.2,Medium
+415,Corn,Clay,Summer,10.9,88.7,15.1,63.7,11.5,128.4,Rust,0.9,3562.8,6.22,1,203.60000000000002,Medium
+416,Potato,Sandy,Spring,39.2,79.1,139.7,28.5,66.0,233.9,Root Rot,0.65,13967.2,5.91,1,328.4,High
+417,Tomato,Silty,Winter,17.0,44.5,258.3,96.4,73.5,128.4,Powdery Mildew,0.72,22707.1,6.66,1,298.3,Very High
+418,Corn,Silty,Spring,20.5,60.0,51.2,117.5,50.3,75.5,Powdery Mildew,0.51,3761.0,4.67,1,243.3,Medium
+419,Wheat,Loamy,Winter,22.0,56.9,186.3,86.7,78.0,126.8,Powdery Mildew,0.6,2317.6,5.5,1,291.5,Low
+420,Potato,Loamy,Summer,15.2,73.5,221.8,109.7,67.8,72.9,Root Rot,0.81,13257.8,6.04,1,250.4,High
+421,Corn,Loamy,Winter,12.1,37.1,244.2,118.0,33.4,148.9,Rust,0.19,4998.5,7.83,1,300.3,Medium
+422,Wheat,Clay,Summer,29.8,59.4,87.5,96.2,38.5,91.1,Leaf Blight,0.84,2594.0,7.02,1,225.79999999999998,Low
+423,Corn,Silty,Autumn,39.7,67.9,183.4,81.5,68.6,220.5,Rust,0.81,3918.3,4.02,1,370.6,Medium
+424,Potato,Loamy,Spring,35.8,86.3,70.6,108.3,34.6,113.6,Healthy,0.0,17005.1,6.91,0,256.5,High
+425,Tomato,Silty,Summer,15.6,55.0,277.3,127.6,16.6,249.5,Root Rot,0.59,24037.3,6.87,1,393.7,Very High
+426,Rice,Clay,Summer,31.6,61.6,131.0,148.6,11.3,178.4,Healthy,0.0,3921.9,7.08,0,338.3,Medium
+427,Tomato,Silty,Winter,26.6,59.3,106.6,36.0,50.3,165.6,Rust,0.94,19412.2,6.63,1,251.89999999999998,High
+428,Rice,Loamy,Spring,39.3,66.9,211.5,25.8,41.1,188.1,Rust,0.34,4385.5,5.13,1,255.0,Medium
+429,Potato,Clay,Summer,24.2,78.2,288.1,20.9,52.5,209.6,Powdery Mildew,0.52,13835.8,5.54,1,283.0,High
+430,Wheat,Silty,Winter,27.2,51.5,105.9,146.9,27.1,83.5,Powdery Mildew,0.58,2293.5,7.0,1,257.5,Low
+431,Potato,Clay,Winter,27.3,67.2,196.9,50.8,60.3,55.5,Powdery Mildew,0.75,14267.6,5.75,1,166.6,High
+432,Rice,Loamy,Summer,28.5,47.9,77.1,113.8,50.3,232.0,Rust,0.17,4551.0,8.25,1,396.1,Medium
+433,Tomato,Sandy,Winter,15.4,64.3,9.9,147.8,77.6,169.1,Powdery Mildew,0.83,18604.7,6.84,1,394.5,High
+434,Tomato,Silty,Summer,16.3,77.7,103.5,99.9,61.7,73.2,Root Rot,0.79,18906.8,4.45,1,234.8,High
+435,Tomato,Sandy,Winter,30.5,55.4,78.8,84.3,37.6,107.8,Root Rot,0.37,27447.5,7.99,1,229.7,Very High
+436,Tomato,Clay,Spring,37.5,71.4,286.9,70.5,73.9,221.7,Powdery Mildew,0.97,19367.3,4.73,1,366.1,High
+437,Corn,Silty,Winter,33.2,78.7,220.3,92.4,19.6,117.5,Healthy,0.0,5096.3,8.45,0,229.5,Medium
+438,Rice,Clay,Spring,22.3,64.1,205.6,59.2,59.4,100.4,Powdery Mildew,0.59,3616.2,4.26,1,219.0,Medium
+439,Potato,Sandy,Spring,31.2,37.8,256.9,28.2,54.2,230.0,Healthy,0.0,17341.3,7.83,0,312.4,High
+440,Rice,Loamy,Autumn,24.0,90.9,191.6,139.2,25.7,135.4,Healthy,0.0,4764.1,9.52,0,300.29999999999995,Medium
+441,Corn,Clay,Winter,21.7,94.7,77.5,123.8,18.3,63.9,Powdery Mildew,0.25,4317.4,9.15,1,206.0,Medium
+442,Rice,Clay,Summer,26.2,58.0,184.2,24.9,38.1,101.8,Rust,0.45,3851.0,4.48,1,164.8,Medium
+443,Wheat,Clay,Winter,14.5,71.6,279.9,103.0,25.0,190.0,Rust,0.75,2653.8,7.38,1,318.0,Low
+444,Potato,Silty,Winter,23.1,84.9,234.3,120.0,45.5,50.7,Healthy,0.0,20092.3,9.77,0,216.2,Very High
+445,Tomato,Loamy,Autumn,30.5,56.0,189.7,144.2,11.8,156.9,Healthy,0.0,30605.2,9.8,0,312.9,Very High
+446,Wheat,Sandy,Summer,26.6,92.9,198.2,51.8,34.3,71.4,Root Rot,0.78,2256.3,6.47,1,157.5,Low
+447,Tomato,Silty,Summer,14.2,42.6,215.9,93.0,41.7,62.6,Healthy,0.0,33466.9,7.7,0,197.29999999999998,Very High
+448,Corn,Silty,Spring,11.1,33.6,236.3,16.0,13.9,211.4,Root Rot,0.58,4647.6,6.89,1,241.3,Medium
+449,Tomato,Clay,Spring,32.1,61.8,5.7,137.0,51.4,98.5,Rust,0.23,27888.4,7.68,1,286.9,Very High
+450,Wheat,Clay,Winter,28.3,84.3,19.2,124.4,13.6,169.0,Leaf Blight,0.67,2873.0,6.45,1,307.0,Low
+451,Wheat,Silty,Autumn,13.6,74.5,163.8,55.0,77.4,92.6,Leaf Blight,0.48,3092.3,4.48,1,225.0,Medium
+452,Rice,Silty,Summer,30.9,66.0,131.6,139.6,8.1,70.0,Powdery Mildew,0.16,3926.3,8.79,1,217.7,Medium
+453,Potato,Silty,Spring,10.2,41.7,26.7,101.2,71.5,133.2,Root Rot,0.8,11623.8,6.87,1,305.9,High
+454,Tomato,Silty,Winter,17.2,41.3,207.5,93.5,58.8,172.4,Leaf Blight,0.29,27632.5,4.97,1,324.70000000000005,Very High
+455,Corn,Sandy,Spring,39.6,93.5,185.7,130.8,79.0,151.5,Powdery Mildew,0.48,4520.9,6.27,1,361.3,Medium
+456,Rice,Sandy,Winter,24.9,40.4,276.8,17.6,32.3,91.9,Powdery Mildew,0.15,3738.5,5.98,1,141.8,Medium
+457,Potato,Sandy,Summer,33.6,61.5,34.8,135.3,59.1,168.5,Root Rot,0.14,20241.7,6.35,1,362.9,Very High
+458,Rice,Sandy,Spring,17.1,56.8,60.0,134.8,10.5,167.0,Powdery Mildew,0.31,3480.9,4.78,1,312.3,Medium
+459,Tomato,Sandy,Winter,21.2,59.8,58.2,60.2,25.2,117.2,Leaf Blight,0.29,27390.7,4.71,1,202.60000000000002,Very High
+460,Potato,Clay,Winter,23.8,41.1,103.1,134.1,50.3,207.9,Healthy,0.0,18683.6,8.19,0,392.29999999999995,High
+461,Potato,Sandy,Spring,22.4,63.9,258.7,40.3,40.5,142.6,Leaf Blight,0.62,15278.0,4.13,1,223.39999999999998,High
+462,Tomato,Sandy,Summer,37.4,88.4,125.3,16.2,79.3,196.7,Leaf Blight,0.32,25644.0,6.8,1,292.2,Very High
+463,Tomato,Clay,Winter,24.9,35.4,225.9,107.0,35.5,93.6,Rust,0.45,26885.7,5.88,1,236.1,Very High
+464,Rice,Loamy,Summer,31.1,85.8,224.2,13.4,39.1,204.4,Healthy,0.0,3846.5,9.37,0,256.9,Medium
+465,Tomato,Silty,Spring,35.8,34.6,268.0,56.6,7.5,135.2,Leaf Blight,0.81,19491.6,4.81,1,199.29999999999998,High
+466,Potato,Clay,Autumn,32.1,33.6,283.6,104.5,71.6,72.2,Rust,0.62,13718.6,5.56,1,248.3,High
+467,Potato,Sandy,Spring,26.8,80.3,41.5,56.9,45.5,179.8,Healthy,0.0,19193.4,8.69,0,282.20000000000005,High
+468,Potato,Loamy,Autumn,36.9,62.7,126.9,17.6,33.0,140.5,Leaf Blight,0.78,14836.9,5.75,1,191.1,High
+469,Wheat,Loamy,Winter,28.6,82.0,283.6,123.2,75.6,63.1,Root Rot,0.74,2595.8,7.36,1,261.90000000000003,Low
+470,Tomato,Sandy,Autumn,38.7,35.0,49.4,25.7,16.1,80.1,Healthy,0.0,26221.5,6.02,0,121.89999999999999,Very High
+471,Wheat,Sandy,Winter,20.4,58.9,193.4,50.8,9.7,224.4,Powdery Mildew,0.47,2997.5,5.29,1,284.9,Low
+472,Potato,Loamy,Winter,27.8,75.3,252.6,72.3,27.8,76.4,Powdery Mildew,0.47,15474.1,7.69,1,176.5,High
+473,Rice,Loamy,Spring,14.5,48.5,286.9,96.6,17.1,157.1,Powdery Mildew,0.3,3807.8,5.38,1,270.79999999999995,Medium
+474,Rice,Loamy,Summer,23.2,54.0,61.5,109.0,54.9,245.6,Leaf Blight,0.25,3584.6,5.31,1,409.5,Medium
+475,Tomato,Clay,Spring,22.1,62.5,43.6,74.1,29.0,50.9,Rust,0.98,18424.1,6.14,1,154.0,High
+476,Potato,Loamy,Summer,34.0,77.4,276.7,57.4,13.4,145.8,Powdery Mildew,0.68,13667.0,4.14,1,216.60000000000002,High
+477,Potato,Silty,Summer,23.4,36.0,16.5,99.8,48.8,94.4,Healthy,0.0,18848.5,9.68,0,243.0,High
+478,Corn,Silty,Spring,39.3,55.6,147.1,94.4,43.4,61.2,Leaf Blight,0.12,5296.3,8.03,1,199.0,Medium
+479,Tomato,Silty,Autumn,10.4,52.4,92.4,72.4,47.1,93.1,Leaf Blight,0.74,20661.5,7.34,1,212.6,Very High
+480,Tomato,Silty,Winter,14.2,68.2,25.8,39.1,40.6,223.5,Root Rot,0.36,28034.9,8.86,1,303.2,Very High
+481,Wheat,Silty,Autumn,22.4,66.1,213.1,115.7,15.3,87.2,Rust,0.78,2110.7,5.29,1,218.2,Low
+482,Potato,Loamy,Winter,26.8,60.1,8.1,10.3,24.7,241.2,Root Rot,0.14,20727.9,8.79,1,276.2,Very High
+483,Tomato,Loamy,Winter,15.4,88.9,193.4,14.0,62.4,148.6,Healthy,0.0,31384.3,9.85,0,225.0,Very High
+484,Potato,Loamy,Winter,39.2,83.2,112.0,112.6,6.3,101.9,Powdery Mildew,0.62,15335.9,6.44,1,220.8,High
+485,Rice,Loamy,Summer,11.6,53.5,190.9,143.7,8.7,108.3,Powdery Mildew,0.51,3789.7,6.94,1,260.7,Medium
+486,Wheat,Clay,Summer,26.3,86.7,248.0,105.9,27.6,187.1,Rust,0.27,3241.9,7.76,1,320.6,Medium
+487,Wheat,Clay,Summer,25.5,54.2,145.5,57.6,73.3,70.5,Rust,0.62,2887.3,4.7,1,201.4,Low
+488,Rice,Clay,Winter,23.8,35.0,245.7,139.3,41.0,112.3,Leaf Blight,0.82,3077.2,5.14,1,292.6,Medium
+489,Tomato,Sandy,Autumn,10.9,82.9,66.7,130.0,15.7,95.3,Rust,0.57,26426.3,4.66,1,241.0,Very High
+490,Rice,Clay,Spring,10.6,61.5,129.4,37.5,7.5,182.0,Healthy,0.0,4398.5,7.97,0,227.0,Medium
+491,Tomato,Clay,Spring,19.0,30.7,29.0,27.3,50.1,167.5,Healthy,0.0,33676.8,6.0,0,244.9,Very High
+492,Corn,Loamy,Autumn,20.6,85.6,234.2,95.8,42.9,63.7,Healthy,0.0,4824.8,9.1,0,202.39999999999998,Medium
+493,Wheat,Loamy,Summer,37.0,64.9,292.1,23.8,21.1,150.8,Rust,0.3,2795.0,7.77,1,195.70000000000002,Low
+494,Corn,Clay,Summer,35.0,93.8,127.2,82.0,35.6,202.3,Rust,0.27,5161.4,6.04,1,319.9,Medium
+495,Tomato,Silty,Autumn,31.1,66.2,12.2,55.9,13.7,106.7,Healthy,0.0,30177.5,8.0,0,176.3,Very High
+496,Corn,Silty,Summer,35.7,88.2,240.7,141.5,32.6,52.6,Root Rot,0.3,4705.4,7.62,1,226.7,Medium
+497,Wheat,Clay,Spring,14.3,56.0,177.2,24.2,74.4,245.6,Root Rot,0.49,2947.8,4.54,1,344.2,Low
+498,Rice,Silty,Spring,17.0,57.6,149.7,117.1,62.4,168.7,Powdery Mildew,0.28,4408.4,8.04,1,348.2,Medium
+499,Tomato,Silty,Winter,25.3,39.6,136.4,27.1,41.7,96.2,Powdery Mildew,0.53,24371.6,8.17,1,165.0,Very High
+500,Wheat,Clay,Winter,30.3,93.2,114.8,105.1,16.5,174.4,Healthy,0.0,3749.7,5.48,0,296.0,Medium
+501,Wheat,Sandy,Autumn,29.9,61.9,78.5,58.1,69.5,159.3,Rust,0.79,2604.2,7.45,1,286.9,Low
+502,Wheat,Silty,Autumn,35.6,58.8,10.8,34.8,54.5,205.9,Root Rot,0.89,1996.5,6.91,1,295.2,Low
+503,Rice,Silty,Winter,32.9,67.0,147.2,87.5,45.5,144.0,Root Rot,0.49,3414.4,6.66,1,277.0,Medium
+504,Rice,Silty,Autumn,33.0,48.5,18.4,92.7,14.6,123.3,Rust,0.15,3929.7,8.64,1,230.6,Medium
+505,Potato,Loamy,Winter,12.9,52.4,107.2,59.2,54.6,99.5,Healthy,0.0,21591.2,8.24,0,213.3,Very High
+506,Potato,Clay,Autumn,13.4,41.0,161.5,15.2,54.3,134.5,Healthy,0.0,22462.3,7.57,0,204.0,Very High
+507,Tomato,Clay,Autumn,21.3,55.4,171.8,123.2,12.5,185.0,Powdery Mildew,0.12,28300.4,6.44,1,320.7,Very High
+508,Potato,Silty,Summer,24.9,85.1,236.1,127.7,45.2,107.5,Powdery Mildew,0.25,16917.4,4.84,1,280.4,High
+509,Potato,Clay,Spring,27.8,47.8,169.9,84.3,37.0,119.5,Root Rot,0.82,13942.3,4.06,1,240.8,High
+510,Corn,Loamy,Summer,22.4,46.3,154.6,104.0,46.1,226.2,Rust,0.82,3621.6,6.14,1,376.29999999999995,Medium
+511,Potato,Silty,Autumn,38.1,64.6,184.3,117.7,37.5,163.2,Leaf Blight,0.62,13744.8,6.62,1,318.4,High
+512,Potato,Sandy,Autumn,35.3,56.7,258.1,137.6,52.5,219.2,Leaf Blight,0.43,14810.0,5.52,1,409.29999999999995,High
+513,Corn,Silty,Summer,13.4,42.5,73.7,125.8,39.8,162.0,Leaf Blight,0.33,4919.0,6.47,1,327.6,Medium
+514,Wheat,Loamy,Autumn,29.8,41.4,255.8,144.9,41.4,54.0,Leaf Blight,0.24,2818.9,8.63,1,240.3,Low
+515,Wheat,Silty,Autumn,30.2,87.6,119.1,127.6,68.2,97.2,Powdery Mildew,0.64,2890.8,6.35,1,293.0,Low
+516,Potato,Loamy,Winter,36.5,45.5,36.7,122.9,29.7,166.9,Healthy,0.0,20131.7,6.95,0,319.5,Very High
+517,Rice,Sandy,Autumn,23.2,46.5,176.8,78.7,33.1,239.7,Root Rot,0.3,3492.9,5.99,1,351.5,Medium
+518,Tomato,Sandy,Autumn,24.3,53.9,92.5,100.4,72.9,57.0,Root Rot,0.71,24465.6,6.84,1,230.3,Very High
+519,Wheat,Loamy,Spring,26.0,45.4,132.7,11.1,77.1,235.5,Leaf Blight,0.33,2932.9,8.64,1,323.7,Low
+520,Corn,Sandy,Autumn,16.3,87.9,274.8,98.4,71.0,203.3,Healthy,0.0,6219.9,7.03,0,372.70000000000005,Medium
+521,Wheat,Silty,Winter,32.1,90.2,99.8,69.1,73.9,70.1,Powdery Mildew,0.88,2487.9,4.27,1,213.1,Low
+522,Corn,Loamy,Winter,30.9,79.5,192.4,35.7,38.3,178.2,Rust,0.16,5025.8,4.77,1,252.2,Medium
+523,Rice,Sandy,Summer,25.5,93.0,249.2,116.8,68.5,187.2,Powdery Mildew,0.38,3337.7,7.94,1,372.5,Medium
+524,Corn,Loamy,Summer,30.6,83.7,239.9,37.8,36.1,86.4,Root Rot,0.53,4639.8,7.89,1,160.3,Medium
+525,Potato,Sandy,Spring,39.2,42.9,210.4,33.6,35.1,135.8,Leaf Blight,0.12,16315.2,6.07,1,204.5,High
+526,Wheat,Clay,Winter,33.2,90.3,248.2,79.2,21.8,90.6,Powdery Mildew,0.25,3213.5,9.0,1,191.6,Medium
+527,Corn,Silty,Summer,28.0,94.7,84.9,104.8,36.4,131.7,Powdery Mildew,0.77,3671.4,4.41,1,272.9,Medium
+528,Corn,Sandy,Autumn,27.5,72.1,25.7,75.6,70.4,244.9,Powdery Mildew,0.31,4747.1,6.34,1,390.9,Medium
+529,Rice,Loamy,Spring,12.9,33.8,99.9,42.9,73.1,249.3,Root Rot,0.74,3392.4,7.54,1,365.3,Medium
+530,Potato,Silty,Autumn,39.3,73.6,39.7,134.9,8.1,85.9,Healthy,0.0,17032.2,5.85,0,228.9,High
+531,Tomato,Loamy,Winter,14.3,37.6,13.2,27.9,70.4,217.0,Powdery Mildew,0.89,17186.6,6.41,1,315.3,High
+532,Tomato,Loamy,Autumn,23.1,40.7,221.1,78.8,76.3,161.1,Powdery Mildew,0.91,17724.7,6.99,1,316.2,High
+533,Tomato,Clay,Summer,15.5,60.6,49.1,75.4,13.7,229.0,Healthy,0.0,27200.3,7.47,0,318.1,Very High
+534,Tomato,Silty,Winter,13.4,76.8,44.4,58.9,20.3,106.8,Powdery Mildew,0.99,18450.8,6.45,1,186.0,High
+535,Potato,Sandy,Spring,25.8,67.1,124.9,20.8,62.6,185.4,Powdery Mildew,0.61,15860.0,7.71,1,268.8,High
+536,Wheat,Silty,Autumn,27.7,91.8,251.1,31.5,11.1,216.1,Powdery Mildew,0.71,2641.8,6.53,1,258.7,Low
+537,Tomato,Clay,Winter,19.7,77.6,220.3,144.0,47.7,92.3,Powdery Mildew,0.63,19113.1,4.25,1,284.0,High
+538,Corn,Silty,Spring,22.0,41.6,289.5,131.2,11.7,220.5,Powdery Mildew,0.82,3966.3,4.38,1,363.4,Medium
+539,Tomato,Sandy,Spring,19.0,82.1,220.8,139.0,72.8,170.7,Powdery Mildew,0.68,24817.4,5.41,1,382.5,Very High
+540,Wheat,Silty,Winter,18.1,69.0,27.1,69.2,32.6,87.3,Powdery Mildew,0.56,2707.5,6.78,1,189.10000000000002,Low
+541,Wheat,Silty,Summer,29.4,76.4,279.2,83.8,53.5,66.8,Healthy,0.0,3514.0,7.34,0,204.10000000000002,Medium
+542,Wheat,Loamy,Summer,25.7,49.2,14.3,20.7,8.4,71.5,Root Rot,0.37,3415.2,6.33,1,100.6,Medium
+543,Wheat,Loamy,Autumn,17.6,35.3,151.0,26.0,54.6,85.9,Root Rot,0.69,2586.1,4.69,1,166.5,Low
+544,Tomato,Loamy,Autumn,27.6,59.6,201.1,97.3,24.9,243.3,Healthy,0.0,26249.6,9.36,0,365.5,Very High
+545,Rice,Loamy,Spring,23.0,31.2,118.5,11.9,54.2,142.0,Leaf Blight,0.27,4311.5,6.46,1,208.10000000000002,Medium
+546,Potato,Loamy,Winter,34.1,35.7,40.5,36.7,66.2,189.2,Root Rot,0.37,18640.7,5.28,1,292.1,High
+547,Wheat,Sandy,Winter,35.3,85.8,161.6,22.1,62.7,79.6,Leaf Blight,0.53,2464.4,5.98,1,164.4,Low
+548,Wheat,Silty,Winter,24.1,85.9,175.6,38.2,47.7,216.8,Leaf Blight,0.91,2385.5,3.82,1,302.70000000000005,Low
+549,Wheat,Silty,Winter,35.5,77.9,178.8,87.6,26.8,147.5,Healthy,0.0,3636.9,7.43,0,261.9,Medium
+550,Potato,Silty,Summer,31.4,64.3,126.6,54.2,9.8,228.6,Rust,0.94,13996.6,5.09,1,292.6,High
+551,Tomato,Loamy,Winter,30.9,31.4,86.4,36.9,30.8,96.4,Healthy,0.0,29953.1,6.1,0,164.10000000000002,Very High
+552,Corn,Silty,Summer,36.5,77.0,117.1,68.4,75.6,180.5,Rust,0.87,3817.5,5.03,1,324.5,Medium
+553,Tomato,Clay,Winter,13.9,43.0,181.7,24.1,36.2,248.8,Leaf Blight,0.66,20639.0,5.23,1,309.1,Very High
+554,Rice,Loamy,Autumn,30.3,41.4,257.8,80.5,65.5,117.5,Rust,0.14,3633.9,5.34,1,263.5,Medium
+555,Rice,Silty,Autumn,39.8,81.0,230.8,117.8,46.8,229.3,Healthy,0.0,4583.7,9.27,0,393.9,Medium
+556,Potato,Silty,Winter,38.9,79.1,292.4,119.4,50.7,221.7,Rust,0.7,15291.7,4.35,1,391.8,High
+557,Potato,Sandy,Spring,36.1,89.2,47.1,50.9,38.1,151.2,Healthy,0.0,20043.8,8.66,0,240.2,Very High
+558,Wheat,Sandy,Spring,35.5,58.5,124.7,117.7,23.4,211.8,Leaf Blight,0.68,2421.6,5.34,1,352.9,Low
+559,Potato,Silty,Autumn,28.9,46.0,226.0,84.2,64.0,77.6,Leaf Blight,0.18,17849.7,6.76,1,225.79999999999998,High
+560,Tomato,Loamy,Spring,23.3,80.1,215.3,82.4,10.2,117.7,Root Rot,0.96,18569.6,4.99,1,210.3,High
+561,Rice,Sandy,Spring,39.3,93.7,239.7,132.6,77.9,133.9,Root Rot,0.16,4539.5,8.98,1,344.4,Medium
+562,Potato,Loamy,Spring,34.8,88.5,183.1,30.6,35.3,178.8,Powdery Mildew,0.75,13217.5,7.31,1,244.70000000000002,High
+563,Potato,Silty,Summer,36.4,35.5,161.2,64.6,58.9,226.0,Rust,0.69,15337.8,6.03,1,349.5,High
+564,Potato,Loamy,Autumn,32.7,40.4,8.4,121.5,49.4,98.3,Powdery Mildew,0.29,17741.9,8.1,1,269.2,High
+565,Tomato,Loamy,Autumn,28.8,53.0,14.3,101.1,14.4,109.6,Rust,0.2,23956.4,8.16,1,225.1,Very High
+566,Tomato,Sandy,Autumn,19.0,73.3,244.5,90.2,15.5,125.5,Powdery Mildew,0.98,19911.1,6.13,1,231.2,High
+567,Wheat,Loamy,Winter,12.9,76.3,248.5,21.5,9.7,227.7,Powdery Mildew,0.56,2465.5,6.14,1,258.9,Low
+568,Tomato,Silty,Winter,36.2,68.0,190.9,149.5,56.7,239.6,Healthy,0.0,28823.6,8.66,0,445.79999999999995,Very High
+569,Tomato,Silty,Summer,39.0,63.4,158.7,107.2,39.2,56.5,Leaf Blight,0.23,24192.9,5.39,1,202.9,Very High
+570,Potato,Silty,Spring,13.6,67.2,12.1,31.5,32.9,248.2,Powdery Mildew,0.93,11123.5,4.7,1,312.6,High
+571,Tomato,Sandy,Winter,11.5,88.1,266.7,40.2,66.4,147.8,Healthy,0.0,32620.8,5.61,0,254.40000000000003,Very High
+572,Corn,Silty,Winter,27.2,66.8,270.1,119.4,40.6,194.0,Healthy,0.0,6111.2,8.03,0,354.0,Medium
+573,Rice,Silty,Summer,36.0,51.1,239.9,103.0,35.7,96.6,Rust,0.67,3552.6,5.57,1,235.29999999999998,Medium
+574,Potato,Silty,Autumn,29.4,86.3,212.2,90.1,64.7,191.5,Healthy,0.0,22748.5,7.81,0,346.3,Very High
+575,Wheat,Clay,Summer,32.5,62.7,5.6,102.2,44.9,242.5,Rust,0.18,3691.5,6.03,1,389.6,Medium
+576,Rice,Silty,Spring,34.2,69.4,120.5,16.3,69.6,54.7,Leaf Blight,0.85,3272.0,5.35,1,140.6,Medium
+577,Tomato,Loamy,Winter,17.7,37.5,29.8,33.5,15.8,101.1,Healthy,0.0,33236.8,5.45,0,150.39999999999998,Very High
+578,Corn,Loamy,Summer,10.8,33.8,117.0,54.8,36.0,114.8,Root Rot,0.71,3416.9,5.41,1,205.6,Medium
+579,Wheat,Sandy,Winter,25.3,62.8,284.8,47.7,28.9,160.6,Healthy,0.0,3187.7,5.33,0,237.2,Medium
+580,Wheat,Clay,Autumn,26.6,68.1,30.5,116.8,53.9,75.1,Root Rot,0.67,2880.0,6.27,1,245.79999999999998,Low
+581,Tomato,Sandy,Summer,21.2,94.0,234.6,85.3,36.8,232.3,Healthy,0.0,33116.5,7.26,0,354.4,Very High
+582,Wheat,Sandy,Spring,11.8,89.9,82.0,45.1,56.0,249.8,Root Rot,0.97,2219.6,6.53,1,350.9,Low
+583,Rice,Sandy,Spring,19.0,55.7,36.9,29.6,46.7,105.9,Rust,0.86,2758.3,5.31,1,182.20000000000002,Low
+584,Potato,Loamy,Autumn,39.4,76.0,81.9,102.7,29.1,92.1,Rust,0.96,11648.5,6.97,1,223.9,High
+585,Corn,Sandy,Spring,28.3,30.3,2.9,34.3,46.7,189.3,Healthy,0.0,6183.1,7.44,0,270.3,Medium
+586,Tomato,Clay,Spring,36.8,83.0,133.6,27.3,77.9,125.3,Rust,0.17,31119.9,7.6,1,230.5,Very High
+587,Tomato,Clay,Spring,23.9,90.9,133.4,41.0,6.5,106.2,Leaf Blight,0.86,21521.3,7.13,1,153.7,Very High
+588,Corn,Loamy,Summer,17.0,62.1,108.9,49.3,72.8,191.4,Leaf Blight,0.18,5277.7,5.72,1,313.5,Medium
+589,Rice,Silty,Summer,26.6,72.9,169.7,105.5,47.4,63.1,Root Rot,0.2,3863.5,5.3,1,216.0,Medium
+590,Wheat,Sandy,Autumn,15.8,74.1,297.6,107.0,45.0,100.6,Leaf Blight,0.33,3101.7,7.03,1,252.6,Medium
+591,Tomato,Clay,Autumn,23.0,94.7,82.2,105.2,40.0,122.3,Healthy,0.0,33941.0,8.8,0,267.5,Very High
+592,Rice,Silty,Winter,19.5,55.5,100.4,133.2,65.6,248.1,Healthy,0.0,4200.2,6.13,0,446.9,Medium
+593,Tomato,Sandy,Summer,19.9,34.1,187.6,13.9,37.4,54.8,Healthy,0.0,33753.0,8.99,0,106.1,Very High
+594,Corn,Loamy,Spring,34.6,63.8,71.0,20.2,50.0,137.7,Powdery Mildew,0.32,4758.0,4.95,1,207.89999999999998,Medium
+595,Tomato,Clay,Winter,19.4,85.1,19.5,27.9,73.9,138.4,Rust,0.21,31392.0,6.1,1,240.20000000000002,Very High
+596,Tomato,Clay,Spring,18.8,54.8,28.7,115.3,22.5,169.9,Healthy,0.0,26416.4,8.3,0,307.70000000000005,Very High
+597,Wheat,Clay,Autumn,29.5,73.9,7.8,82.4,49.1,71.6,Root Rot,0.45,3124.1,4.38,1,203.1,Medium
+598,Wheat,Sandy,Autumn,20.7,61.3,186.3,36.0,15.3,58.8,Rust,0.81,2148.5,4.27,1,110.1,Low
+599,Potato,Loamy,Autumn,27.5,65.2,43.7,75.7,50.2,108.2,Root Rot,0.56,16226.3,8.2,1,234.10000000000002,High
+600,Potato,Sandy,Spring,22.7,42.7,60.1,137.2,63.9,118.3,Rust,0.69,12936.1,6.61,1,319.4,High
+601,Tomato,Loamy,Autumn,22.6,40.5,136.3,120.5,8.2,93.9,Rust,0.72,23615.7,3.93,1,222.6,Very High
+602,Rice,Silty,Autumn,34.2,54.4,120.1,125.7,5.5,52.0,Leaf Blight,0.52,3257.3,5.73,1,183.2,Medium
+603,Potato,Silty,Summer,28.9,89.3,108.0,146.5,19.9,106.8,Healthy,0.0,17854.4,6.09,0,273.2,High
+604,Corn,Sandy,Summer,10.6,84.8,273.2,12.9,55.8,125.8,Leaf Blight,0.41,4673.2,7.84,1,194.5,Medium
+605,Wheat,Sandy,Autumn,34.3,73.0,282.3,146.8,79.8,226.3,Powdery Mildew,0.94,2056.3,6.74,1,452.90000000000003,Low
+606,Wheat,Sandy,Summer,15.8,54.6,112.3,93.9,78.3,98.9,Healthy,0.0,3126.7,5.23,0,271.1,Medium
+607,Potato,Sandy,Autumn,17.4,70.9,84.0,27.7,43.1,166.8,Rust,0.27,18029.8,6.84,1,237.60000000000002,High
+608,Wheat,Sandy,Winter,32.5,71.9,152.7,79.8,39.8,114.4,Root Rot,0.81,2447.5,5.2,1,234.0,Low
+609,Tomato,Clay,Summer,16.6,43.2,259.0,65.4,27.9,227.7,Root Rot,0.53,24215.8,6.61,1,321.0,Very High
+610,Corn,Clay,Autumn,23.3,52.9,175.2,75.1,51.6,135.2,Powdery Mildew,0.6,3721.5,6.02,1,261.9,Medium
+611,Tomato,Silty,Spring,15.4,45.2,193.6,60.3,11.2,218.5,Powdery Mildew,0.82,19053.3,5.7,1,290.0,High
+612,Wheat,Clay,Autumn,11.1,43.0,59.0,56.1,27.7,213.1,Powdery Mildew,0.93,1933.2,6.07,1,296.9,Low
+613,Corn,Loamy,Spring,33.1,48.3,104.0,149.6,75.9,214.4,Leaf Blight,0.74,4450.5,6.84,1,439.9,Medium
+614,Wheat,Sandy,Winter,16.8,77.0,63.0,42.7,49.0,160.5,Root Rot,0.69,2905.9,5.82,1,252.2,Low
+615,Tomato,Sandy,Winter,33.1,75.4,62.9,73.0,46.9,124.9,Powdery Mildew,0.81,19142.7,5.97,1,244.8,High
+616,Rice,Loamy,Autumn,16.8,57.7,225.8,116.8,56.8,109.9,Powdery Mildew,0.95,2379.6,5.67,1,283.5,Low
+617,Potato,Sandy,Autumn,27.0,81.9,274.1,90.3,34.3,126.3,Healthy,0.0,22532.9,9.74,0,250.89999999999998,Very High
+618,Wheat,Loamy,Winter,29.2,49.8,51.4,104.5,18.3,215.3,Rust,0.45,2848.3,6.93,1,338.1,Low
+619,Wheat,Silty,Autumn,16.2,48.9,157.3,73.7,32.6,52.2,Leaf Blight,0.28,3491.5,6.08,1,158.5,Medium
+620,Tomato,Silty,Winter,32.3,55.3,271.1,38.9,70.3,112.0,Root Rot,0.24,23953.0,8.44,1,221.2,Very High
+621,Tomato,Sandy,Winter,18.3,30.5,42.8,19.0,34.9,211.5,Leaf Blight,0.64,25260.6,6.16,1,265.4,Very High
+622,Potato,Clay,Autumn,29.4,89.7,104.0,128.0,64.4,128.2,Root Rot,0.51,16283.6,7.72,1,320.6,High
+623,Rice,Silty,Winter,21.5,72.8,209.6,23.4,57.4,58.7,Root Rot,0.32,4394.8,8.52,1,139.5,Medium
+624,Rice,Clay,Summer,37.3,56.7,228.6,27.0,32.7,201.1,Powdery Mildew,0.89,2930.8,5.51,1,260.8,Low
+625,Corn,Clay,Winter,10.8,71.5,202.7,74.7,30.8,129.9,Root Rot,0.51,4053.3,5.06,1,235.4,Medium
+626,Wheat,Sandy,Autumn,30.1,60.2,138.4,21.6,54.3,192.7,Healthy,0.0,3238.1,7.19,0,268.6,Medium
+627,Tomato,Clay,Spring,15.3,38.1,222.4,33.6,55.4,52.2,Powdery Mildew,0.86,17735.2,4.72,1,141.2,High
+628,Tomato,Sandy,Winter,30.9,84.4,243.5,99.7,58.7,229.4,Powdery Mildew,0.26,28609.0,6.41,1,387.8,Very High
+629,Corn,Silty,Summer,37.9,54.4,71.6,22.8,36.6,247.9,Root Rot,0.15,4401.7,6.38,1,307.3,Medium
+630,Rice,Clay,Summer,31.7,32.9,153.8,124.2,29.2,175.4,Healthy,0.0,4122.8,8.12,0,328.8,Medium
+631,Potato,Sandy,Spring,20.7,41.3,120.6,54.3,34.2,141.8,Root Rot,0.95,10989.4,3.81,1,230.3,High
+632,Corn,Sandy,Winter,19.0,68.9,294.9,24.3,45.2,248.1,Rust,0.43,3962.9,8.06,1,317.6,Medium
+633,Rice,Silty,Summer,20.0,71.3,265.2,54.5,68.9,146.4,Powdery Mildew,0.96,2855.0,4.75,1,269.8,Low
+634,Potato,Sandy,Spring,17.0,70.1,269.0,53.2,60.3,201.4,Rust,0.5,16052.9,6.88,1,314.9,High
+635,Wheat,Sandy,Winter,16.1,32.5,277.0,93.7,75.9,197.9,Leaf Blight,0.44,2708.0,5.77,1,367.5,Low
+636,Corn,Silty,Autumn,32.5,44.9,219.9,58.0,20.4,60.8,Powdery Mildew,0.68,4316.9,7.63,1,139.2,Medium
+637,Rice,Loamy,Summer,23.3,30.4,261.0,19.8,19.4,176.9,Leaf Blight,0.65,3211.6,4.59,1,216.10000000000002,Medium
+638,Rice,Sandy,Summer,25.2,57.7,140.1,33.0,19.8,134.8,Leaf Blight,0.18,4292.0,7.6,1,187.60000000000002,Medium
+639,Corn,Sandy,Autumn,35.9,61.3,285.3,60.3,33.3,144.1,Powdery Mildew,0.62,4716.4,5.79,1,237.7,Medium
+640,Potato,Silty,Spring,32.9,57.8,25.0,136.9,27.5,157.4,Root Rot,0.78,15079.3,5.95,1,321.8,High
+641,Rice,Loamy,Winter,26.9,61.3,100.0,110.1,19.7,233.2,Powdery Mildew,0.44,3492.0,4.36,1,363.0,Medium
+642,Potato,Silty,Autumn,21.5,50.0,296.3,20.0,71.4,248.5,Powdery Mildew,0.54,17682.5,4.71,1,339.9,High
+643,Potato,Loamy,Autumn,25.3,61.8,206.5,107.5,53.8,235.3,Leaf Blight,0.27,17499.1,7.98,1,396.6,High
+644,Rice,Clay,Summer,17.8,59.6,204.3,45.6,50.2,240.4,Root Rot,0.13,4666.7,8.85,1,336.20000000000005,Medium
+645,Wheat,Silty,Winter,31.2,93.3,24.1,137.4,70.7,83.2,Healthy,0.0,3784.5,7.13,0,291.3,Medium
+646,Corn,Silty,Autumn,32.0,78.9,277.3,131.7,13.2,164.5,Rust,0.97,3526.0,6.37,1,309.4,Medium
+647,Rice,Silty,Autumn,10.2,40.9,147.5,23.6,63.0,133.6,Powdery Mildew,0.77,3515.7,5.45,1,220.2,Medium
+648,Corn,Sandy,Summer,24.6,62.7,33.1,89.4,20.9,90.2,Root Rot,0.25,4763.9,8.09,1,200.5,Medium
+649,Rice,Silty,Spring,36.1,40.8,87.9,62.9,25.8,118.4,Powdery Mildew,0.98,3041.0,5.6,1,207.10000000000002,Medium
+650,Tomato,Clay,Autumn,32.6,30.5,174.7,148.3,12.3,154.5,Root Rot,0.71,18907.6,3.96,1,315.1,High
+651,Potato,Silty,Winter,32.7,69.3,101.0,105.5,30.7,113.0,Rust,0.99,13027.2,4.36,1,249.2,High
+652,Corn,Loamy,Autumn,34.2,30.2,261.2,66.3,67.7,235.0,Root Rot,0.44,3930.0,4.45,1,369.0,Medium
+653,Wheat,Sandy,Autumn,23.6,74.6,261.0,82.1,54.5,50.6,Rust,0.35,3189.9,7.33,1,187.2,Medium
+654,Corn,Clay,Autumn,30.3,45.2,145.4,113.5,64.5,119.7,Healthy,0.0,5720.7,9.7,0,297.7,Medium
+655,Tomato,Loamy,Summer,31.4,86.5,262.9,119.9,58.7,56.3,Healthy,0.0,32108.5,7.49,0,234.90000000000003,Very High
+656,Wheat,Silty,Summer,36.9,92.1,144.7,85.7,23.3,84.1,Powdery Mildew,0.85,2653.9,7.24,1,193.1,Low
+657,Wheat,Clay,Summer,37.9,51.2,115.0,49.3,58.9,183.2,Healthy,0.0,3431.6,9.76,0,291.4,Medium
+658,Wheat,Silty,Spring,33.9,51.6,67.1,90.6,74.3,62.9,Leaf Blight,0.93,2286.1,4.84,1,227.79999999999998,Low
+659,Tomato,Sandy,Summer,17.8,48.9,33.4,57.6,49.4,87.6,Rust,0.97,18012.8,6.88,1,194.6,High
+660,Potato,Silty,Spring,19.3,68.4,57.0,64.3,36.8,204.3,Powdery Mildew,0.21,17294.3,8.42,1,305.4,High
+661,Rice,Clay,Winter,10.3,85.4,94.8,124.3,27.3,93.8,Rust,0.7,3328.2,6.64,1,245.39999999999998,Medium
+662,Rice,Clay,Autumn,19.3,94.4,37.0,149.6,58.0,145.7,Rust,0.36,4137.5,8.16,1,353.29999999999995,Medium
+663,Tomato,Loamy,Summer,34.8,43.7,219.8,123.5,57.5,60.5,Powdery Mildew,0.73,20454.4,7.28,1,241.5,Very High
+664,Rice,Sandy,Spring,26.4,51.9,203.4,148.6,61.8,128.2,Root Rot,0.75,2960.2,5.92,1,338.59999999999997,Low
+665,Corn,Silty,Spring,13.9,78.9,174.1,122.7,68.7,191.9,Powdery Mildew,0.73,3537.8,5.69,1,383.3,Medium
+666,Rice,Loamy,Summer,16.3,82.3,58.7,101.2,32.2,221.2,Rust,0.22,4345.3,5.15,1,354.6,Medium
+667,Rice,Sandy,Spring,12.9,93.3,53.9,17.3,78.5,180.0,Root Rot,0.96,2711.4,5.67,1,275.8,Low
+668,Rice,Silty,Winter,19.1,68.8,51.7,114.3,63.2,248.2,Root Rot,0.32,3475.3,7.55,1,425.7,Medium
+669,Wheat,Loamy,Winter,21.0,37.8,24.8,78.5,55.2,151.9,Root Rot,0.88,2370.3,3.76,1,285.6,Low
+670,Potato,Clay,Summer,21.5,95.0,210.8,51.8,14.4,115.0,Rust,0.53,16675.9,7.21,1,181.2,High
+671,Potato,Silty,Winter,11.9,84.4,161.7,124.6,53.9,200.7,Leaf Blight,0.46,17302.8,5.2,1,379.2,High
+672,Wheat,Clay,Winter,34.0,38.0,38.6,38.9,17.1,162.5,Leaf Blight,0.88,2400.8,6.81,1,218.5,Low
+673,Wheat,Loamy,Autumn,39.0,41.2,293.1,102.1,23.6,59.2,Healthy,0.0,4003.9,9.73,0,184.89999999999998,Medium
+674,Corn,Loamy,Autumn,28.2,63.2,206.4,102.8,8.4,57.3,Rust,0.5,4501.7,4.85,1,168.5,Medium
+675,Rice,Loamy,Autumn,13.9,70.5,22.3,45.7,33.6,230.7,Leaf Blight,0.64,3062.8,5.66,1,310.0,Medium
+676,Wheat,Sandy,Summer,12.1,77.6,298.6,107.6,19.4,124.4,Powdery Mildew,0.71,2836.9,6.52,1,251.4,Low
+677,Potato,Loamy,Winter,21.4,92.7,74.2,47.8,44.9,186.8,Rust,0.25,19736.5,6.51,1,279.5,High
+678,Corn,Loamy,Autumn,14.4,81.9,82.1,23.7,78.5,94.4,Healthy,0.0,5273.7,9.76,0,196.60000000000002,Medium
+679,Wheat,Silty,Spring,25.9,75.5,259.6,87.2,50.6,229.3,Leaf Blight,0.57,3006.4,4.85,1,367.1,Medium
+680,Tomato,Silty,Winter,27.8,46.8,206.0,109.9,54.3,78.5,Leaf Blight,0.41,26895.5,6.87,1,242.7,Very High
+681,Corn,Loamy,Summer,30.3,57.2,137.3,71.5,31.6,143.7,Healthy,0.0,6190.4,6.43,0,246.79999999999998,Medium
+682,Tomato,Sandy,Autumn,29.1,35.7,91.7,117.9,68.4,176.9,Rust,0.95,20728.1,3.85,1,363.20000000000005,Very High
+683,Rice,Clay,Spring,32.3,66.0,147.9,132.4,77.2,134.8,Healthy,0.0,4047.9,7.54,0,344.40000000000003,Medium
+684,Rice,Clay,Winter,10.4,42.4,249.4,11.0,36.9,156.9,Root Rot,0.55,3704.9,5.62,1,204.8,Medium
+685,Potato,Sandy,Summer,15.2,53.9,40.0,59.5,8.8,149.1,Rust,0.14,18589.2,5.61,1,217.39999999999998,High
+686,Wheat,Clay,Autumn,19.0,49.1,63.9,113.3,47.7,93.5,Powdery Mildew,0.92,2045.9,4.72,1,254.5,Low
+687,Potato,Silty,Spring,20.7,70.0,98.6,59.5,5.4,228.0,Healthy,0.0,22612.5,5.93,0,292.9,Very High
+688,Corn,Silty,Summer,12.5,63.4,46.1,27.3,41.6,81.1,Healthy,0.0,4842.2,8.28,0,150.0,Medium
+689,Rice,Silty,Summer,26.1,47.5,296.8,101.9,38.0,78.0,Root Rot,0.46,3450.9,7.53,1,217.9,Medium
+690,Wheat,Clay,Summer,18.5,38.7,126.3,56.4,7.4,183.2,Powdery Mildew,0.9,2380.6,7.11,1,247.0,Low
+691,Corn,Silty,Summer,19.7,79.7,264.5,80.3,74.3,218.6,Healthy,0.0,5369.8,6.94,0,373.2,Medium
+692,Wheat,Sandy,Summer,20.3,30.9,205.3,17.3,67.2,135.9,Healthy,0.0,3807.3,7.99,0,220.4,Medium
+693,Wheat,Clay,Winter,17.4,39.9,153.4,44.9,62.5,222.8,Root Rot,0.53,2577.8,8.39,1,330.20000000000005,Low
+694,Rice,Clay,Summer,15.7,85.6,188.7,30.8,14.0,130.3,Root Rot,0.28,4243.5,5.83,1,175.10000000000002,Medium
+695,Rice,Clay,Spring,21.4,64.1,210.0,147.2,21.6,135.2,Leaf Blight,0.48,3763.0,4.54,1,304.0,Medium
+696,Tomato,Loamy,Autumn,18.4,52.8,125.4,54.8,8.6,58.2,Healthy,0.0,28238.6,5.26,0,121.6,Very High
+697,Corn,Clay,Winter,15.5,91.6,109.1,52.6,12.3,52.7,Leaf Blight,0.36,4397.5,6.92,1,117.60000000000001,Medium
+698,Rice,Loamy,Summer,29.5,43.7,115.2,134.2,14.8,198.5,Powdery Mildew,0.42,4092.2,4.9,1,347.5,Medium
+699,Potato,Clay,Spring,38.3,70.2,90.4,76.4,62.1,156.7,Leaf Blight,0.27,17549.8,5.3,1,295.2,High
+700,Rice,Loamy,Autumn,23.5,76.6,273.3,19.5,36.4,236.3,Leaf Blight,0.48,3866.8,6.44,1,292.2,Medium
+701,Wheat,Sandy,Autumn,11.4,66.8,238.3,107.1,60.6,129.5,Leaf Blight,0.64,2757.7,6.81,1,297.2,Low
+702,Potato,Silty,Winter,22.0,47.6,55.2,32.4,21.3,189.3,Healthy,0.0,17993.1,9.4,0,243.0,High
+703,Potato,Loamy,Autumn,35.6,49.3,80.6,26.7,21.8,156.7,Root Rot,0.55,16632.3,5.39,1,205.2,High
+704,Rice,Clay,Summer,39.7,43.6,34.9,100.8,52.5,244.4,Powdery Mildew,0.93,2631.4,4.78,1,397.70000000000005,Low
+705,Potato,Loamy,Autumn,39.6,70.7,3.1,59.8,59.8,105.9,Powdery Mildew,0.75,13615.0,4.87,1,225.5,High
+706,Wheat,Clay,Winter,38.4,46.7,187.9,94.6,20.5,138.4,Rust,0.69,2813.7,5.25,1,253.5,Low
+707,Rice,Silty,Summer,23.4,77.4,130.2,30.8,40.9,149.2,Rust,0.67,3648.0,5.83,1,220.89999999999998,Medium
+708,Rice,Sandy,Autumn,10.6,40.6,53.3,65.2,50.6,63.9,Leaf Blight,0.61,3854.5,4.38,1,179.70000000000002,Medium
+709,Rice,Clay,Summer,31.8,82.5,181.0,62.9,6.6,215.3,Root Rot,0.92,3245.3,6.38,1,284.8,Medium
+710,Wheat,Sandy,Spring,33.8,30.6,237.5,85.9,66.4,220.5,Leaf Blight,0.32,2670.7,4.9,1,372.8,Low
+711,Rice,Sandy,Autumn,20.0,40.0,16.8,106.9,52.1,74.6,Root Rot,0.78,3460.5,6.99,1,233.6,Medium
+712,Wheat,Silty,Summer,10.0,44.6,68.0,64.0,31.5,107.4,Rust,0.37,2992.3,8.54,1,202.9,Low
+713,Tomato,Clay,Summer,13.1,92.1,107.2,96.2,13.9,234.7,Healthy,0.0,29926.4,9.6,0,344.8,Very High
+714,Wheat,Loamy,Summer,30.4,39.8,200.2,52.2,66.3,119.7,Rust,0.24,3096.3,5.12,1,238.2,Medium
+715,Tomato,Clay,Spring,35.9,93.6,233.3,30.5,16.1,139.3,Powdery Mildew,0.94,20465.0,6.45,1,185.9,Very High
+716,Tomato,Silty,Autumn,14.3,51.0,38.3,117.5,31.4,148.8,Healthy,0.0,26518.5,7.41,0,297.70000000000005,Very High
+717,Tomato,Sandy,Winter,22.6,62.3,160.1,84.5,66.6,126.9,Rust,0.81,19266.8,5.98,1,278.0,High
+718,Tomato,Sandy,Spring,17.1,30.2,298.2,12.4,46.9,241.5,Rust,0.62,23869.6,7.82,1,300.8,Very High
+719,Wheat,Sandy,Autumn,23.8,84.3,165.5,140.4,36.6,92.1,Powdery Mildew,0.42,3217.2,5.35,1,269.1,Medium
+720,Rice,Sandy,Winter,32.0,75.2,127.4,17.6,13.0,166.3,Healthy,0.0,5123.8,7.38,0,196.9,Medium
+721,Potato,Clay,Summer,12.3,67.0,244.1,31.0,18.7,198.7,Leaf Blight,0.13,18193.5,8.4,1,248.39999999999998,High
+722,Corn,Clay,Autumn,13.3,33.9,192.7,94.6,18.0,82.1,Root Rot,0.47,4248.1,6.0,1,194.7,Medium
+723,Tomato,Loamy,Summer,22.7,40.2,291.9,83.0,78.3,75.0,Root Rot,0.6,25053.9,4.97,1,236.3,Very High
+724,Potato,Sandy,Spring,34.5,60.4,94.0,99.9,67.0,83.0,Healthy,0.0,18313.4,9.02,0,249.9,High
+725,Tomato,Loamy,Autumn,10.8,48.3,162.5,19.1,49.8,201.3,Leaf Blight,0.34,22843.8,5.88,1,270.20000000000005,Very High
+726,Potato,Loamy,Spring,39.3,66.7,169.1,120.6,8.4,112.9,Leaf Blight,0.67,12586.2,7.76,1,241.9,High
+727,Wheat,Sandy,Autumn,32.6,77.2,292.2,108.4,12.3,131.5,Powdery Mildew,0.78,2739.4,6.67,1,252.2,Low
+728,Wheat,Silty,Winter,27.6,85.4,87.0,31.2,39.7,227.0,Rust,0.83,2092.6,4.11,1,297.9,Low
+729,Rice,Sandy,Autumn,23.4,38.5,87.3,97.3,75.5,58.0,Leaf Blight,0.83,3145.1,6.43,1,230.8,Medium
+730,Tomato,Clay,Summer,27.0,94.6,29.2,12.1,62.5,111.9,Leaf Blight,0.29,27398.2,8.53,1,186.5,Very High
+731,Wheat,Loamy,Summer,12.0,67.5,106.0,20.0,58.3,142.1,Root Rot,0.18,3066.5,9.39,1,220.39999999999998,Medium
+732,Corn,Clay,Winter,11.2,85.8,120.3,130.0,73.8,75.8,Root Rot,0.69,3552.5,5.42,1,279.6,Medium
+733,Potato,Silty,Autumn,36.3,94.4,12.8,146.8,9.3,208.1,Powdery Mildew,0.44,17380.8,7.38,1,364.20000000000005,High
+734,Potato,Clay,Autumn,21.3,67.1,256.1,41.2,70.6,183.8,Healthy,0.0,17927.4,6.74,0,295.6,High
+735,Tomato,Clay,Summer,32.0,89.6,276.7,117.6,20.0,115.7,Rust,0.91,18878.8,4.79,1,253.3,High
+736,Potato,Clay,Autumn,23.6,65.4,284.6,30.4,21.0,163.6,Root Rot,0.29,18959.8,9.07,1,215.0,High
+737,Tomato,Loamy,Winter,39.4,43.9,63.4,13.2,61.9,134.6,Healthy,0.0,33928.1,6.26,0,209.7,Very High
+738,Rice,Loamy,Winter,12.5,86.8,135.4,68.8,21.1,228.6,Healthy,0.0,4016.3,5.92,0,318.5,Medium
+739,Wheat,Silty,Autumn,38.9,49.3,59.6,141.9,41.1,157.1,Healthy,0.0,3914.7,8.92,0,340.1,Medium
+740,Tomato,Clay,Summer,12.3,73.4,185.0,55.3,79.0,237.8,Powdery Mildew,0.92,19360.0,6.31,1,372.1,High
+741,Corn,Silty,Summer,25.0,50.6,237.6,104.4,24.7,194.5,Healthy,0.0,4923.3,9.94,0,323.6,Medium
+742,Rice,Clay,Summer,32.4,42.2,208.9,118.4,50.1,93.2,Root Rot,0.68,3353.0,4.81,1,261.7,Medium
+743,Rice,Loamy,Spring,19.1,50.0,245.7,27.5,42.4,249.8,Rust,0.96,2664.1,5.03,1,319.70000000000005,Low
+744,Corn,Loamy,Spring,37.8,59.8,111.9,87.4,17.2,137.2,Powdery Mildew,0.85,3549.2,4.79,1,241.8,Medium
+745,Tomato,Clay,Spring,34.2,36.7,194.9,96.3,35.8,149.3,Powdery Mildew,0.73,24030.3,6.84,1,281.4,Very High
+746,Potato,Clay,Autumn,35.6,43.8,233.1,87.2,13.6,221.3,Healthy,0.0,20801.2,9.75,0,322.1,Very High
+747,Corn,Silty,Spring,38.2,80.8,152.3,47.5,54.4,111.5,Root Rot,0.47,4895.3,8.17,1,213.4,Medium
+748,Tomato,Clay,Spring,10.8,81.4,252.2,82.7,60.6,113.5,Leaf Blight,0.1,32334.3,5.68,1,256.8,Very High
+749,Potato,Sandy,Winter,34.9,82.1,173.4,28.0,52.7,245.5,Root Rot,0.32,19917.3,5.31,1,326.2,High
+750,Corn,Sandy,Spring,28.9,81.0,252.9,97.8,24.5,160.6,Rust,0.24,4570.7,9.04,1,282.9,Medium
+751,Rice,Silty,Spring,28.9,68.6,8.3,109.1,74.0,65.8,Healthy,0.0,3950.9,6.91,0,248.89999999999998,Medium
+752,Rice,Sandy,Summer,29.6,44.4,58.1,127.7,59.5,211.4,Root Rot,0.67,3568.3,5.51,1,398.6,Medium
+753,Corn,Sandy,Spring,29.2,67.7,31.0,74.3,49.7,71.4,Healthy,0.0,5128.7,6.41,0,195.4,Medium
+754,Rice,Loamy,Summer,21.7,61.9,6.6,20.3,76.9,65.3,Healthy,0.0,3929.5,8.44,0,162.5,Medium
+755,Tomato,Sandy,Summer,19.0,88.7,197.9,98.4,69.1,73.4,Powdery Mildew,0.67,21636.4,5.36,1,240.9,Very High
+756,Corn,Clay,Summer,25.7,46.5,36.5,94.9,45.2,153.6,Root Rot,1.0,3399.0,6.16,1,293.70000000000005,Medium
+757,Rice,Loamy,Summer,16.6,77.3,282.0,47.5,41.1,240.6,Powdery Mildew,0.2,3788.5,6.34,1,329.2,Medium
+758,Potato,Silty,Winter,37.7,46.3,59.4,128.4,58.8,242.4,Powdery Mildew,0.52,17308.4,4.65,1,429.6,High
+759,Potato,Silty,Winter,36.5,57.5,224.1,124.2,51.7,171.5,Powdery Mildew,0.25,16411.5,6.61,1,347.4,High
+760,Potato,Clay,Winter,15.0,32.2,153.4,92.2,27.0,215.3,Powdery Mildew,0.44,17136.1,7.14,1,334.5,High
+761,Potato,Loamy,Winter,33.7,53.3,21.8,102.0,32.9,205.9,Powdery Mildew,0.46,14433.3,4.84,1,340.8,High
+762,Corn,Sandy,Winter,27.0,50.9,69.8,19.3,26.3,92.4,Healthy,0.0,5857.7,6.09,0,138.0,Medium
+763,Potato,Clay,Winter,30.5,58.3,244.0,37.7,8.7,148.8,Powdery Mildew,0.74,15965.0,4.07,1,195.20000000000002,High
+764,Corn,Loamy,Winter,17.1,31.4,5.4,119.7,48.2,50.9,Root Rot,0.21,4966.6,6.85,1,218.8,Medium
+765,Rice,Clay,Autumn,29.3,34.5,28.5,122.4,59.2,104.9,Root Rot,0.13,4308.8,8.43,1,286.5,Medium
+766,Tomato,Loamy,Winter,28.4,55.6,208.9,73.6,68.7,243.4,Healthy,0.0,30508.1,5.61,0,385.70000000000005,Very High
+767,Corn,Clay,Summer,13.2,51.0,206.3,71.0,17.8,88.2,Rust,0.19,4661.2,8.97,1,177.0,Medium
+768,Corn,Clay,Autumn,36.5,32.8,14.4,52.6,24.8,187.6,Rust,0.99,3754.6,6.3,1,265.0,Medium
+769,Tomato,Silty,Spring,13.8,86.0,225.9,134.3,77.4,132.7,Powdery Mildew,0.73,23947.2,5.65,1,344.4,Very High
+770,Wheat,Silty,Autumn,19.7,77.5,67.7,46.9,27.2,66.6,Rust,0.57,2765.1,6.46,1,140.7,Low
+771,Rice,Silty,Spring,16.4,73.6,140.4,63.9,41.6,118.1,Leaf Blight,0.73,2779.9,7.08,1,223.6,Low
+772,Potato,Loamy,Winter,29.7,85.1,31.7,28.2,73.8,127.1,Rust,0.87,14059.0,5.37,1,229.1,High
+773,Potato,Clay,Autumn,22.7,74.6,285.4,90.8,12.7,142.2,Rust,0.28,17228.3,5.07,1,245.7,High
+774,Wheat,Loamy,Spring,24.3,64.5,105.6,26.6,46.3,120.9,Leaf Blight,0.11,3306.7,5.86,1,193.8,Medium
+775,Tomato,Silty,Autumn,21.1,33.2,114.8,139.9,19.5,87.9,Rust,0.49,22916.9,5.02,1,247.3,Very High
+776,Corn,Clay,Spring,29.4,92.3,65.9,17.4,7.7,103.2,Rust,0.65,4092.7,4.29,1,128.3,Medium
+777,Wheat,Silty,Winter,21.8,44.3,247.2,106.8,42.1,84.2,Powdery Mildew,0.3,3191.1,5.48,1,233.10000000000002,Medium
+778,Corn,Sandy,Winter,32.2,85.4,206.4,33.8,56.1,83.3,Rust,0.36,4006.2,5.94,1,173.2,Medium
+779,Tomato,Silty,Autumn,10.6,93.3,264.4,33.9,62.0,51.9,Leaf Blight,0.97,19274.5,4.79,1,147.8,High
+780,Tomato,Silty,Spring,11.4,31.1,204.0,50.7,22.1,150.6,Rust,0.1,32024.6,8.51,1,223.4,Very High
+781,Wheat,Loamy,Winter,24.7,52.8,163.7,102.9,24.0,141.8,Healthy,0.0,3294.8,9.14,0,268.70000000000005,Medium
+782,Corn,Silty,Spring,18.1,63.8,191.9,30.7,35.8,94.1,Powdery Mildew,0.9,3809.9,7.28,1,160.6,Medium
+783,Corn,Silty,Autumn,16.2,35.8,276.2,62.9,13.1,104.8,Root Rot,0.13,5335.4,7.82,1,180.8,Medium
+784,Potato,Sandy,Autumn,37.3,52.7,99.4,92.5,75.9,105.2,Root Rot,0.99,13443.0,4.18,1,273.6,High
+785,Potato,Clay,Winter,33.9,66.8,237.8,58.6,13.3,51.7,Rust,0.73,15579.6,7.53,1,123.60000000000001,High
+786,Rice,Loamy,Summer,19.1,48.7,239.9,12.2,8.1,106.6,Root Rot,0.71,3244.4,6.27,1,126.89999999999999,Medium
+787,Wheat,Clay,Spring,17.5,52.8,85.0,130.3,54.9,203.8,Root Rot,0.38,2906.0,5.12,1,389.0,Low
+788,Wheat,Silty,Spring,18.7,32.1,279.9,44.8,55.9,127.2,Powdery Mildew,0.23,3400.2,6.51,1,227.89999999999998,Medium
+789,Wheat,Sandy,Winter,30.4,51.0,173.5,105.7,20.0,77.1,Powdery Mildew,0.93,2262.0,5.6,1,202.8,Low
+790,Corn,Silty,Summer,21.3,86.9,131.1,29.4,38.1,112.7,Powdery Mildew,0.18,5206.1,9.15,1,180.2,Medium
+791,Corn,Silty,Winter,10.8,66.3,287.2,68.9,61.7,173.0,Root Rot,0.42,4530.1,5.69,1,303.6,Medium
+792,Rice,Loamy,Spring,32.7,55.5,120.9,10.8,65.6,225.0,Rust,0.56,3101.5,6.07,1,301.4,Medium
+793,Wheat,Clay,Autumn,27.8,83.4,169.6,106.7,69.8,74.3,Healthy,0.0,3032.4,7.92,0,250.8,Medium
+794,Potato,Sandy,Winter,14.1,88.2,191.9,31.7,52.1,193.8,Healthy,0.0,21209.4,9.68,0,277.6,Very High
+795,Tomato,Clay,Summer,28.1,37.9,29.1,38.6,40.5,216.5,Rust,0.72,18891.1,5.66,1,295.6,High
+796,Wheat,Silty,Summer,34.6,84.7,164.0,125.0,56.1,221.9,Healthy,0.0,3289.9,8.09,0,403.0,Medium
+797,Tomato,Sandy,Summer,25.3,75.5,60.1,77.3,26.7,70.0,Leaf Blight,0.67,19883.5,6.35,1,174.0,High
+798,Corn,Clay,Winter,22.5,57.6,8.4,74.0,47.3,52.2,Powdery Mildew,0.45,4777.4,5.63,1,173.5,Medium
+799,Potato,Sandy,Winter,36.5,59.8,2.7,32.2,42.5,222.2,Root Rot,0.14,21185.6,5.8,1,296.9,Very High
+800,Potato,Sandy,Autumn,29.7,66.6,137.8,130.2,15.5,207.0,Root Rot,0.56,14004.5,6.9,1,352.7,High
+801,Tomato,Silty,Winter,38.9,69.4,54.1,109.2,43.0,181.8,Healthy,0.0,33745.4,6.3,0,334.0,Very High
+802,Corn,Silty,Spring,11.3,85.4,47.8,23.5,13.0,236.8,Rust,0.96,3233.6,5.26,1,273.3,Medium
+803,Rice,Silty,Winter,37.7,34.0,75.1,15.2,61.2,138.3,Leaf Blight,0.19,4633.0,6.48,1,214.70000000000002,Medium
+804,Wheat,Silty,Summer,39.7,67.3,59.9,45.3,37.8,107.2,Leaf Blight,0.39,3130.1,5.3,1,190.3,Medium
+805,Rice,Sandy,Spring,27.5,70.9,200.6,38.5,65.8,228.7,Root Rot,0.83,3284.4,5.11,1,333.0,Medium
+806,Tomato,Sandy,Winter,15.7,43.5,248.3,80.1,31.7,230.0,Rust,0.59,19976.8,7.63,1,341.8,High
+807,Wheat,Clay,Spring,13.8,63.6,30.3,79.8,8.9,158.1,Root Rot,0.48,2722.9,4.38,1,246.8,Low
+808,Corn,Sandy,Autumn,12.2,67.4,256.0,140.5,42.5,129.8,Powdery Mildew,0.45,4317.7,4.57,1,312.8,Medium
+809,Wheat,Loamy,Spring,11.0,57.4,60.2,134.3,9.5,90.8,Rust,0.52,3119.1,7.67,1,234.60000000000002,Medium
+810,Corn,Clay,Spring,20.4,34.6,124.9,113.5,74.7,227.5,Healthy,0.0,5063.8,7.39,0,415.7,Medium
+811,Rice,Silty,Summer,29.5,58.0,91.0,129.0,77.9,54.3,Powdery Mildew,0.75,2775.8,4.09,1,261.2,Low
+812,Rice,Clay,Winter,11.6,79.8,208.6,70.2,37.0,77.6,Rust,0.65,3209.5,5.79,1,184.8,Medium
+813,Potato,Clay,Summer,17.0,68.3,68.1,114.6,71.6,208.6,Powdery Mildew,0.42,15856.9,6.85,1,394.79999999999995,High
+814,Wheat,Sandy,Winter,15.4,32.8,104.9,101.7,23.3,108.5,Leaf Blight,0.83,2041.0,6.03,1,233.5,Low
+815,Tomato,Clay,Autumn,38.2,43.4,211.6,123.9,72.3,221.8,Healthy,0.0,31409.3,7.22,0,418.0,Very High
+816,Corn,Sandy,Autumn,19.6,65.2,31.3,58.5,35.8,240.1,Powdery Mildew,0.8,3507.4,5.65,1,334.4,Medium
+817,Wheat,Sandy,Autumn,32.3,43.7,111.7,124.3,15.6,245.6,Leaf Blight,0.92,2438.6,6.15,1,385.5,Low
+818,Tomato,Clay,Autumn,18.3,55.0,248.2,21.8,25.9,171.9,Healthy,0.0,25691.6,7.48,0,219.60000000000002,Very High
+819,Tomato,Silty,Summer,29.8,64.6,198.1,14.4,62.2,237.4,Root Rot,0.5,22016.0,8.12,1,314.0,Very High
+820,Corn,Clay,Autumn,31.8,70.4,259.7,119.6,74.6,200.5,Powdery Mildew,0.83,3774.3,6.79,1,394.7,Medium
+821,Potato,Loamy,Winter,22.7,76.7,230.7,46.4,77.0,143.5,Root Rot,0.96,13918.4,7.09,1,266.9,High
+822,Rice,Loamy,Spring,40.0,80.1,88.7,90.0,7.9,104.9,Leaf Blight,0.92,2656.9,4.59,1,202.8,Low
+823,Corn,Loamy,Autumn,35.4,58.8,5.2,11.2,7.8,121.7,Rust,0.11,4953.4,7.92,1,140.7,Medium
+824,Potato,Clay,Autumn,36.9,65.8,286.0,71.7,24.4,207.3,Leaf Blight,0.47,16627.7,5.41,1,303.4,High
+825,Tomato,Clay,Summer,13.4,32.5,205.3,130.5,48.5,58.4,Leaf Blight,0.3,23822.0,7.81,1,237.4,Very High
+826,Wheat,Loamy,Spring,28.0,52.7,23.2,72.1,43.3,97.4,Powdery Mildew,0.98,1819.1,4.68,1,212.8,Low
+827,Corn,Loamy,Summer,10.7,69.5,108.1,146.5,72.3,124.9,Root Rot,0.16,5034.4,9.25,1,343.70000000000005,Medium
+828,Corn,Loamy,Summer,37.4,31.7,182.7,123.1,43.3,206.2,Rust,0.13,5008.0,7.25,1,372.59999999999997,Medium
+829,Potato,Clay,Summer,21.4,94.9,23.5,20.8,75.2,94.9,Powdery Mildew,0.95,11949.3,5.37,1,190.9,High
+830,Potato,Clay,Spring,28.2,72.8,156.1,54.4,19.6,165.0,Rust,0.76,14082.7,7.38,1,239.0,High
+831,Corn,Sandy,Winter,19.4,93.2,207.9,72.3,76.8,132.0,Leaf Blight,0.82,4225.4,4.07,1,281.1,Medium
+832,Potato,Silty,Summer,23.5,57.2,170.8,125.7,14.4,157.5,Rust,0.17,17870.0,8.43,1,297.6,High
+833,Tomato,Loamy,Autumn,19.4,35.3,126.3,147.7,48.2,176.5,Rust,0.7,22283.9,7.0,1,372.4,Very High
+834,Rice,Loamy,Winter,32.3,38.2,10.2,70.4,56.8,248.0,Root Rot,0.11,3812.6,5.48,1,375.2,Medium
+835,Potato,Silty,Summer,31.4,37.7,269.2,135.8,49.4,173.3,Root Rot,0.91,12164.3,7.25,1,358.5,High
+836,Wheat,Loamy,Winter,37.3,71.0,222.2,71.0,61.8,190.0,Healthy,0.0,3750.7,8.67,0,322.8,Medium
+837,Potato,Loamy,Winter,21.4,58.5,152.6,92.3,75.9,69.4,Rust,0.18,20762.7,6.14,1,237.6,Very High
+838,Corn,Silty,Autumn,19.7,50.7,53.5,30.0,66.0,196.9,Healthy,0.0,5605.8,9.95,0,292.9,Medium
+839,Rice,Loamy,Spring,20.4,40.8,86.4,78.1,21.8,83.9,Root Rot,0.57,3552.3,8.04,1,183.8,Medium
+840,Corn,Loamy,Summer,12.9,65.9,152.6,33.6,49.9,57.9,Rust,0.78,4265.9,7.24,1,141.4,Medium
+841,Potato,Clay,Autumn,16.1,91.2,171.3,112.5,44.1,216.2,Leaf Blight,0.11,21027.2,6.26,1,372.79999999999995,Very High
+842,Wheat,Silty,Winter,17.9,86.2,297.9,112.4,13.7,120.7,Healthy,0.0,3441.6,5.4,0,246.8,Medium
+843,Rice,Loamy,Autumn,23.6,77.8,201.6,20.4,56.6,228.5,Healthy,0.0,4266.6,5.19,0,305.5,Medium
+844,Wheat,Clay,Spring,17.4,68.1,261.6,40.8,19.7,144.0,Rust,0.39,3256.6,6.55,1,204.5,Medium
+845,Rice,Clay,Summer,10.1,34.4,167.3,39.2,18.4,133.6,Root Rot,0.35,3520.0,5.65,1,191.2,Medium
+846,Tomato,Sandy,Autumn,35.2,86.9,200.4,78.6,52.3,169.6,Rust,0.31,25087.2,7.0,1,300.5,Very High
+847,Corn,Loamy,Winter,39.1,51.2,198.7,26.2,39.9,113.8,Healthy,0.0,5036.2,5.57,0,179.89999999999998,Medium
+848,Tomato,Silty,Winter,30.6,31.9,80.4,40.1,68.8,131.8,Leaf Blight,0.8,20300.5,5.94,1,240.70000000000002,Very High
+849,Corn,Silty,Winter,22.0,89.3,80.5,111.9,30.5,213.7,Powdery Mildew,0.71,3833.1,5.15,1,356.1,Medium
+850,Tomato,Sandy,Spring,38.4,69.9,98.9,94.7,6.5,194.4,Leaf Blight,0.62,20303.1,7.34,1,295.6,Very High
+851,Wheat,Clay,Spring,25.6,53.5,59.5,32.0,45.2,221.9,Powdery Mildew,0.92,2389.1,4.45,1,299.1,Low
+852,Rice,Sandy,Spring,11.1,31.3,282.1,24.4,34.8,147.0,Powdery Mildew,0.4,3457.5,5.09,1,206.2,Medium
+853,Corn,Sandy,Spring,18.2,38.0,235.2,101.7,14.8,198.1,Healthy,0.0,5054.5,6.35,0,314.6,Medium
+854,Wheat,Silty,Spring,10.4,84.0,181.5,31.3,60.2,208.5,Healthy,0.0,3052.6,5.97,0,300.0,Medium
+855,Potato,Clay,Autumn,18.2,43.2,79.3,101.8,40.4,108.2,Powdery Mildew,0.81,13216.4,4.14,1,250.39999999999998,High
+856,Tomato,Sandy,Winter,10.5,62.3,118.1,62.2,46.0,71.7,Rust,0.35,24131.4,5.48,1,179.9,Very High
+857,Wheat,Silty,Spring,29.3,51.6,242.9,146.6,12.2,83.9,Root Rot,0.79,2356.0,7.11,1,242.7,Low
+858,Tomato,Silty,Summer,11.8,62.1,123.6,113.7,67.6,57.3,Rust,0.32,23345.2,7.63,1,238.60000000000002,Very High
+859,Potato,Sandy,Winter,26.4,50.3,195.6,55.1,58.2,152.9,Root Rot,0.88,12058.5,6.84,1,266.20000000000005,High
+860,Wheat,Clay,Winter,13.8,30.9,156.0,27.0,19.8,223.9,Healthy,0.0,3422.0,5.57,0,270.7,Medium
+861,Tomato,Silty,Summer,32.5,65.6,119.8,51.5,37.7,108.8,Root Rot,0.25,29455.5,8.89,1,198.0,Very High
+862,Corn,Sandy,Summer,18.7,74.5,240.8,143.3,32.8,170.9,Rust,0.39,5184.5,6.5,1,347.0,Medium
+863,Rice,Sandy,Summer,25.7,83.9,2.9,68.3,16.3,63.4,Powdery Mildew,0.93,3012.6,7.13,1,148.0,Medium
+864,Corn,Silty,Autumn,12.8,70.6,178.3,19.3,52.7,226.7,Leaf Blight,0.28,4288.9,6.16,1,298.7,Medium
+865,Wheat,Silty,Autumn,21.0,79.9,280.3,88.6,53.1,90.5,Leaf Blight,0.35,3299.6,7.13,1,232.2,Medium
+866,Wheat,Clay,Summer,33.9,68.2,229.8,56.2,62.9,168.4,Leaf Blight,0.35,2795.9,5.72,1,287.5,Low
+867,Potato,Sandy,Summer,12.7,82.2,43.9,33.1,70.6,114.7,Root Rot,0.29,15042.2,8.66,1,218.39999999999998,High
+868,Wheat,Silty,Autumn,19.1,79.4,72.2,65.1,63.0,191.2,Leaf Blight,0.56,2666.9,5.64,1,319.29999999999995,Low
+869,Potato,Sandy,Summer,38.4,84.2,213.4,127.6,47.0,148.0,Powdery Mildew,0.58,17126.2,7.39,1,322.6,High
+870,Wheat,Sandy,Spring,36.0,85.6,231.2,58.4,36.8,173.4,Rust,0.91,2327.6,6.82,1,268.6,Low
+871,Rice,Clay,Summer,23.3,64.2,1.7,53.5,12.1,123.8,Root Rot,0.44,4189.9,5.44,1,189.39999999999998,Medium
+872,Wheat,Silty,Winter,11.3,75.2,75.9,97.5,77.8,214.7,Rust,0.35,3142.9,8.34,1,390.0,Medium
+873,Tomato,Silty,Spring,11.1,31.9,268.3,31.4,60.2,224.2,Rust,0.67,21896.1,4.52,1,315.79999999999995,Very High
+874,Tomato,Clay,Autumn,12.9,65.4,295.0,37.2,51.1,53.3,Healthy,0.0,26004.4,9.19,0,141.60000000000002,Very High
+875,Corn,Loamy,Spring,38.2,56.2,251.3,103.7,9.9,215.0,Leaf Blight,0.92,3566.6,5.44,1,328.6,Medium
+876,Corn,Clay,Autumn,28.3,74.8,122.8,98.9,68.2,238.2,Healthy,0.0,4959.8,6.56,0,405.3,Medium
+877,Potato,Clay,Winter,12.6,89.7,54.8,22.1,28.8,175.3,Powdery Mildew,0.21,18134.5,4.78,1,226.20000000000002,High
+878,Rice,Loamy,Winter,12.4,77.1,74.0,127.2,53.2,230.3,Healthy,0.0,4118.7,5.96,0,410.70000000000005,Medium
+879,Rice,Sandy,Autumn,14.2,50.5,67.8,36.4,71.3,85.4,Powdery Mildew,0.15,4491.3,6.18,1,193.1,Medium
+880,Tomato,Loamy,Autumn,33.2,64.0,248.9,106.2,17.8,239.9,Powdery Mildew,0.18,26630.2,7.5,1,363.9,Very High
+881,Rice,Silty,Autumn,29.4,74.3,86.6,57.9,77.6,160.3,Rust,0.61,3905.9,7.12,1,295.8,Medium
+882,Corn,Sandy,Autumn,16.5,47.0,276.6,82.4,52.3,145.0,Healthy,0.0,5521.9,7.34,0,279.7,Medium
+883,Corn,Clay,Autumn,31.0,70.9,260.8,11.1,36.6,116.9,Powdery Mildew,0.61,4355.5,6.73,1,164.60000000000002,Medium
+884,Wheat,Silty,Summer,32.6,58.5,185.0,93.1,57.1,196.2,Leaf Blight,0.92,2083.4,5.33,1,346.4,Low
+885,Rice,Silty,Winter,19.0,93.1,263.2,116.8,72.6,151.4,Powdery Mildew,0.75,3245.4,5.51,1,340.79999999999995,Medium
+886,Corn,Sandy,Autumn,36.6,92.7,282.9,37.8,77.9,200.4,Rust,0.46,3853.2,4.87,1,316.1,Medium
+887,Corn,Loamy,Summer,34.0,59.8,49.6,10.1,16.1,226.6,Healthy,0.0,6276.0,6.51,0,252.8,Medium
+888,Wheat,Clay,Summer,14.6,66.1,232.7,10.7,16.9,70.0,Leaf Blight,0.31,2793.1,7.03,1,97.6,Low
+889,Tomato,Silty,Summer,32.9,36.2,38.6,116.8,15.0,204.7,Leaf Blight,0.92,19918.1,6.87,1,336.5,High
+890,Tomato,Silty,Spring,16.7,69.6,230.4,61.7,30.5,214.6,Rust,0.45,21438.8,6.97,1,306.8,Very High
+891,Tomato,Sandy,Winter,15.6,43.7,130.6,57.5,54.1,135.1,Healthy,0.0,31310.2,6.42,0,246.7,Very High
+892,Tomato,Silty,Summer,14.9,74.4,250.3,75.1,11.2,187.2,Root Rot,0.13,32352.0,5.29,1,273.5,Very High
+893,Tomato,Sandy,Winter,30.6,30.8,196.1,103.8,36.7,60.9,Healthy,0.0,26948.0,7.12,0,201.4,Very High
+894,Wheat,Loamy,Winter,31.4,84.9,291.5,25.6,18.4,134.8,Rust,0.83,2624.3,6.61,1,178.8,Low
+895,Wheat,Loamy,Summer,25.4,69.9,261.7,70.9,39.9,58.0,Leaf Blight,0.11,3795.9,9.03,1,168.8,Medium
+896,Tomato,Loamy,Autumn,22.8,73.9,230.1,13.3,25.0,108.6,Powdery Mildew,0.15,29040.3,6.77,1,146.89999999999998,Very High
+897,Tomato,Clay,Autumn,32.0,64.5,118.9,34.5,45.1,75.2,Powdery Mildew,0.37,21999.1,5.09,1,154.8,Very High
+898,Tomato,Silty,Summer,37.6,88.7,279.7,124.9,47.7,58.1,Root Rot,0.9,18309.4,4.84,1,230.70000000000002,High
+899,Wheat,Clay,Winter,25.4,77.2,101.3,99.1,27.6,130.1,Leaf Blight,0.65,2763.9,4.77,1,256.79999999999995,Low
+900,Corn,Silty,Spring,33.8,67.1,298.5,96.2,45.4,208.7,Healthy,0.0,6055.8,8.47,0,350.29999999999995,Medium
+901,Wheat,Silty,Autumn,32.4,80.6,83.1,104.0,50.3,231.9,Powdery Mildew,0.62,2407.1,6.83,1,386.20000000000005,Low
+902,Corn,Clay,Winter,29.7,47.9,138.7,120.6,52.6,69.4,Healthy,0.0,5346.9,6.12,0,242.6,Medium
+903,Corn,Silty,Winter,29.0,51.4,116.7,140.2,5.9,118.1,Leaf Blight,0.16,4820.3,6.41,1,264.2,Medium
+904,Tomato,Sandy,Summer,30.2,46.6,9.7,129.3,77.6,176.3,Leaf Blight,0.52,25489.0,6.59,1,383.20000000000005,Very High
+905,Corn,Loamy,Autumn,18.8,50.5,202.4,14.1,51.9,83.3,Healthy,0.0,5017.5,6.76,0,149.3,Medium
+906,Tomato,Loamy,Winter,39.7,54.4,161.3,63.0,76.2,74.7,Root Rot,1.0,15426.4,4.89,1,213.89999999999998,High
+907,Rice,Sandy,Summer,33.0,94.0,293.7,87.0,31.4,93.6,Healthy,0.0,4595.5,9.5,0,212.0,Medium
+908,Corn,Loamy,Winter,16.8,56.3,227.0,50.1,74.3,81.4,Powdery Mildew,0.79,3909.0,7.15,1,205.8,Medium
+909,Tomato,Silty,Summer,30.5,36.4,174.0,68.5,36.4,87.8,Powdery Mildew,0.1,31650.0,4.99,1,192.7,Very High
+910,Rice,Clay,Winter,38.4,51.1,75.0,89.7,40.4,68.2,Leaf Blight,0.65,3333.4,5.52,1,198.3,Medium
+911,Potato,Sandy,Winter,21.1,86.9,52.6,141.2,74.1,114.5,Root Rot,0.6,16857.3,5.3,1,329.79999999999995,High
+912,Wheat,Silty,Summer,33.9,93.2,150.1,25.6,50.3,116.3,Leaf Blight,0.62,2599.8,7.82,1,192.2,Low
+913,Rice,Clay,Spring,30.5,56.4,155.9,75.8,33.9,206.6,Leaf Blight,0.52,4058.5,8.26,1,316.29999999999995,Medium
+914,Potato,Clay,Winter,24.4,77.2,87.9,65.8,66.7,203.8,Healthy,0.0,21294.8,6.82,0,336.3,Very High
+915,Potato,Sandy,Autumn,32.7,67.7,237.5,111.1,32.5,181.3,Root Rot,0.49,14266.5,4.87,1,324.9,High
+916,Rice,Clay,Winter,37.0,62.0,73.4,46.4,27.1,138.9,Root Rot,0.29,3497.2,8.16,1,212.4,Medium
+917,Corn,Sandy,Summer,25.7,31.7,264.1,88.9,58.5,111.3,Rust,0.35,4071.2,7.68,1,258.7,Medium
+918,Potato,Loamy,Summer,32.3,75.2,44.0,50.9,33.8,177.4,Powdery Mildew,0.53,15475.7,4.32,1,262.1,High
+919,Rice,Loamy,Autumn,31.6,78.5,298.8,66.8,51.4,84.1,Rust,0.37,3930.9,5.98,1,202.29999999999998,Medium
+920,Rice,Loamy,Winter,36.0,61.5,50.7,83.5,18.2,229.4,Rust,0.87,2770.5,3.75,1,331.1,Low
+921,Wheat,Sandy,Autumn,28.3,77.4,35.9,37.6,42.4,163.9,Powdery Mildew,0.3,2808.7,7.46,1,243.9,Low
+922,Wheat,Loamy,Spring,22.0,36.4,98.9,19.4,46.5,157.0,Rust,0.91,2387.2,6.33,1,222.9,Low
+923,Wheat,Sandy,Summer,17.7,78.1,206.9,101.1,23.4,187.9,Healthy,0.0,3444.0,7.28,0,312.4,Medium
+924,Wheat,Sandy,Spring,37.2,38.6,90.8,39.1,23.3,202.3,Rust,0.34,2822.1,6.63,1,264.70000000000005,Low
+925,Wheat,Clay,Summer,24.3,58.7,142.8,24.0,49.2,169.7,Rust,0.89,1950.4,4.76,1,242.89999999999998,Low
+926,Wheat,Silty,Summer,27.7,71.3,226.7,148.9,23.9,131.4,Rust,0.49,3155.9,5.42,1,304.20000000000005,Medium
+927,Rice,Loamy,Autumn,36.0,46.2,82.6,88.6,28.2,138.0,Powdery Mildew,0.56,3506.9,8.23,1,254.8,Medium
+928,Rice,Silty,Winter,14.9,34.3,129.6,52.6,74.4,138.6,Root Rot,0.11,4809.7,7.92,1,265.6,Medium
+929,Potato,Sandy,Summer,19.2,49.8,229.9,76.1,56.4,235.5,Leaf Blight,0.27,15745.8,5.56,1,368.0,High
+930,Rice,Sandy,Summer,28.3,40.2,287.0,147.4,54.0,207.7,Powdery Mildew,0.24,4393.1,8.26,1,409.1,Medium
+931,Corn,Loamy,Autumn,14.3,51.7,106.2,114.3,38.7,135.1,Leaf Blight,0.94,3403.2,5.0,1,288.1,Medium
+932,Tomato,Silty,Spring,39.1,53.0,241.6,146.5,62.5,53.9,Healthy,0.0,32360.0,8.52,0,262.9,Very High
+933,Rice,Loamy,Winter,33.7,51.2,168.0,37.9,21.1,150.6,Powdery Mildew,0.37,3688.5,8.25,1,209.6,Medium
+934,Wheat,Loamy,Winter,38.2,68.5,285.6,142.5,63.6,128.0,Healthy,0.0,3230.3,9.8,0,334.1,Medium
+935,Tomato,Silty,Spring,13.0,71.6,82.8,61.7,74.3,72.2,Leaf Blight,0.35,26625.9,5.08,1,208.2,Very High
+936,Wheat,Sandy,Summer,27.7,67.3,168.6,71.4,29.6,159.3,Powdery Mildew,0.98,2276.4,5.86,1,260.3,Low
+937,Potato,Sandy,Spring,36.1,75.5,221.7,144.0,32.1,204.5,Rust,0.84,14035.2,6.53,1,380.6,High
+938,Rice,Loamy,Autumn,16.0,93.1,77.7,94.5,75.0,78.1,Leaf Blight,0.39,3487.7,7.25,1,247.6,Medium
+939,Tomato,Clay,Autumn,10.5,58.4,9.6,80.6,64.9,208.0,Root Rot,0.83,21832.2,5.6,1,353.5,Very High
+940,Potato,Clay,Spring,26.0,81.9,253.9,22.3,74.2,172.0,Powdery Mildew,0.67,15669.6,7.96,1,268.5,High
+941,Wheat,Sandy,Autumn,12.2,72.1,101.9,83.9,56.9,214.0,Root Rot,0.84,2300.1,5.36,1,354.8,Low
+942,Wheat,Silty,Spring,10.3,51.0,45.1,129.8,48.8,203.6,Root Rot,0.62,2242.2,6.24,1,382.20000000000005,Low
+943,Rice,Sandy,Summer,33.2,43.4,54.5,13.7,50.1,218.9,Rust,0.93,3159.4,6.41,1,282.7,Medium
+944,Potato,Loamy,Summer,29.7,43.1,49.0,148.7,22.5,234.0,Powdery Mildew,0.96,11682.3,6.31,1,405.2,High
+945,Wheat,Clay,Winter,10.8,86.4,256.3,39.2,8.7,137.7,Leaf Blight,0.89,2554.5,4.39,1,185.6,Low
+946,Tomato,Sandy,Spring,14.9,43.6,282.2,113.7,31.9,249.1,Rust,0.83,17592.2,5.31,1,394.7,High
+947,Rice,Loamy,Winter,17.7,37.3,137.1,11.0,65.3,130.1,Healthy,0.0,4904.7,9.29,0,206.39999999999998,Medium
+948,Corn,Silty,Autumn,16.9,75.6,195.1,123.4,70.7,53.2,Powdery Mildew,0.95,3754.3,7.02,1,247.3,Medium
+949,Corn,Sandy,Summer,26.9,38.3,46.7,107.3,62.2,62.2,Healthy,0.0,4907.2,9.01,0,231.7,Medium
+950,Corn,Silty,Summer,15.2,63.7,45.4,123.3,55.2,123.0,Powdery Mildew,0.66,4440.6,7.72,1,301.5,Medium
+951,Rice,Loamy,Winter,28.8,89.1,79.6,55.0,63.7,116.3,Healthy,0.0,4496.7,9.44,0,235.0,Medium
+952,Wheat,Silty,Summer,14.7,31.0,269.2,22.9,79.1,72.5,Leaf Blight,0.92,1911.1,5.34,1,174.5,Low
+953,Tomato,Clay,Autumn,24.3,88.5,77.1,55.2,45.5,241.4,Rust,0.5,26569.8,7.09,1,342.1,Very High
+954,Wheat,Sandy,Summer,16.6,38.4,282.7,41.6,11.2,69.0,Root Rot,0.54,3016.6,5.88,1,121.8,Medium
+955,Potato,Loamy,Summer,31.9,49.6,213.1,74.7,49.3,153.4,Healthy,0.0,18498.7,9.94,0,277.4,High
+956,Corn,Sandy,Spring,32.4,82.0,189.6,121.2,78.5,52.9,Leaf Blight,0.4,4446.4,7.19,1,252.6,Medium
+957,Rice,Silty,Winter,35.7,42.2,260.9,145.9,35.4,248.5,Leaf Blight,0.46,3134.1,6.26,1,429.8,Medium
+958,Corn,Loamy,Autumn,39.9,42.1,102.3,132.1,62.9,141.3,Rust,0.5,4723.3,4.66,1,336.3,Medium
+959,Corn,Silty,Spring,38.9,38.2,68.1,74.0,13.3,160.1,Rust,0.34,5154.0,5.82,1,247.39999999999998,Medium
+960,Corn,Clay,Summer,21.9,91.2,299.6,37.3,68.0,94.4,Powdery Mildew,0.51,4448.0,4.31,1,199.7,Medium
+961,Corn,Clay,Autumn,26.2,75.1,299.2,33.3,16.9,186.1,Rust,0.64,3664.5,6.61,1,236.29999999999998,Medium
+962,Potato,Sandy,Winter,35.7,48.1,287.7,142.8,27.2,230.2,Leaf Blight,0.86,14108.3,7.32,1,400.2,High
+963,Tomato,Loamy,Spring,12.2,76.0,200.4,39.2,60.0,168.8,Root Rot,0.39,27002.9,4.71,1,268.0,Very High
+964,Tomato,Sandy,Winter,33.6,72.0,117.3,37.1,67.6,64.1,Leaf Blight,0.23,29875.0,9.14,1,168.79999999999998,Very High
+965,Corn,Sandy,Summer,23.3,73.7,228.2,11.5,13.8,112.2,Leaf Blight,0.9,3122.4,4.02,1,137.5,Medium
+966,Potato,Clay,Winter,14.6,87.2,226.3,110.8,70.6,239.9,Root Rot,0.31,17195.6,4.72,1,421.29999999999995,High
+967,Corn,Silty,Summer,36.3,74.9,238.3,116.2,21.8,70.6,Healthy,0.0,5709.4,9.99,0,208.6,Medium
+968,Potato,Silty,Winter,22.7,71.5,259.6,49.2,59.3,105.2,Rust,0.88,11954.1,4.61,1,213.7,High
+969,Potato,Loamy,Spring,10.4,76.4,145.7,92.0,21.6,136.8,Powdery Mildew,0.48,17790.4,5.42,1,250.4,High
+970,Tomato,Silty,Spring,28.0,68.4,238.1,143.6,48.2,73.5,Rust,0.65,22637.0,7.1,1,265.3,Very High
+971,Corn,Silty,Winter,31.5,32.6,194.1,71.6,39.6,222.7,Rust,0.71,4415.0,4.08,1,333.9,Medium
+972,Tomato,Sandy,Spring,28.9,51.4,87.7,67.7,7.1,141.3,Root Rot,0.7,18526.2,7.47,1,216.10000000000002,High
+973,Corn,Loamy,Winter,33.5,51.1,209.7,98.9,62.6,82.1,Powdery Mildew,0.42,5215.2,6.81,1,243.6,Medium
+974,Potato,Sandy,Winter,35.7,51.7,184.9,113.6,67.7,95.5,Powdery Mildew,0.77,14891.8,7.03,1,276.8,High
+975,Wheat,Loamy,Winter,29.2,79.2,60.6,129.8,41.4,117.4,Healthy,0.0,3646.4,7.19,0,288.6,Medium
+976,Corn,Clay,Summer,27.5,89.1,210.1,88.5,61.8,157.7,Leaf Blight,0.96,3207.9,4.98,1,308.0,Medium
+977,Wheat,Silty,Autumn,14.4,52.1,106.1,28.6,33.9,219.0,Leaf Blight,0.18,3454.2,8.21,1,281.5,Medium
+978,Corn,Sandy,Winter,34.8,46.0,46.5,149.0,7.0,94.9,Rust,0.61,3636.9,6.92,1,250.9,Medium
+979,Rice,Sandy,Summer,10.4,45.8,6.2,95.7,67.8,132.9,Leaf Blight,0.89,2846.1,5.69,1,296.4,Low
+980,Potato,Silty,Winter,32.4,75.9,294.6,122.5,24.8,124.0,Leaf Blight,0.47,17935.0,8.16,1,271.3,High
+981,Rice,Sandy,Autumn,35.8,94.1,74.1,85.4,14.7,246.2,Powdery Mildew,0.59,3001.8,7.34,1,346.3,Medium
+982,Potato,Sandy,Autumn,31.5,71.9,166.2,147.9,39.9,164.9,Root Rot,0.58,13539.0,4.35,1,352.70000000000005,High
+983,Potato,Sandy,Spring,26.8,66.3,17.3,58.7,70.1,79.6,Root Rot,0.55,15301.3,7.02,1,208.4,High
+984,Wheat,Clay,Winter,22.9,79.7,40.0,65.5,54.6,112.0,Powdery Mildew,0.61,3001.1,6.93,1,232.1,Medium
+985,Corn,Silty,Summer,33.0,93.7,176.1,130.8,77.8,60.6,Powdery Mildew,0.31,5249.3,7.96,1,269.20000000000005,Medium
+986,Potato,Clay,Spring,25.9,77.5,219.8,44.8,50.1,201.8,Healthy,0.0,21647.7,5.9,0,296.70000000000005,Very High
+987,Rice,Silty,Spring,20.0,36.1,121.1,108.1,56.4,211.0,Healthy,0.0,4701.7,6.91,0,375.5,Medium
+988,Tomato,Loamy,Autumn,15.3,58.0,75.6,22.7,24.5,90.1,Leaf Blight,0.86,17808.4,5.01,1,137.3,High
+989,Wheat,Loamy,Spring,36.4,34.0,167.1,105.6,12.2,50.3,Powdery Mildew,0.51,2446.7,8.41,1,168.1,Low
+990,Wheat,Loamy,Spring,34.0,66.9,112.5,19.7,17.9,177.3,Healthy,0.0,3318.2,7.49,0,214.9,Medium
+991,Potato,Sandy,Autumn,27.2,87.9,211.9,133.2,18.3,79.8,Leaf Blight,0.98,10689.7,6.42,1,231.3,High
+992,Wheat,Clay,Autumn,38.1,37.0,204.9,92.6,17.6,69.9,Rust,0.13,3355.4,5.73,1,180.1,Medium
+993,Rice,Silty,Winter,38.3,73.5,19.6,44.5,15.6,242.1,Rust,0.93,3197.2,5.37,1,302.2,Medium
+994,Tomato,Silty,Spring,35.4,35.9,196.4,137.7,47.2,190.4,Healthy,0.0,28724.9,7.61,0,375.29999999999995,Very High
+995,Potato,Sandy,Autumn,38.3,57.7,130.5,21.5,6.8,70.9,Leaf Blight,0.35,15319.1,6.99,1,99.2,High
+996,Potato,Loamy,Spring,25.8,32.7,284.0,53.0,49.1,230.1,Root Rot,0.38,19464.8,6.83,1,332.2,High
+997,Corn,Clay,Autumn,21.5,52.9,161.3,125.3,56.3,136.8,Healthy,0.0,5556.6,7.54,0,318.4,Medium
+998,Rice,Sandy,Spring,23.7,42.1,66.5,54.8,58.6,149.1,Rust,0.43,3948.6,6.84,1,262.5,Medium
+999,Potato,Silty,Summer,37.0,37.6,87.1,136.6,54.5,233.0,Healthy,0.0,17271.4,6.65,0,424.1,High
+1000,Rice,Silty,Spring,14.7,68.9,186.5,46.1,74.2,186.1,Root Rot,0.84,2873.1,6.4,1,306.4,Low
