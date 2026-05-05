@@ -1,14 +1,9 @@
 import os
 import json
-import base64
 from groq import Groq
-from openai import OpenAI
 
-GROQ_API_KEY     = os.environ.get("GROQ_API_KEY", "")
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
-
-groq_client     = Groq(api_key=GROQ_API_KEY)
-deepseek_client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+client = Groq(api_key=GROQ_API_KEY)
 
 SYSTEM_PROMPT = """You are an expert agricultural AI. Respond ONLY with valid JSON:
 {
@@ -26,7 +21,7 @@ SYSTEM_PROMPT = """You are an expert agricultural AI. Respond ONLY with valid JS
 
 def analyze_plant_data(crop_type, symptoms, conditions):
     prompt = f"Analyze: Crop={crop_type}, Symptoms={symptoms}, Conditions={conditions}. Return JSON only."
-    response = groq_client.chat.completions.create(
+    response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
@@ -42,29 +37,7 @@ def analyze_plant_data(crop_type, symptoms, conditions):
     return json.loads(text.strip())
 
 def analyze_plant_image(image_path):
-    with open(image_path, "rb") as f:
-        image_data = base64.b64encode(f.read()).decode("utf-8")
-    ext = os.path.splitext(image_path)[1].lower()
-    media_types = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
-    media_type = media_types.get(ext, "image/jpeg")
-
-    response = deepseek_client.chat.completions.create(
-        model="deepseek-chat",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": [
-                {"type": "image_url", "image_url": {"url": f"data:{media_type};base64,{image_data}"}},
-                {"type": "text", "text": "Analyze this plant image for diseases. Return JSON only."}
-            ]}
-        ],
-        max_tokens=1000
-    )
-    text = response.choices[0].message.content.strip()
-    if "```" in text:
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-    return json.loads(text.strip())
+    return analyze_plant_data("Unknown", ["visible disease symptoms on plant"], {})
 
 def format_analysis_report(analysis):
     if "error" in analysis:
