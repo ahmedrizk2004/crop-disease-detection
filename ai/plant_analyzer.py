@@ -49,7 +49,7 @@ def analyze_plant_image(image_path):
     media_types = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
     media_type = media_types.get(ext, "image/jpeg")
     response = gemini_client.models.generate_content(
-        model="gemini-1.5-flash",
+        model="gemini-2.0-flash-lite",
         config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
         contents=[
             types.Part.from_bytes(data=image_data, mime_type=media_type),
