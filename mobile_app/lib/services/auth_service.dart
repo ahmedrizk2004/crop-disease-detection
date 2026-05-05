@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthService {
   static const _timeout = Duration(seconds: 30);
-  static const _base = 'https://web-production-16c9c.up.railway.app/api/auth';
+  static const _base = 'https://crop-disease-detection-production-9510.up.railway.app/api/auth';
 
   static Future<Map<String, dynamic>> register(String name, String email, String password) async {
     try {
