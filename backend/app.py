@@ -1,5 +1,4 @@
 import sys, os
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
 os.chdir(BASE_DIR)
@@ -11,6 +10,7 @@ from backend.routes.disease_routes import disease_bp
 from backend.routes.yield_routes import yield_bp
 from backend.routes.plant_ai_routes import ai_bp
 from backend.routes.weather_routes import weather_bp
+from backend.routes.auth_routes import auth_bp
 
 def create_app():
     app = Flask(__name__)
@@ -21,6 +21,7 @@ def create_app():
     app.register_blueprint(yield_bp,   url_prefix='/api/yield')
     app.register_blueprint(ai_bp,      url_prefix='/api/ai')
     app.register_blueprint(weather_bp, url_prefix='/api/weather')
+    app.register_blueprint(auth_bp,    url_prefix='/api/auth')
 
     @app.route('/api/health', methods=['GET'])
     def health():
