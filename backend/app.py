@@ -6,22 +6,32 @@ os.chdir(BASE_DIR)
 from flask import Flask, jsonify
 from flask_cors import CORS
 from backend.config import Config
-from backend.routes.disease_routes import disease_bp
-from backend.routes.yield_routes import yield_bp
-from backend.routes.plant_ai_routes import ai_bp
-from backend.routes.weather_routes import weather_bp
-from backend.routes.auth_routes import auth_bp
+from backend.models import db
 
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     CORS(app)
+
+    db.init_app(app)
+
+    from backend.routes.disease_routes import disease_bp
+    from backend.routes.yield_routes import yield_bp
+    from backend.routes.plant_ai_routes import ai_bp
+    from backend.routes.weather_routes import weather_bp
+    from backend.routes.auth_routes import auth_bp
 
     app.register_blueprint(disease_bp, url_prefix='/api/disease')
     app.register_blueprint(yield_bp,   url_prefix='/api/yield')
     app.register_blueprint(ai_bp,      url_prefix='/api/ai')
     app.register_blueprint(weather_bp, url_prefix='/api/weather')
     app.register_blueprint(auth_bp,    url_prefix='/api/auth')
+
+    with app.app_context():
+        db.create_all()
+        print("Database ready!")
 
     @app.route('/api/health', methods=['GET'])
     def health():
