@@ -2,12 +2,13 @@ import os
 import json
 import base64
 from groq import Groq
-import urllib.request
+from openai import OpenAI
 
-GROQ_API_KEY       = os.environ.get("GROQ_API_KEY", "")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+GROQ_API_KEY     = os.environ.get("GROQ_API_KEY", "")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
-groq_client = Groq(api_key=GROQ_API_KEY)
+groq_client     = Groq(api_key=GROQ_API_KEY)
+deepseek_client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 SYSTEM_PROMPT = """You are an expert agricultural AI. Respond ONLY with valid JSON:
 {
@@ -47,28 +48,18 @@ def analyze_plant_image(image_path):
     media_types = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
     media_type = media_types.get(ext, "image/jpeg")
 
-    payload = json.dumps({
-        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
-        "messages": [
+    response = deepseek_client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": [
                 {"type": "image_url", "image_url": {"url": f"data:{media_type};base64,{image_data}"}},
                 {"type": "text", "text": "Analyze this plant image for diseases. Return JSON only."}
             ]}
-        ]
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
-        "https://openrouter.ai/api/v1/chat/completions",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-            "Content-Type": "application/json"
-        }
+        ],
+        max_tokens=1000
     )
-    with urllib.request.urlopen(req) as response:
-        result = json.loads(response.read().decode("utf-8"))
-    text = result["choices"][0]["message"]["content"].strip()
+    text = response.choices[0].message.content.strip()
     if "```" in text:
         text = text.split("```")[1]
         if text.startswith("json"):
