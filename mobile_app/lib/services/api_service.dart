@@ -11,7 +11,7 @@ class ApiException implements Exception {
 }
 
 class ApiService {
-  static const String baseUrl = 'http://192.168.1.21:5000/api';
+  static const String baseUrl = 'https://web-production-16c9c.up.railway.app/api';
   static const _timeout = Duration(seconds: 60);
 
   static Map<String, dynamic> _handleResponse(http.Response res) {
